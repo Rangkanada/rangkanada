@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "kbkm.th2023.limbonganready.app-merged_res-29:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "kbkm.th2023.limbonganready.app-main-31:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-merged_res-29:/drawable-v24_event.png.flat",
+        "source": "kbkm.th2023.limbonganready.app-main-31:/drawable-v24/event.png"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-merged_res-29:/drawable_tab_bar.xml.flat",
+        "source": "kbkm.th2023.limbonganready.app-main-31:/drawable/tab_bar.xml"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-merged_res-29:/drawable_ic_launcher_background.xml.flat",
+        "source": "kbkm.th2023.limbonganready.app-main-31:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-merged_res-29:/drawable-v24_bg_gradient.xml.flat",
+        "source": "kbkm.th2023.limbonganready.app-main-31:/drawable-v24/bg_gradient.xml"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-merged_res-29:/drawable_rectangle_4.png.flat",
+        "source": "kbkm.th2023.limbonganready.app-main-31:/drawable/rectangle_4.png"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-merged_res-29:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "kbkm.th2023.limbonganready.app-main-31:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-merged_res-29:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "kbkm.th2023.limbonganready.app-main-31:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "kbkm.th2023.limbonganready.app-main-31:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-merged_res-29:/drawable-v24_bg_rounded_view.xml.flat",
+        "source": "kbkm.th2023.limbonganready.app-main-31:/drawable-v24/bg_rounded_view.xml"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "kbkm.th2023.limbonganready.app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-merged_res-29:/drawable-v24_logo.png.flat",
+        "source": "kbkm.th2023.limbonganready.app-main-31:/drawable-v24/logo.png"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-merged_res-29:/xml_data_extraction_rules.xml.flat",
+        "source": "kbkm.th2023.limbonganready.app-main-31:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "kbkm.th2023.limbonganready.app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "kbkm.th2023.limbonganready.app-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "kbkm.th2023.limbonganready.app-main-31:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-merged_res-29:/drawable_logo_parastone.png.flat",
+        "source": "kbkm.th2023.limbonganready.app-main-31:/drawable/logo_parastone.png"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-merged_res-29:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "kbkm.th2023.limbonganready.app-main-31:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "kbkm.th2023.limbonganready.app-main-31:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "kbkm.th2023.limbonganready.app-main-31:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-merged_res-29:/raw_opening.mp4.flat",
+        "source": "kbkm.th2023.limbonganready.app-main-31:/raw/opening.mp4"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-merged_res-29:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "kbkm.th2023.limbonganready.app-main-31:/mipmap-anydpi-v33/ic_launcher.xml"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-merged_res-29:/drawable_search.png.flat",
+        "source": "kbkm.th2023.limbonganready.app-main-31:/drawable/search.png"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "kbkm.th2023.limbonganready.app-main-31:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-merged_res-29:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "kbkm.th2023.limbonganready.app-main-31:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-merged_res-29:/xml_backup_rules.xml.flat",
+        "source": "kbkm.th2023.limbonganready.app-main-31:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-merged_res-29:/layout_activity_main.xml.flat",
+        "source": "kbkm.th2023.limbonganready.app-main-31:/layout/activity_main.xml"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-merged_res-29:/drawable-v24_musik.png.flat",
+        "source": "kbkm.th2023.limbonganready.app-main-31:/drawable-v24/musik.png"
+    }
+]
