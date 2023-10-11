@@ -1963,6 +1963,7 @@
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior" translatable="false">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string description="Content description for an icon that appears in the title area of a dialog" name="icon_content_description">Dialog Icon</string>
     <string name="item_view_role_description">Tab</string>
@@ -6303,9 +6304,9 @@
     <item name="windowActionBar">false</item>
     <item name="windowNoTitle">true</item>
   </style>
-    <style name="Theme.LimbonganReady" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.LimbonganReady" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
-        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimary">#000000</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
         
@@ -6313,9 +6314,15 @@
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/black</item>
         
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor">#7B3F23</item>
         
     </style>
+    <style name="Theme.LimbonganReady.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.LimbonganReady.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.LimbonganReady.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
     <style name="Theme.Material3.Dark" parent="Base.Theme.Material3.Dark"/>
     <style name="Theme.Material3.Dark.BottomSheetDialog" parent="Base.Theme.Material3.Dark.BottomSheetDialog"/>
     <style name="Theme.Material3.Dark.Dialog" parent="Base.Theme.Material3.Dark.Dialog"/>
@@ -9990,12 +9997,7 @@
         
         <attr format="boolean" name="allowStacking"/>
     </declare-styleable>
-    <declare-styleable name="Capability">
-        
-        <attr format="reference" name="queryPatterns"/>
-        
-        <attr format="boolean" name="shortcutMatchRequired"/>
-    </declare-styleable>
+    <declare-styleable name="Capability"><attr format="reference" name="queryPatterns"/><attr format="boolean" name="shortcutMatchRequired"/></declare-styleable>
     <declare-styleable name="CardView">
         
         <attr format="color" name="cardBackgroundColor"/>
@@ -10041,6 +10043,17 @@
             <enum name="invisible" value="4"/>
             <enum name="gone" value="8"/>
         </attr>
+    </declare-styleable>
+    <declare-styleable name="CellImageView">
+        <attr format="boolean" name="meow_imageview_useColor"/>
+        <attr format="boolean" name="meow_imageview_isBitmap"/>
+        <attr format="reference" name="meow_imageview_resource"/>
+        <attr format="color" name="meow_imageview_color"/>
+        <attr format="dimension" name="meow_imageview_size"/>
+        <attr format="boolean" name="meow_imageview_isAction"/>
+        <attr format="boolean" name="meow_imageview_actionBackgroundAlpha"/>
+        <attr format="boolean" name="meow_imageview_changeSize"/>
+        <attr format="boolean" name="meow_imageview_fitImage"/>
     </declare-styleable>
     <declare-styleable name="CheckedTextView">
         <attr name="android:checkMark"/>
@@ -10354,16 +10367,7 @@
     
     <attr format="float" name="layout_collapseParallaxMultiplier"/>
   </declare-styleable>
-    <declare-styleable name="ColorStateListItem">
-        
-        <attr name="android:color"/>
-        
-        <attr format="float" name="alpha"/>
-        <attr name="android:alpha"/>
-        
-        <attr format="float" name="lStar"/>
-        <attr name="android:lStar"/>
-    </declare-styleable>
+    <declare-styleable name="ColorStateListItem"><attr name="android:color"/><attr format="float" name="alpha"/><attr name="android:alpha"/><attr format="float" name="lStar"/><attr name="android:lStar"/></declare-styleable>
     <declare-styleable name="CompoundButton">
         <attr name="android:button"/>
         
@@ -11197,114 +11201,29 @@
     
     <attr format="dimension" name="lineSpacing"/>
   </declare-styleable>
-    <declare-styleable name="FontFamily">
-        
-        <attr format="string" name="fontProviderAuthority"/>
-        
-        <attr format="string" name="fontProviderPackage"/>
-        
-        <attr format="string" name="fontProviderQuery"/>
-        
-        <attr format="reference" name="fontProviderCerts"/>
-        
-        <attr name="fontProviderFetchStrategy">
-            <!-- The blocking font fetch works as follows.
-              First, check the local cache, then if the requested font is not cached, request the
-              font from the provider and wait until it is finished.  You can change the length of
-              the timeout by modifying fontProviderFetchTimeout.  If the timeout happens, the
-              default typeface will be used instead. -->
+    <declare-styleable name="FontFamily"><attr format="string" name="fontProviderAuthority"/><attr format="string" name="fontProviderPackage"/><attr format="string" name="fontProviderQuery"/><attr format="reference" name="fontProviderCerts"/><attr name="fontProviderFetchStrategy">
+            
             <enum name="blocking" value="0"/>
-            <!-- The async font fetch works as follows.
-              First, check the local cache, then if the requeted font is not cached, trigger a
-              request the font and continue with layout inflation. Once the font fetch succeeds, the
-              target text view will be refreshed with the downloaded font data. The
-              fontProviderFetchTimeout will be ignored if async loading is specified. -->
+            
             <enum name="async" value="1"/>
-        </attr>
-        
-        <attr format="integer" name="fontProviderFetchTimeout">
-            <!-- A special value for the timeout. In this case, the blocking font fetching will not
-              timeout and wait until a reply is received from the font provider. -->
+        </attr><attr format="integer" name="fontProviderFetchTimeout">
+            
             <enum name="forever" value="-1"/>
-        </attr>
-        
-        <attr format="string" name="fontProviderSystemFontFamily"/>
-    </declare-styleable>
-    <declare-styleable name="FontFamilyFont">
-        
-        <attr name="fontStyle">
+        </attr><attr format="string" name="fontProviderSystemFontFamily"/></declare-styleable>
+    <declare-styleable name="FontFamilyFont"><attr name="fontStyle">
             <enum name="normal" value="0"/>
             <enum name="italic" value="1"/>
-        </attr>
-        
-        <attr format="reference" name="font"/>
-        
-        <attr format="integer" name="fontWeight"/>
-        
-        <attr format="string" name="fontVariationSettings"/>
-        
-        <attr format="integer" name="ttcIndex"/>
-        
-        <attr name="android:fontStyle"/>
-        <attr name="android:font"/>
-        <attr name="android:fontWeight"/>
-        <attr name="android:fontVariationSettings"/>
-        <attr name="android:ttcIndex"/>
-    </declare-styleable>
+        </attr><attr format="reference" name="font"/><attr format="integer" name="fontWeight"/><attr format="string" name="fontVariationSettings"/><attr format="integer" name="ttcIndex"/><attr name="android:fontStyle"/><attr name="android:font"/><attr name="android:fontWeight"/><attr name="android:fontVariationSettings"/><attr name="android:ttcIndex"/></declare-styleable>
     <declare-styleable name="ForegroundLinearLayout">
     <attr name="android:foreground"/>
     <attr name="android:foregroundGravity"/>
     
     <attr format="boolean" name="foregroundInsidePadding"/>
   </declare-styleable>
-    <declare-styleable name="Fragment">
-        <attr name="android:name"/>
-        <attr name="android:id"/>
-        <attr name="android:tag"/>
-    </declare-styleable>
-    <declare-styleable name="FragmentContainerView">
-        <attr name="android:name"/>
-        <attr name="android:tag"/>
-    </declare-styleable>
-    <declare-styleable name="GradientColor">
-        
-        <attr name="android:startColor"/>
-        
-        <attr name="android:centerColor"/>
-        
-        <attr name="android:endColor"/>
-        
-        <attr name="android:type"/>
-
-        
-        
-        <attr name="android:gradientRadius"/>
-
-        
-        
-        <attr name="android:centerX"/>
-        
-        <attr name="android:centerY"/>
-
-        
-        
-        <attr name="android:startX"/>
-        
-        <attr name="android:startY"/>
-        
-        <attr name="android:endX"/>
-        
-        <attr name="android:endY"/>
-
-        
-        <attr name="android:tileMode"/>
-    </declare-styleable>
-    <declare-styleable name="GradientColorItem">
-        
-        <attr name="android:offset"/>
-        
-        <attr name="android:color"/>
-    </declare-styleable>
+    <declare-styleable name="Fragment"><attr name="android:name"/><attr name="android:id"/><attr name="android:tag"/></declare-styleable>
+    <declare-styleable name="FragmentContainerView"><attr name="android:name"/><attr name="android:tag"/></declare-styleable>
+    <declare-styleable name="GradientColor"><attr name="android:startColor"/><attr name="android:centerColor"/><attr name="android:endColor"/><attr name="android:type"/><attr name="android:gradientRadius"/><attr name="android:centerX"/><attr name="android:centerY"/><attr name="android:startX"/><attr name="android:startY"/><attr name="android:endX"/><attr name="android:endY"/><attr name="android:tileMode"/></declare-styleable>
+    <declare-styleable name="GradientColorItem"><attr name="android:offset"/><attr name="android:color"/></declare-styleable>
     <declare-styleable name="ImageFilterView">
         <attr format="reference" name="blendSrc"/>
         <attr format="reference" name="altSrc"/>
@@ -12112,6 +12031,17 @@
         
         <attr format="reference" name="subMenuArrow"/>
     </declare-styleable>
+    <declare-styleable name="MeowBottomNavigation">
+        <attr format="color" name="mbn_defaultIconColor"/>
+        <attr format="color" name="mbn_selectedIconColor"/>
+        <attr format="color" name="mbn_backgroundBottomColor"/>
+        <attr format="color" name="mbn_circleColor"/>
+        <attr format="color" name="mbn_countTextColor"/>
+        <attr format="color" name="mbn_countBackgroundColor"/>
+        <attr format="string" name="mbn_countTypeface"/>
+        <attr format="color" name="mbn_rippleColor"/>
+        <attr format="color" name="mbn_shadowColor"/>
+    </declare-styleable>
     <declare-styleable name="MockView">
         <attr format="string" name="mock_label"/>
         <attr format="color" name="mock_labelColor"/>
@@ -12441,27 +12371,7 @@
         
         <attr format="dimension" name="paddingTopNoTitle"/>
     </declare-styleable>
-    <declare-styleable name="RecyclerView">
-        
-        <attr format="string" name="layoutManager"/>
-
-        
-        
-        
-        <eat-comment/>
-
-        <attr name="android:orientation"/>
-        <attr name="android:descendantFocusability"/>
-        <attr name="android:clipToPadding"/>
-        <attr format="integer" name="spanCount"/>
-        <attr format="boolean" name="reverseLayout"/>
-        <attr format="boolean" name="stackFromEnd"/>
-        <attr format="boolean" name="fastScrollEnabled"/>
-        <attr format="reference" name="fastScrollVerticalThumbDrawable"/>
-        <attr format="reference" name="fastScrollVerticalTrackDrawable"/>
-        <attr format="reference" name="fastScrollHorizontalThumbDrawable"/>
-        <attr format="reference" name="fastScrollHorizontalTrackDrawable"/>
-    </declare-styleable>
+    <declare-styleable name="RecyclerView"><attr format="string" name="layoutManager"/><attr name="android:orientation"/><attr name="android:descendantFocusability"/><attr name="android:clipToPadding"/><attr format="integer" name="spanCount"/><attr format="boolean" name="reverseLayout"/><attr format="boolean" name="stackFromEnd"/><attr format="boolean" name="fastScrollEnabled"/><attr format="reference" name="fastScrollVerticalThumbDrawable"/><attr format="reference" name="fastScrollVerticalTrackDrawable"/><attr format="reference" name="fastScrollHorizontalThumbDrawable"/><attr format="reference" name="fastScrollHorizontalTrackDrawable"/></declare-styleable>
     <declare-styleable name="ScrimInsetsFrameLayout">
     <attr format="color|reference" name="insetForeground"/>
   </declare-styleable>

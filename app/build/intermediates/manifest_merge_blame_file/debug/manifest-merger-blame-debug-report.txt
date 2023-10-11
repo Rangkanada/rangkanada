@@ -22,7 +22,7 @@
 15-->[androidx.core:core:1.9.0] C:\Users\arrdi\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->D:\limbonganReady\app\src\main\AndroidManifest.xml:5:5-23:19
+17-->D:\limbonganReady\app\src\main\AndroidManifest.xml:5:5-36:19
 18        android:allowBackup="true"
 18-->D:\limbonganReady\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -39,47 +39,78 @@
 25-->D:\limbonganReady\app\src\main\AndroidManifest.xml:10:9-41
 26        android:supportsRtl="true"
 26-->D:\limbonganReady\app\src\main\AndroidManifest.xml:11:9-35
-27        android:theme="@style/Theme.LimbonganReady" >
-27-->D:\limbonganReady\app\src\main\AndroidManifest.xml:12:9-52
-28        <activity
-28-->D:\limbonganReady\app\src\main\AndroidManifest.xml:14:9-22:20
-29            android:name="kbkm.th2023.limbonganready.MainActivity"
-29-->D:\limbonganReady\app\src\main\AndroidManifest.xml:15:13-41
-30            android:exported="true" >
-30-->D:\limbonganReady\app\src\main\AndroidManifest.xml:16:13-36
-31            <intent-filter>
-31-->D:\limbonganReady\app\src\main\AndroidManifest.xml:17:13-21:29
-32                <action android:name="android.intent.action.MAIN" />
-32-->D:\limbonganReady\app\src\main\AndroidManifest.xml:18:17-69
-32-->D:\limbonganReady\app\src\main\AndroidManifest.xml:18:25-66
-33
-34                <category android:name="android.intent.category.LAUNCHER" />
-34-->D:\limbonganReady\app\src\main\AndroidManifest.xml:20:17-77
-34-->D:\limbonganReady\app\src\main\AndroidManifest.xml:20:27-74
-35            </intent-filter>
-36        </activity>
-37
-38        <provider
-38-->[androidx.emoji2:emoji2:1.2.0] C:\Users\arrdi\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-39            android:name="androidx.startup.InitializationProvider"
-39-->[androidx.emoji2:emoji2:1.2.0] C:\Users\arrdi\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-40            android:authorities="kbkm.th2023.limbonganready.androidx-startup"
-40-->[androidx.emoji2:emoji2:1.2.0] C:\Users\arrdi\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-41            android:exported="false" >
-41-->[androidx.emoji2:emoji2:1.2.0] C:\Users\arrdi\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-42            <meta-data
-42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\arrdi\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-43                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\arrdi\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-44                android:value="androidx.startup" />
-44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\arrdi\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-45            <meta-data
-45-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\arrdi\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-46                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-46-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\arrdi\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-47                android:value="androidx.startup" />
-47-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\arrdi\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-48        </provider>
-49    </application>
-50
-51</manifest>
+27        android:testOnly="true"
+28        android:theme="@style/Theme.LimbonganReady" >
+28-->D:\limbonganReady\app\src\main\AndroidManifest.xml:12:9-52
+29        <activity
+29-->D:\limbonganReady\app\src\main\AndroidManifest.xml:14:9-16:40
+30            android:name="kbkm.th2023.limbonganready.menu_musik"
+30-->D:\limbonganReady\app\src\main\AndroidManifest.xml:15:13-39
+31            android:exported="false" />
+31-->D:\limbonganReady\app\src\main\AndroidManifest.xml:16:13-37
+32        <activity
+32-->D:\limbonganReady\app\src\main\AndroidManifest.xml:17:9-19:40
+33            android:name="kbkm.th2023.limbonganready.Alat_Musik1"
+33-->D:\limbonganReady\app\src\main\AndroidManifest.xml:18:13-40
+34            android:exported="false" />
+34-->D:\limbonganReady\app\src\main\AndroidManifest.xml:19:13-37
+35        <activity
+35-->D:\limbonganReady\app\src\main\AndroidManifest.xml:20:9-22:40
+36            android:name="kbkm.th2023.limbonganready.opening1"
+36-->D:\limbonganReady\app\src\main\AndroidManifest.xml:21:13-37
+37            android:exported="false" />
+37-->D:\limbonganReady\app\src\main\AndroidManifest.xml:22:13-37
+38        <activity android:name="kbkm.th2023.limbonganready.home" />
+38-->D:\limbonganReady\app\src\main\AndroidManifest.xml:23:9-42
+38-->D:\limbonganReady\app\src\main\AndroidManifest.xml:23:19-39
+39        <activity android:name="kbkm.th2023.limbonganready.notifikasi" />
+39-->D:\limbonganReady\app\src\main\AndroidManifest.xml:24:9-48
+39-->D:\limbonganReady\app\src\main\AndroidManifest.xml:24:19-45
+40        <activity android:name="kbkm.th2023.limbonganready.setting" />
+40-->D:\limbonganReady\app\src\main\AndroidManifest.xml:25:9-45
+40-->D:\limbonganReady\app\src\main\AndroidManifest.xml:25:19-42
+41        <activity android:name="kbkm.th2023.limbonganready.MainActivity" />
+41-->D:\limbonganReady\app\src\main\AndroidManifest.xml:26:9-50
+41-->D:\limbonganReady\app\src\main\AndroidManifest.xml:26:19-47
+42        <activity
+42-->D:\limbonganReady\app\src\main\AndroidManifest.xml:27:9-35:20
+43            android:name="kbkm.th2023.limbonganready.splash"
+43-->D:\limbonganReady\app\src\main\AndroidManifest.xml:28:13-35
+44            android:exported="true" >
+44-->D:\limbonganReady\app\src\main\AndroidManifest.xml:29:13-36
+45            <intent-filter>
+45-->D:\limbonganReady\app\src\main\AndroidManifest.xml:30:13-34:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->D:\limbonganReady\app\src\main\AndroidManifest.xml:31:17-69
+46-->D:\limbonganReady\app\src\main\AndroidManifest.xml:31:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->D:\limbonganReady\app\src\main\AndroidManifest.xml:33:17-77
+48-->D:\limbonganReady\app\src\main\AndroidManifest.xml:33:27-74
+49            </intent-filter>
+50        </activity>
+51
+52        <provider
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\arrdi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+53            android:name="androidx.startup.InitializationProvider"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\arrdi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+54            android:authorities="kbkm.th2023.limbonganready.androidx-startup"
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\arrdi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+55            android:exported="false" >
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\arrdi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+56            <meta-data
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\arrdi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+57                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\arrdi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+58                android:value="androidx.startup" />
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\arrdi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+59            <meta-data
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\arrdi\.gradle\caches\transforms-3\1d1173f99a1313055c26367e9296308a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+60                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\arrdi\.gradle\caches\transforms-3\1d1173f99a1313055c26367e9296308a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+61                android:value="androidx.startup" />
+61-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\arrdi\.gradle\caches\transforms-3\1d1173f99a1313055c26367e9296308a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+62        </provider>
+63    </application>
+64
+65</manifest>

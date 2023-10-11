@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Alat_Musik1">
+
+    <!-- Judul -->
+    <TextView
+        android:id="@+id/musicTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alat Musik"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <!-- Gambar Alat Musik -->
+    <ImageView
+        android:id="@+id/musicImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/musik"
+        android:scaleType="fitCenter"/>
+
+    <!-- Sejarah Alat Musik -->
+    <TextView
+        android:id="@+id/historyTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sejarah Alat Musik"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/historyContentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi sejarah alat musik"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"/>
+
+    <!-- Video Tutorial -->
+    <TextView
+        android:id="@+id/tutorialTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Video Tutorial"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="16dp"/>
+
+    <WebView
+        android:id="@+id/tutorialWebView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>

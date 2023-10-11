@@ -839,10 +839,28 @@ attr maxImageSize
 attr maxLines
 attr maxVelocity
 attr maxWidth
+attr mbn_backgroundBottomColor
+attr mbn_circleColor
+attr mbn_countBackgroundColor
+attr mbn_countTextColor
+attr mbn_countTypeface
+attr mbn_defaultIconColor
+attr mbn_rippleColor
+attr mbn_selectedIconColor
+attr mbn_shadowColor
 attr measureWithLargestChild
 attr menu
 attr menuAlignmentMode
 attr menuGravity
+attr meow_imageview_actionBackgroundAlpha
+attr meow_imageview_changeSize
+attr meow_imageview_color
+attr meow_imageview_fitImage
+attr meow_imageview_isAction
+attr meow_imageview_isBitmap
+attr meow_imageview_resource
+attr meow_imageview_size
+attr meow_imageview_useColor
 attr methodName
 attr minHeight
 attr minHideDelay
@@ -2916,6 +2934,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable card_background
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -2923,6 +2942,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable event
 drawable ic_arrow_back_black_24
+drawable ic_baseline_home_24
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
@@ -2935,8 +2955,16 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_music_playlist
+drawable ic_notification
+drawable ic_profile
 drawable ic_search_black_24
+drawable ic_simpan
+drawable lg_event
+drawable lg_forum
+drawable lg_musik
 drawable logo
+drawable logo2
 drawable logo_parastone
 drawable m3_appbar_background
 drawable m3_avd_hide_password
@@ -3010,12 +3038,17 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable openingscrren1
+drawable openingscrren2
+drawable openingscrren3
 drawable rectangle_4
 drawable search
+drawable spalsh_screen
 drawable tab_bar
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable vektor1
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3115,10 +3148,17 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id buttonMusik
+id buttonPakan
 id buttonPanel
+id buttonTelur
 id cache_measures
 id callMeasure
 id cancel_button
+id cardMusik1
+id cardMusik2
+id cardMusik3
+id cardMusik4
 id cariKondisi
 id carryVelocity
 id center
@@ -3212,10 +3252,12 @@ id fitStart
 id fitToContents
 id fitXY
 id fixed
+id fl
 id flip
 id floating
 id forever
 id fragment_container_view_tag
+id frame_layout
 id frost
 id fullscreen_header
 id ghost_view
@@ -3228,6 +3270,8 @@ id grouping
 id groups
 id header_title
 id hideable
+id historyContentTextView
+id historyTextView
 id home
 id homeAsUp
 id honorRequest
@@ -3238,7 +3282,12 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageMusik3
+id imageMusik4
+id imageView2
 id imageView6
+id imgMusik1
+id imgMusik2
 id immediateStop
 id included
 id indeterminate
@@ -3247,6 +3296,7 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
+id iv
 id jumpToEnd
 id jumpToStart
 id konSearch
@@ -3287,6 +3337,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id meowBottom
 id message
 id middle
 id mini
@@ -3321,6 +3372,8 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id musicImageView
+id musicTitleTextView
 id musik
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
@@ -3410,6 +3463,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id settings
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -3443,13 +3497,13 @@ id startToEnd
 id startVertical
 id staticLayout
 id staticPostLayout
+id statistik
 id stop
 id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
 id tabMode
-id tab_bar
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -3467,14 +3521,16 @@ id text
 id text2
 id textE
 id textEnd
-id textJudul1
 id textJudul2
 id textK
+id textKandang
 id textMusik
+id textPakan
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textSub2
+id textTelur
 id textTop
 id textView
 id text_input_end_icon
@@ -3502,6 +3558,16 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tutorialTextView
+id tutorialWebView
+id tv_count
+id txtMusik1
+id txtMusik11
+id txtMusik2
+id txtMusik22
+id txtMusik3
+id txtMusik33
+id txtMusik4
 id txtdetailE
 id txtdetailK
 id txtdetailMusik
@@ -3510,8 +3576,8 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id v_circle
 id vertical_only
-id video1
 id viewHeaderBackground
 id view_offset_helper
 id view_transition
@@ -3643,7 +3709,11 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_alat_musik1
 layout activity_main
+layout activity_menu_musik
+layout activity_opening1
+layout activity_splash
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3660,6 +3730,9 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_home
+layout fragment_notifikasi
+layout fragment_setting
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3679,6 +3752,7 @@ layout material_time_input
 layout material_timepicker
 layout material_timepicker_dialog
 layout material_timepicker_textinput_display
+layout meow_navigation_cell
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -3721,6 +3795,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu bottom_nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
@@ -3770,6 +3845,7 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
@@ -4427,6 +4503,9 @@ style Theme_Design_Light_BottomSheetDialog
 style Theme_Design_Light_NoActionBar
 style Theme_Design_NoActionBar
 style Theme_LimbonganReady
+style Theme_LimbonganReady_AppBarOverlay
+style Theme_LimbonganReady_NoActionBar
+style Theme_LimbonganReady_PopupOverlay
 style Theme_Material3_Dark
 style Theme_Material3_Dark_BottomSheetDialog
 style Theme_Material3_Dark_Dialog
@@ -5014,6 +5093,7 @@ styleable ButtonBarLayout allowStacking
 styleable Capability queryPatterns shortcutMatchRequired
 styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCornerRadius cardElevation cardMaxElevation cardPreventCornerOverlap cardUseCompatPadding contentPadding contentPaddingBottom contentPaddingLeft contentPaddingRight contentPaddingTop
 styleable Carousel carousel_backwardTransition carousel_emptyViewsBehavior carousel_firstView carousel_forwardTransition carousel_infinite carousel_nextState carousel_previousState carousel_touchUpMode carousel_touchUp_dampeningFactor carousel_touchUp_velocityThreshold
+styleable CellImageView meow_imageview_actionBackgroundAlpha meow_imageview_changeSize meow_imageview_color meow_imageview_fitImage meow_imageview_isAction meow_imageview_isBitmap meow_imageview_resource meow_imageview_size meow_imageview_useColor
 styleable CheckedTextView android_checkMark checkMarkCompat checkMarkTint checkMarkTintMode
 styleable Chip android_textAppearance android_textSize android_textColor android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconTint checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipMinTouchTargetSize chipStartPadding chipStrokeColor chipStrokeWidth chipSurfaceColor closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible ensureMinTouchTargetSize hideMotionSpec iconEndPadding iconStartPadding rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical selectionRequired singleLine singleSelection
@@ -5083,6 +5163,7 @@ styleable MaterialToolbar logoAdjustViewBounds logoScaleType navigationIconTint 
 styleable MenuGroup android_enabled android_id android_visible android_menuCategory android_orderInCategory android_checkableBehavior
 styleable MenuItem android_icon android_enabled android_id android_checked android_visible android_menuCategory android_orderInCategory android_title android_titleCondensed android_alphabeticShortcut android_numericShortcut android_checkable android_onClick actionLayout actionProviderClass actionViewClass alphabeticModifiers contentDescription iconTint iconTintMode numericModifiers showAsAction tooltipText
 styleable MenuView android_windowAnimationStyle android_itemTextAppearance android_horizontalDivider android_verticalDivider android_headerBackground android_itemBackground android_itemIconDisabledAlpha preserveIconSpacing subMenuArrow
+styleable MeowBottomNavigation mbn_backgroundBottomColor mbn_circleColor mbn_countBackgroundColor mbn_countTextColor mbn_countTypeface mbn_defaultIconColor mbn_rippleColor mbn_selectedIconColor mbn_shadowColor
 styleable MockView mock_diagonalsColor mock_label mock_labelBackgroundColor mock_labelColor mock_showDiagonals mock_showLabel
 styleable Motion animateCircleAngleTo animateRelativeTo drawPath motionPathRotate motionStagger pathMotionArc quantizeMotionInterpolator quantizeMotionPhase quantizeMotionSteps transitionEasing
 styleable MotionEffect motionEffect_alpha motionEffect_end motionEffect_move motionEffect_start motionEffect_strict motionEffect_translationX motionEffect_translationY motionEffect_viewTransition
