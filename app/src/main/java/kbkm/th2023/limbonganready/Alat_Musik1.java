@@ -16,16 +16,16 @@ public class Alat_Musik1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alat_musik1);
 
-        tutorialWebView = findViewById(R.id.tutorialWebView);
-
-        // Enable JavaScript untuk WebView agar video YouTube dapat dimuat.
-        WebSettings webSettings = tutorialWebView.getSettings();
-        webSettings.setJavaScriptEnabled(true);
-
-        // Tampilkan video YouTube
-        String youtubeVideoId = "VIDEO_ID_YOUTUBE"; // Ganti dengan ID video YouTube yang sesuai
-        String videoUrl = "https://youtu.be/NbeiKyMskuM?si=ZfIxiwV_4HpgFsbW" + youtubeVideoId;
-        String html = "<iframe width=\"100%\" height=\"100%\" src=\"" + videoUrl + "\" frameborder=\"0\" allowfullscreen></iframe>";
-        tutorialWebView.loadData(html, "text/html", "utf-8");
+//        tutorialWebView = findViewById(R.id.tutorialWebView);
+//
+//        // Enable JavaScript untuk WebView agar video YouTube dapat dimuat.
+//        WebSettings webSettings = tutorialWebView.getSettings();
+//        webSettings.setJavaScriptEnabled(true);
+//
+//        // Tampilkan video YouTube
+//        //String youtubeVideoId = "NbeiKyMskuM"; // Ganti dengan ID video YouTube yang sesuai
+//        String videoUrl = "https://www.youtube.com/watch?v=NbeiKyMskuM";
+//        String html = "<iframe width=\"100%\" height=\"100%\" src=\"" + videoUrl + "\" frameborder=\"0\" allowfullscreen></iframe>";
+//        tutorialWebView.loadData(html, "text/html", "utf-8");
     }
 }

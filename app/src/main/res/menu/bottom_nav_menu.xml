@@ -2,12 +2,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:id="@+id/home"
-        android:title="Beranda"
-        android:icon="@drawable/ic_baseline_home_24"/>
+        android:title="Sejarah"
+        android:icon="@drawable/bg_menu_musik"/>
     <item android:id="@+id/statistik"
-        android:title="Playlist"
-        android:icon="@drawable/ic_music_playlist"/>
+        android:title="Video"
+        android:icon="@drawable/bg_menu_musik"/>
     <item android:id="@+id/settings"
-        android:title="Akun"
-        android:icon="@drawable/ic_profile"/>
+        android:title="Game Play"
+        android:icon="@drawable/bg_menu_musik"/>
 </menu>
