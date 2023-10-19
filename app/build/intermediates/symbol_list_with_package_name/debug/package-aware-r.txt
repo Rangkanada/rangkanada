@@ -136,6 +136,7 @@ attr arrowShaftLength
 attr attributeName
 attr autoCompleteMode
 attr autoCompleteTextViewStyle
+attr autoPlay
 attr autoShowKeyboard
 attr autoSizeMaxTextSize
 attr autoSizeMinTextSize
@@ -483,6 +484,7 @@ attr elevationOverlayAccentColor
 attr elevationOverlayColor
 attr elevationOverlayEnabled
 attr emojiCompatEnabled
+attr enableAutomaticInitialization
 attr enableEdgeToEdge
 attr endIconCheckable
 attr endIconContentDescription
@@ -595,6 +597,7 @@ attr goIcon
 attr guidelineUseRtl
 attr haloColor
 attr haloRadius
+attr handleNetworkEvents
 attr headerLayout
 attr height
 attr helperText
@@ -1291,6 +1294,7 @@ attr useMaterialThemeColors
 attr values
 attr verticalOffset
 attr verticalOffsetWithText
+attr videoId
 attr viewInflaterClass
 attr viewTransitionMode
 attr viewTransitionOnCross
@@ -2944,6 +2948,12 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable event
+drawable gambangan1
+drawable gambangan2
+drawable gambangan3
+drawable gambus1
+drawable gambus2
+drawable gambus3
 drawable ic_arrow_back_black_24
 drawable ic_baseline_home_24
 drawable ic_clear_black_24
@@ -2966,6 +2976,9 @@ drawable ic_simpan
 drawable lg_event
 drawable lg_forum
 drawable lg_musik
+drawable lgo_event
+drawable lgo_forum
+drawable lgo_musik
 drawable logo
 drawable logo2
 drawable logo_parastone1
@@ -3047,6 +3060,8 @@ drawable openingscrren3
 drawable panah_backspace
 drawable rectangle_4
 drawable rectangle_menu_musik
+drawable sampel2
+drawable sampel_event
 drawable samplebuttonmusik
 drawable search
 drawable spalsh_screen
@@ -3066,6 +3081,7 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
+id JudulEvent
 id Komunitas
 id META
 id NO_DEBUG
@@ -3164,13 +3180,20 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id bt_gambangan
+id bt_gambus
+id bt_hadra
+id bt_lesung
+id btnClose
 id button3D
+id button3DL
+id buttonEvent
+id buttonForum
 id buttonGame
+id buttonGameL
 id buttonMusik
-id buttonPakan
 id buttonPanel
-id buttonTelur
 id buttonVideo
+id buttonVideoL
 id cache_measures
 id callMeasure
 id cancel_button
@@ -3321,7 +3344,6 @@ id line3
 id linear
 id listMode
 id list_item
-id logo
 id m3_side_sheet
 id marquee
 id masked
@@ -3547,6 +3569,8 @@ id textSubForum
 id textTelur
 id textTop
 id textView
+id textViewDate
+id textViewTempat
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3593,6 +3617,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id webView
 id west
 id withText
 id with_icon
@@ -3718,10 +3743,14 @@ layout abc_tooltip
 layout activity_alat_musik1
 layout activity_event
 layout activity_forum
+layout activity_gambus_inang_inang
+layout activity_hadra
+layout activity_lesung_ketintong
 layout activity_main
 layout activity_menu_musik
 layout activity_opening1
 layout activity_splash
+layout activity_video_gambangan
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3741,6 +3770,8 @@ layout design_text_input_start_icon
 layout fragment_home
 layout fragment_notifikasi
 layout fragment_setting
+layout item_event
+layout item_event2
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3807,6 +3838,7 @@ menu bottom_nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+raw ayp_youtube_player
 raw opening
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -5227,6 +5259,7 @@ styleable ViewBackgroundHelper android_background backgroundTint backgroundTintM
 styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration ifTagNotSet ifTagSet motionInterpolator motionTarget onStateTransition pathMotionArc setsTag transitionDisable upDuration viewTransitionMode
+styleable YouTubePlayerView autoPlay enableAutomaticInitialization handleNetworkEvents videoId
 styleable include constraintSet
 xml backup_rules
 xml data_extraction_rules

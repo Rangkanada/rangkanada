@@ -10,118 +10,182 @@
 9        android:targetSdkVersion="33" />
 9-->D:\limbonganReady\app\src\main\AndroidManifest.xml
 10
-11    <permission
-11-->[androidx.core:core:1.9.0] C:\Users\arrdi\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
-12        android:name="kbkm.th2023.limbonganready.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-12-->[androidx.core:core:1.9.0] C:\Users\arrdi\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
-13        android:protectionLevel="signature" />
-13-->[androidx.core:core:1.9.0] C:\Users\arrdi\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
-14
-15    <uses-permission android:name="kbkm.th2023.limbonganready.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-15-->[androidx.core:core:1.9.0] C:\Users\arrdi\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-15-->[androidx.core:core:1.9.0] C:\Users\arrdi\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
-16
-17    <application
-17-->D:\limbonganReady\app\src\main\AndroidManifest.xml:5:5-42:19
-18        android:allowBackup="true"
-18-->D:\limbonganReady\app\src\main\AndroidManifest.xml:6:9-35
-19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.9.0] C:\Users\arrdi\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
-20        android:dataExtractionRules="@xml/data_extraction_rules"
-20-->D:\limbonganReady\app\src\main\AndroidManifest.xml:7:9-65
-21        android:debuggable="true"
-22        android:extractNativeLibs="false"
-23        android:fullBackupContent="@xml/backup_rules"
-23-->D:\limbonganReady\app\src\main\AndroidManifest.xml:8:9-54
-24        android:icon="@drawable/logo"
-24-->D:\limbonganReady\app\src\main\AndroidManifest.xml:9:9-38
-25        android:label="@string/app_name"
-25-->D:\limbonganReady\app\src\main\AndroidManifest.xml:10:9-41
-26        android:supportsRtl="true"
-26-->D:\limbonganReady\app\src\main\AndroidManifest.xml:11:9-35
-27        android:theme="@style/Theme.LimbonganReady" >
-27-->D:\limbonganReady\app\src\main\AndroidManifest.xml:12:9-52
-28        <activity
-28-->D:\limbonganReady\app\src\main\AndroidManifest.xml:14:9-16:40
-29            android:name="kbkm.th2023.limbonganready.forum"
-29-->D:\limbonganReady\app\src\main\AndroidManifest.xml:15:13-34
-30            android:exported="false" />
-30-->D:\limbonganReady\app\src\main\AndroidManifest.xml:16:13-37
-31        <activity
-31-->D:\limbonganReady\app\src\main\AndroidManifest.xml:17:9-19:40
-32            android:name="kbkm.th2023.limbonganready.event"
-32-->D:\limbonganReady\app\src\main\AndroidManifest.xml:18:13-34
-33            android:exported="false" />
-33-->D:\limbonganReady\app\src\main\AndroidManifest.xml:19:13-37
-34        <activity
-34-->D:\limbonganReady\app\src\main\AndroidManifest.xml:20:9-22:40
-35            android:name="kbkm.th2023.limbonganready.menu_musik"
-35-->D:\limbonganReady\app\src\main\AndroidManifest.xml:21:13-39
-36            android:exported="false" />
-36-->D:\limbonganReady\app\src\main\AndroidManifest.xml:22:13-37
-37        <activity
-37-->D:\limbonganReady\app\src\main\AndroidManifest.xml:23:9-25:40
-38            android:name="kbkm.th2023.limbonganready.Alat_Musik1"
-38-->D:\limbonganReady\app\src\main\AndroidManifest.xml:24:13-40
-39            android:exported="false" />
-39-->D:\limbonganReady\app\src\main\AndroidManifest.xml:25:13-37
-40        <activity
-40-->D:\limbonganReady\app\src\main\AndroidManifest.xml:26:9-28:40
-41            android:name="kbkm.th2023.limbonganready.opening1"
-41-->D:\limbonganReady\app\src\main\AndroidManifest.xml:27:13-37
-42            android:exported="false" />
-42-->D:\limbonganReady\app\src\main\AndroidManifest.xml:28:13-37
-43        <activity android:name="kbkm.th2023.limbonganready.home" />
-43-->D:\limbonganReady\app\src\main\AndroidManifest.xml:29:9-42
-43-->D:\limbonganReady\app\src\main\AndroidManifest.xml:29:19-39
-44        <activity android:name="kbkm.th2023.limbonganready.notifikasi" />
-44-->D:\limbonganReady\app\src\main\AndroidManifest.xml:30:9-48
-44-->D:\limbonganReady\app\src\main\AndroidManifest.xml:30:19-45
-45        <activity android:name="kbkm.th2023.limbonganready.setting" />
-45-->D:\limbonganReady\app\src\main\AndroidManifest.xml:31:9-45
-45-->D:\limbonganReady\app\src\main\AndroidManifest.xml:31:19-42
-46        <activity android:name="kbkm.th2023.limbonganready.MainActivity" />
-46-->D:\limbonganReady\app\src\main\AndroidManifest.xml:32:9-50
-46-->D:\limbonganReady\app\src\main\AndroidManifest.xml:32:19-47
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\limbonganReady\app\src\main\AndroidManifest.xml:55:5-66
+11-->D:\limbonganReady\app\src\main\AndroidManifest.xml:55:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0] C:\Users\arrdi\.gradle\caches\transforms-3\446d051abfda7f63a77438cab2b284b4\transformed\jetified-core-12.1.0\AndroidManifest.xml:8:5-79
+12-->[com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0] C:\Users\arrdi\.gradle\caches\transforms-3\446d051abfda7f63a77438cab2b284b4\transformed\jetified-core-12.1.0\AndroidManifest.xml:8:22-76
+13
+14    <permission
+14-->[androidx.core:core:1.9.0] C:\Users\arrdi\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+15        android:name="kbkm.th2023.limbonganready.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0] C:\Users\arrdi\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0] C:\Users\arrdi\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="kbkm.th2023.limbonganready.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0] C:\Users\arrdi\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] C:\Users\arrdi\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->D:\limbonganReady\app\src\main\AndroidManifest.xml:5:5-54:19
+21        android:allowBackup="true"
+21-->D:\limbonganReady\app\src\main\AndroidManifest.xml:6:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.9.0] C:\Users\arrdi\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->D:\limbonganReady\app\src\main\AndroidManifest.xml:7:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->D:\limbonganReady\app\src\main\AndroidManifest.xml:8:9-54
+27        android:icon="@drawable/logo"
+27-->D:\limbonganReady\app\src\main\AndroidManifest.xml:9:9-38
+28        android:label="@string/app_name"
+28-->D:\limbonganReady\app\src\main\AndroidManifest.xml:10:9-41
+29        android:supportsRtl="true"
+29-->D:\limbonganReady\app\src\main\AndroidManifest.xml:11:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.LimbonganReady" >
+31-->D:\limbonganReady\app\src\main\AndroidManifest.xml:12:9-52
+32        <activity
+32-->D:\limbonganReady\app\src\main\AndroidManifest.xml:14:9-16:40
+33            android:name="kbkm.th2023.limbonganready.hadra.Hadra"
+33-->D:\limbonganReady\app\src\main\AndroidManifest.xml:15:13-40
+34            android:exported="false" />
+34-->D:\limbonganReady\app\src\main\AndroidManifest.xml:16:13-37
+35        <activity
+35-->D:\limbonganReady\app\src\main\AndroidManifest.xml:17:9-19:40
+36            android:name="kbkm.th2023.limbonganready.gambus.GambusInangInang"
+36-->D:\limbonganReady\app\src\main\AndroidManifest.xml:18:13-52
+37            android:exported="false" />
+37-->D:\limbonganReady\app\src\main\AndroidManifest.xml:19:13-37
+38        <activity
+38-->D:\limbonganReady\app\src\main\AndroidManifest.xml:20:9-22:40
+39            android:name="kbkm.th2023.limbonganready.lesungketintong.LesungKetintong"
+39-->D:\limbonganReady\app\src\main\AndroidManifest.xml:21:13-60
+40            android:exported="false" />
+40-->D:\limbonganReady\app\src\main\AndroidManifest.xml:22:13-37
+41        <activity
+41-->D:\limbonganReady\app\src\main\AndroidManifest.xml:23:9-25:40
+42            android:name="kbkm.th2023.limbonganready.gambangan.VideoGambangan"
+42-->D:\limbonganReady\app\src\main\AndroidManifest.xml:24:13-53
+43            android:exported="false" />
+43-->D:\limbonganReady\app\src\main\AndroidManifest.xml:25:13-37
+44        <activity
+44-->D:\limbonganReady\app\src\main\AndroidManifest.xml:26:9-28:40
+45            android:name="kbkm.th2023.limbonganready.Forum"
+45-->D:\limbonganReady\app\src\main\AndroidManifest.xml:27:13-34
+46            android:exported="false" />
+46-->D:\limbonganReady\app\src\main\AndroidManifest.xml:28:13-37
 47        <activity
-47-->D:\limbonganReady\app\src\main\AndroidManifest.xml:33:9-41:20
-48            android:name="kbkm.th2023.limbonganready.splash"
-48-->D:\limbonganReady\app\src\main\AndroidManifest.xml:34:13-35
-49            android:exported="true" >
-49-->D:\limbonganReady\app\src\main\AndroidManifest.xml:35:13-36
-50            <intent-filter>
-50-->D:\limbonganReady\app\src\main\AndroidManifest.xml:36:13-40:29
-51                <action android:name="android.intent.action.MAIN" />
-51-->D:\limbonganReady\app\src\main\AndroidManifest.xml:37:17-69
-51-->D:\limbonganReady\app\src\main\AndroidManifest.xml:37:25-66
-52
-53                <category android:name="android.intent.category.LAUNCHER" />
-53-->D:\limbonganReady\app\src\main\AndroidManifest.xml:39:17-77
-53-->D:\limbonganReady\app\src\main\AndroidManifest.xml:39:27-74
-54            </intent-filter>
-55        </activity>
-56
-57        <provider
-57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\arrdi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-58            android:name="androidx.startup.InitializationProvider"
-58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\arrdi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
-59            android:authorities="kbkm.th2023.limbonganready.androidx-startup"
-59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\arrdi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
-60            android:exported="false" >
-60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\arrdi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
-61            <meta-data
-61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\arrdi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-62                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\arrdi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
-63                android:value="androidx.startup" />
-63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\arrdi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
-64            <meta-data
-64-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\arrdi\.gradle\caches\transforms-3\1d1173f99a1313055c26367e9296308a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-65                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-65-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\arrdi\.gradle\caches\transforms-3\1d1173f99a1313055c26367e9296308a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-66                android:value="androidx.startup" />
-66-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\arrdi\.gradle\caches\transforms-3\1d1173f99a1313055c26367e9296308a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-67        </provider>
-68    </application>
-69
-70</manifest>
+47-->D:\limbonganReady\app\src\main\AndroidManifest.xml:29:9-31:40
+48            android:name="kbkm.th2023.limbonganready.Event"
+48-->D:\limbonganReady\app\src\main\AndroidManifest.xml:30:13-34
+49            android:exported="false" />
+49-->D:\limbonganReady\app\src\main\AndroidManifest.xml:31:13-37
+50        <activity
+50-->D:\limbonganReady\app\src\main\AndroidManifest.xml:32:9-34:40
+51            android:name="kbkm.th2023.limbonganready.Menu_Musik"
+51-->D:\limbonganReady\app\src\main\AndroidManifest.xml:33:13-39
+52            android:exported="false" />
+52-->D:\limbonganReady\app\src\main\AndroidManifest.xml:34:13-37
+53        <activity
+53-->D:\limbonganReady\app\src\main\AndroidManifest.xml:35:9-37:40
+54            android:name="kbkm.th2023.limbonganready.gambangan.Alat_Musik1"
+54-->D:\limbonganReady\app\src\main\AndroidManifest.xml:36:13-50
+55            android:exported="false" />
+55-->D:\limbonganReady\app\src\main\AndroidManifest.xml:37:13-37
+56        <activity
+56-->D:\limbonganReady\app\src\main\AndroidManifest.xml:38:9-40:40
+57            android:name="kbkm.th2023.limbonganready.Opening1"
+57-->D:\limbonganReady\app\src\main\AndroidManifest.xml:39:13-37
+58            android:exported="false" />
+58-->D:\limbonganReady\app\src\main\AndroidManifest.xml:40:13-37
+59        <activity android:name="kbkm.th2023.limbonganready.Home" />
+59-->D:\limbonganReady\app\src\main\AndroidManifest.xml:41:9-42
+59-->D:\limbonganReady\app\src\main\AndroidManifest.xml:41:19-39
+60        <activity android:name="kbkm.th2023.limbonganready.Notifikasi" />
+60-->D:\limbonganReady\app\src\main\AndroidManifest.xml:42:9-48
+60-->D:\limbonganReady\app\src\main\AndroidManifest.xml:42:19-45
+61        <activity android:name="kbkm.th2023.limbonganready.Setting" />
+61-->D:\limbonganReady\app\src\main\AndroidManifest.xml:43:9-45
+61-->D:\limbonganReady\app\src\main\AndroidManifest.xml:43:19-42
+62        <activity android:name="kbkm.th2023.limbonganready.MainActivity" />
+62-->D:\limbonganReady\app\src\main\AndroidManifest.xml:44:9-50
+62-->D:\limbonganReady\app\src\main\AndroidManifest.xml:44:19-47
+63        <activity
+63-->D:\limbonganReady\app\src\main\AndroidManifest.xml:45:9-53:20
+64            android:name="kbkm.th2023.limbonganready.Splash"
+64-->D:\limbonganReady\app\src\main\AndroidManifest.xml:46:13-35
+65            android:exported="true" >
+65-->D:\limbonganReady\app\src\main\AndroidManifest.xml:47:13-36
+66            <intent-filter>
+66-->D:\limbonganReady\app\src\main\AndroidManifest.xml:48:13-52:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->D:\limbonganReady\app\src\main\AndroidManifest.xml:49:17-69
+67-->D:\limbonganReady\app\src\main\AndroidManifest.xml:49:25-66
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->D:\limbonganReady\app\src\main\AndroidManifest.xml:51:17-77
+69-->D:\limbonganReady\app\src\main\AndroidManifest.xml:51:27-74
+70            </intent-filter>
+71        </activity>
+72
+73        <provider
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\arrdi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+74            android:name="androidx.startup.InitializationProvider"
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\arrdi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+75            android:authorities="kbkm.th2023.limbonganready.androidx-startup"
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\arrdi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+76            android:exported="false" >
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\arrdi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+77            <meta-data
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\arrdi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+78                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\arrdi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+79                android:value="androidx.startup" />
+79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\arrdi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+80            <meta-data
+80-->[androidx.lifecycle:lifecycle-process:2.6.0] C:\Users\arrdi\.gradle\caches\transforms-3\6d958301f84e1402c6724bd2c2ec0377\transformed\jetified-lifecycle-process-2.6.0\AndroidManifest.xml:29:13-31:52
+81                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+81-->[androidx.lifecycle:lifecycle-process:2.6.0] C:\Users\arrdi\.gradle\caches\transforms-3\6d958301f84e1402c6724bd2c2ec0377\transformed\jetified-lifecycle-process-2.6.0\AndroidManifest.xml:30:17-78
+82                android:value="androidx.startup" />
+82-->[androidx.lifecycle:lifecycle-process:2.6.0] C:\Users\arrdi\.gradle\caches\transforms-3\6d958301f84e1402c6724bd2c2ec0377\transformed\jetified-lifecycle-process-2.6.0\AndroidManifest.xml:31:17-49
+83            <meta-data
+83-->[androidx.profileinstaller:profileinstaller:1.2.1] C:\Users\arrdi\.gradle\caches\transforms-3\0bf54345ffe61ec5ef86ef663fa9572c\transformed\jetified-profileinstaller-1.2.1\AndroidManifest.xml:30:13-32:52
+84                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+84-->[androidx.profileinstaller:profileinstaller:1.2.1] C:\Users\arrdi\.gradle\caches\transforms-3\0bf54345ffe61ec5ef86ef663fa9572c\transformed\jetified-profileinstaller-1.2.1\AndroidManifest.xml:31:17-85
+85                android:value="androidx.startup" />
+85-->[androidx.profileinstaller:profileinstaller:1.2.1] C:\Users\arrdi\.gradle\caches\transforms-3\0bf54345ffe61ec5ef86ef663fa9572c\transformed\jetified-profileinstaller-1.2.1\AndroidManifest.xml:32:17-49
+86        </provider>
+87
+88        <receiver
+88-->[androidx.profileinstaller:profileinstaller:1.2.1] C:\Users\arrdi\.gradle\caches\transforms-3\0bf54345ffe61ec5ef86ef663fa9572c\transformed\jetified-profileinstaller-1.2.1\AndroidManifest.xml:35:9-47:20
+89            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+89-->[androidx.profileinstaller:profileinstaller:1.2.1] C:\Users\arrdi\.gradle\caches\transforms-3\0bf54345ffe61ec5ef86ef663fa9572c\transformed\jetified-profileinstaller-1.2.1\AndroidManifest.xml:36:13-76
+90            android:directBootAware="false"
+90-->[androidx.profileinstaller:profileinstaller:1.2.1] C:\Users\arrdi\.gradle\caches\transforms-3\0bf54345ffe61ec5ef86ef663fa9572c\transformed\jetified-profileinstaller-1.2.1\AndroidManifest.xml:37:13-44
+91            android:enabled="true"
+91-->[androidx.profileinstaller:profileinstaller:1.2.1] C:\Users\arrdi\.gradle\caches\transforms-3\0bf54345ffe61ec5ef86ef663fa9572c\transformed\jetified-profileinstaller-1.2.1\AndroidManifest.xml:38:13-35
+92            android:exported="true"
+92-->[androidx.profileinstaller:profileinstaller:1.2.1] C:\Users\arrdi\.gradle\caches\transforms-3\0bf54345ffe61ec5ef86ef663fa9572c\transformed\jetified-profileinstaller-1.2.1\AndroidManifest.xml:39:13-36
+93            android:permission="android.permission.DUMP" >
+93-->[androidx.profileinstaller:profileinstaller:1.2.1] C:\Users\arrdi\.gradle\caches\transforms-3\0bf54345ffe61ec5ef86ef663fa9572c\transformed\jetified-profileinstaller-1.2.1\AndroidManifest.xml:40:13-57
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.2.1] C:\Users\arrdi\.gradle\caches\transforms-3\0bf54345ffe61ec5ef86ef663fa9572c\transformed\jetified-profileinstaller-1.2.1\AndroidManifest.xml:41:13-43:29
+95                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+95-->[androidx.profileinstaller:profileinstaller:1.2.1] C:\Users\arrdi\.gradle\caches\transforms-3\0bf54345ffe61ec5ef86ef663fa9572c\transformed\jetified-profileinstaller-1.2.1\AndroidManifest.xml:42:17-91
+95-->[androidx.profileinstaller:profileinstaller:1.2.1] C:\Users\arrdi\.gradle\caches\transforms-3\0bf54345ffe61ec5ef86ef663fa9572c\transformed\jetified-profileinstaller-1.2.1\AndroidManifest.xml:42:25-88
+96            </intent-filter>
+97            <intent-filter>
+97-->[androidx.profileinstaller:profileinstaller:1.2.1] C:\Users\arrdi\.gradle\caches\transforms-3\0bf54345ffe61ec5ef86ef663fa9572c\transformed\jetified-profileinstaller-1.2.1\AndroidManifest.xml:44:13-46:29
+98                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+98-->[androidx.profileinstaller:profileinstaller:1.2.1] C:\Users\arrdi\.gradle\caches\transforms-3\0bf54345ffe61ec5ef86ef663fa9572c\transformed\jetified-profileinstaller-1.2.1\AndroidManifest.xml:45:17-85
+98-->[androidx.profileinstaller:profileinstaller:1.2.1] C:\Users\arrdi\.gradle\caches\transforms-3\0bf54345ffe61ec5ef86ef663fa9572c\transformed\jetified-profileinstaller-1.2.1\AndroidManifest.xml:45:25-82
+99            </intent-filter>
+100        </receiver>
+101    </application>
+102
+103</manifest>

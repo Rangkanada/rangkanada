@@ -5,7 +5,6 @@ import androidx.fragment.app.Fragment;
 
 import android.os.Bundle;
 import android.view.Window;
-import android.view.WindowManager;
 import android.widget.Toast;
 
 import com.etebarian.meowbottomnavigation.MeowBottomNavigation;
@@ -36,13 +35,13 @@ public class MainActivity extends AppCompatActivity {
 
                 switch (item.getId()){
                     case 1 :
-                        fragment = new notifikasi();
+                        fragment = new Notifikasi();
                         break;
                     case 2 :
-                        fragment = new home();
+                        fragment = new Home();
                         break;
                     case 3 :
-                        fragment = new setting();
+                        fragment = new Setting();
                         break;
                 }
 

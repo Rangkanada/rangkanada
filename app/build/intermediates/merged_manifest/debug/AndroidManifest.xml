@@ -8,6 +8,9 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="33" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <permission
         android:name="kbkm.th2023.limbonganready.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
@@ -24,28 +27,41 @@
         android:icon="@drawable/logo"
         android:label="@string/app_name"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.LimbonganReady" >
         <activity
-            android:name="kbkm.th2023.limbonganready.forum"
+            android:name="kbkm.th2023.limbonganready.hadra.Hadra"
             android:exported="false" />
         <activity
-            android:name="kbkm.th2023.limbonganready.event"
+            android:name="kbkm.th2023.limbonganready.gambus.GambusInangInang"
             android:exported="false" />
         <activity
-            android:name="kbkm.th2023.limbonganready.menu_musik"
+            android:name="kbkm.th2023.limbonganready.lesungketintong.LesungKetintong"
             android:exported="false" />
         <activity
-            android:name="kbkm.th2023.limbonganready.Alat_Musik1"
+            android:name="kbkm.th2023.limbonganready.gambangan.VideoGambangan"
             android:exported="false" />
         <activity
-            android:name="kbkm.th2023.limbonganready.opening1"
+            android:name="kbkm.th2023.limbonganready.Forum"
             android:exported="false" />
-        <activity android:name="kbkm.th2023.limbonganready.home" />
-        <activity android:name="kbkm.th2023.limbonganready.notifikasi" />
-        <activity android:name="kbkm.th2023.limbonganready.setting" />
+        <activity
+            android:name="kbkm.th2023.limbonganready.Event"
+            android:exported="false" />
+        <activity
+            android:name="kbkm.th2023.limbonganready.Menu_Musik"
+            android:exported="false" />
+        <activity
+            android:name="kbkm.th2023.limbonganready.gambangan.Alat_Musik1"
+            android:exported="false" />
+        <activity
+            android:name="kbkm.th2023.limbonganready.Opening1"
+            android:exported="false" />
+        <activity android:name="kbkm.th2023.limbonganready.Home" />
+        <activity android:name="kbkm.th2023.limbonganready.Notifikasi" />
+        <activity android:name="kbkm.th2023.limbonganready.Setting" />
         <activity android:name="kbkm.th2023.limbonganready.MainActivity" />
         <activity
-            android:name="kbkm.th2023.limbonganready.splash"
+            android:name="kbkm.th2023.limbonganready.Splash"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -64,7 +80,24 @@
             <meta-data
                 android:name="androidx.lifecycle.ProcessLifecycleInitializer"
                 android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+                android:value="androidx.startup" />
         </provider>
+
+        <receiver
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            android:directBootAware="false"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.DUMP" >
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>

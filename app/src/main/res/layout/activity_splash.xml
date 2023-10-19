@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#D79170"
-    tools:context=".splash">
+    tools:context=".Splash">
 
 <!--    <View-->
 <!--        android:id="@+id/vector_124"-->

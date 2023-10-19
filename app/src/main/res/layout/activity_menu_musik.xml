@@ -4,7 +4,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".menu_musik">
+        tools:context=".Menu_Musik">
 
         <ScrollView
             android:layout_width="match_parent"
@@ -101,7 +101,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginStart="10dp"
                                     android:layout_marginTop="58dp"
-                                    android:fontFamily="sans-serif-black"
+                                    android:fontFamily="@font/poppinsextra"
                                     android:text="Gambangan"
                                     android:textColor="@color/white"
                                     android:textSize="12dp"
@@ -113,7 +113,7 @@
                                     android:layout_width="200dp"
                                     android:layout_height="wrap_content"
                                     android:layout_marginStart="10dp"
-                                    android:fontFamily="sans-serif-light"
+                                    android:fontFamily="@font/poppinsmedium"
                                     android:text="Sejarah | Audio | Video"
                                     android:textColor="@color/white"
                                     android:textSize="7dp"
@@ -125,14 +125,21 @@
                             </androidx.constraintlayout.widget.ConstraintLayout>
                     </RelativeLayout>
 
-                    <LinearLayout
+                    <RelativeLayout
                         android:layout_width="0dp"
                         android:layout_height="100dp"
                         android:layout_marginEnd="24dp"
                         android:layout_weight="0.5"
                         android:layout_marginStart="12dp"
-                        android:background="@drawable/samplebuttonmusik"
+                        android:background="@drawable/sampel2"
                         android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/bt_lesung"
+                            android:layout_width="168dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentTop="true"
+                            android:background="@drawable/bg_button_transparan"/>
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:layout_width="match_parent"
@@ -144,8 +151,8 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="10dp"
                                 android:layout_marginTop="58dp"
-                                android:fontFamily="sans-serif-black"
-                                android:text="Gambangan"
+                                android:fontFamily="@font/poppinsextra"
+                                android:text="Lesung Ketintong"
                                 android:textColor="@color/white"
                                 android:textSize="12dp"
                                 app:layout_constraintStart_toStartOf="parent"
@@ -156,7 +163,7 @@
                                 android:layout_width="200dp"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="10dp"
-                                android:fontFamily="sans-serif-light"
+                                android:fontFamily="@font/poppinsmedium"
                                 android:text="Sejarah | Audio | Video"
                                 android:textColor="@color/white"
                                 android:textSize="7dp"
@@ -165,7 +172,7 @@
                                 app:layout_constraintTop_toBottomOf="@+id/textA"
                                 app:layout_constraintVertical_bias="0.100000024" />
                         </androidx.constraintlayout.widget.ConstraintLayout>
-                    </LinearLayout>
+                    </RelativeLayout>
                     </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -173,27 +180,34 @@
                     android:layout_marginTop="20dp"
                     android:orientation="horizontal">
 
-                    <LinearLayout
+                    <RelativeLayout
                         android:layout_width="0dp"
                         android:layout_height="100dp"
                         android:layout_weight="0.5"
                         android:layout_marginStart="24dp"
                         android:layout_marginEnd="12dp"
-                        android:background="@drawable/samplebuttonmusik"
+                        android:background="@drawable/sampel2"
                         android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/bt_gambus"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="@drawable/bg_button_transparan" />
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="bottom">
+
                             <TextView
                                 android:id="@+id/textB"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="10dp"
                                 android:layout_marginTop="58dp"
-                                android:fontFamily="sans-serif-black"
-                                android:text="Gambangan"
+                                android:fontFamily="@font/poppinsextra"
+                                android:text="Gambus Inang-Inang"
                                 android:textColor="@color/white"
                                 android:textSize="12dp"
                                 app:layout_constraintStart_toStartOf="parent"
@@ -204,7 +218,7 @@
                                 android:layout_width="200dp"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="10dp"
-                                android:fontFamily="sans-serif-light"
+                                android:fontFamily="@font/poppinsmedium"
                                 android:text="Sejarah | Audio | Video"
                                 android:textColor="@color/white"
                                 android:textSize="7dp"
@@ -214,9 +228,9 @@
                                 app:layout_constraintVertical_bias="0.100000024" />
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
-                    </LinearLayout>
+                    </RelativeLayout>
 
-                    <LinearLayout
+                    <RelativeLayout
                         android:layout_width="0dp"
                         android:layout_height="100dp"
                         android:layout_marginEnd="24dp"
@@ -224,6 +238,12 @@
                         android:layout_marginStart="12dp"
                         android:background="@drawable/samplebuttonmusik"
                         android:orientation="vertical">
+                        <Button
+                            android:id="@+id/bt_hadra"
+                            android:layout_width="168dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentTop="true"
+                            android:background="@drawable/bg_button_transparan"/>
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:layout_width="match_parent"
@@ -235,8 +255,8 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="10dp"
                                 android:layout_marginTop="58dp"
-                                android:fontFamily="sans-serif-black"
-                                android:text="Gambangan"
+                                android:fontFamily="@font/poppinsextra"
+                                android:text="Hadra"
                                 android:textColor="@color/white"
                                 android:textSize="12dp"
                                 app:layout_constraintStart_toStartOf="parent"
@@ -247,7 +267,7 @@
                                 android:layout_width="200dp"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="10dp"
-                                android:fontFamily="sans-serif-light"
+                                android:fontFamily="@font/poppinsmedium"
                                 android:text="Sejarah | Audio | Video"
                                 android:textColor="@color/white"
                                 android:textSize="7dp"
@@ -256,7 +276,7 @@
                                 app:layout_constraintTop_toBottomOf="@+id/textC"
                                 app:layout_constraintVertical_bias="0.100000024" />
                         </androidx.constraintlayout.widget.ConstraintLayout>
-                    </LinearLayout>
+                    </RelativeLayout>
                 </LinearLayout>
                 </LinearLayout>
             </ScrollView>
