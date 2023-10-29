@@ -5,9 +5,13 @@ import androidx.fragment.app.Fragment;
 
 import android.os.Bundle;
 import android.view.Window;
-import android.widget.Toast;
 
 import com.etebarian.meowbottomnavigation.MeowBottomNavigation;
+
+import kbkm.th2023.limbonganready.fragments.Home;
+import kbkm.th2023.limbonganready.fragments.Notifikasi;
+import kbkm.th2023.limbonganready.fragments.Profile;
+import kbkm.th2023.limbonganready.fragments.Koleksi;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,9 +28,10 @@ public class MainActivity extends AppCompatActivity {
         meowBottomNavigation = findViewById(R.id.meowBottom);
 
         //add item menu
-        meowBottomNavigation.add(new MeowBottomNavigation.Model(1, R.drawable.ic_notification));
-        meowBottomNavigation.add(new MeowBottomNavigation.Model(2, R.drawable.ic_baseline_home_24));
+        meowBottomNavigation.add(new MeowBottomNavigation.Model(1, R.drawable.ic_baseline_home_24));
+        meowBottomNavigation.add(new MeowBottomNavigation.Model(2, R.drawable.ic_notification));
         meowBottomNavigation.add(new MeowBottomNavigation.Model(3, R.drawable.ic_simpan));
+        meowBottomNavigation.add(new MeowBottomNavigation.Model(4, R.drawable.ic_profile));
 
         meowBottomNavigation.setOnShowListener(new MeowBottomNavigation.ShowListener() {
             @Override
@@ -35,13 +40,16 @@ public class MainActivity extends AppCompatActivity {
 
                 switch (item.getId()){
                     case 1 :
-                        fragment = new Notifikasi();
-                        break;
-                    case 2 :
                         fragment = new Home();
                         break;
+                    case 2 :
+                        fragment = new Notifikasi();
+                        break;
                     case 3 :
-                        fragment = new Setting();
+                        fragment = new Koleksi();
+                        break;
+                    case 4 :
+                        fragment = new Profile();
                         break;
                 }
 
@@ -50,15 +58,15 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //set nofication count
-        meowBottomNavigation.setCount(1, "10");
+        meowBottomNavigation.setCount(2, "10");
 
         //set default
-        meowBottomNavigation.show(2, true);
+        meowBottomNavigation.show(1, true);
 
         meowBottomNavigation.setOnClickMenuListener(new MeowBottomNavigation.ClickListener() {
             @Override
             public void onClickItem(MeowBottomNavigation.Model item) {
-                Toast.makeText(getApplicationContext(), "You Clicked " + item.getId(), Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getApplicationContext(), "You Clicked " + item.getId(), Toast.LENGTH_SHORT).show();
             }
         });
     }

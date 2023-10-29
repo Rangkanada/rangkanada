@@ -142,7 +142,7 @@
         android:orientation="horizontal">
 
         <com.google.android.material.card.MaterialCardView
-            android:id="@+id/buttonVideoL"
+            android:id="@+id/buttonVGambus"
             android:layout_width="80dp"
             android:layout_height="35dp"
             android:layout_marginStart="20dp"

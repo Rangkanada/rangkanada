@@ -4,7 +4,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".Menu_Musik">
+        tools:context=".activities.Menu_Musik">
 
         <ScrollView
             android:layout_width="match_parent"
@@ -54,20 +54,32 @@
 
                         <TextView
                             android:id="@+id/textSub2"
-                            android:layout_width="wrap_content"
+                            android:layout_width="45dp"
                             android:layout_height="match_parent"
+                            android:background="@drawable/card_background"
+                            android:gravity="center"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:onClick="All"
                             android:text="All"
-                            android:textColor="#A83D17"
-                            android:textSize="12sp"
+                            android:textSize="12dp"
+                            android:textColor="#FFFFFF"
                             android:textStyle="bold" />
+
                         <TextView
-                            android:id="@+id/textSub3"
-                            android:layout_width="wrap_content"
+                            android:layout_width="179dp"
                             android:layout_height="match_parent"
-                            android:paddingLeft="50dp"
+                            android:textSize="12dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:onClick="TtgDesa"
                             android:text="Tentang Limbongan"
+                            android:gravity="center"
                             android:textColor="#A83D17"
-                            android:textSize="12sp"
                             android:textStyle="bold" />
 
                     </LinearLayout>
@@ -83,7 +95,7 @@
                         android:layout_weight="0.5"
                         android:layout_marginStart="24dp"
                         android:layout_marginEnd="12dp"
-                        android:background="@drawable/samplebuttonmusik"
+                        android:background="@drawable/sampel1"
                         android:orientation="vertical">
                         <Button
                             android:id="@+id/bt_gambangan"
@@ -186,7 +198,7 @@
                         android:layout_weight="0.5"
                         android:layout_marginStart="24dp"
                         android:layout_marginEnd="12dp"
-                        android:background="@drawable/sampel2"
+                        android:background="@drawable/sampel4"
                         android:orientation="vertical">
 
                         <Button
@@ -236,7 +248,7 @@
                         android:layout_marginEnd="24dp"
                         android:layout_weight="0.5"
                         android:layout_marginStart="12dp"
-                        android:background="@drawable/samplebuttonmusik"
+                        android:background="@drawable/sampel3"
                         android:orientation="vertical">
                         <Button
                             android:id="@+id/bt_hadra"

@@ -2,7 +2,7 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
         <shape android:shape="rectangle">
-            <corners android:radius="12dp" /> <!-- Radius sudut jika diinginkan -->
+            <corners android:radius="20dp" /> <!-- Radius sudut jika diinginkan -->
             <solid android:color="@android:color/transparent" /> <!-- Latar belakang transparan -->
         </shape>
     </item>

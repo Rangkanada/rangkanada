@@ -7,8 +7,12 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
-    <string name="app_name">Parastone</string>
+    <string name="app_name">Rangkanada</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <style name="CustomDialogTheme" parent="Theme.AppCompat.Dialog">
+        <item name="windowNoTitle">false</item>
+        <item name="background">@android:color/holo_red_light</item>
+    </style>
     <style name="Theme.LimbonganReady" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">#FFFFFF</item>

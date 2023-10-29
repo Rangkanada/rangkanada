@@ -15,7 +15,7 @@ public class Splash extends AppCompatActivity {
 
         final Handler handler = new Handler();
         handler.postDelayed(() -> {
-            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+            startActivity(new Intent(getApplicationContext(), Login.class));
             finish();
         },3000L);
 

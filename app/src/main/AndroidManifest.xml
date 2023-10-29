@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -11,6 +13,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LimbonganReady"
         tools:targetApi="31">
+        <activity
+            android:name=".activities.DetailEvent"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".gambangan.GameGambangan"
+            android:exported="false" />
         <activity
             android:name=".hadra.Hadra"
             android:exported="false" />
@@ -24,13 +38,16 @@
             android:name=".gambangan.VideoGambangan"
             android:exported="false" />
         <activity
-            android:name=".Forum"
+            android:name=".activities.Forum"
             android:exported="false" />
         <activity
-            android:name=".Event"
+            android:name=".activities.Event"
             android:exported="false" />
         <activity
-            android:name=".Menu_Musik"
+            android:name=".activities.Menu_Musik"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Tentang_Desa"
             android:exported="false" />
         <activity
             android:name=".gambangan.Alat_Musik1"
@@ -38,9 +55,9 @@
         <activity
             android:name=".Opening1"
             android:exported="false" />
-        <activity android:name=".Home" />
-        <activity android:name=".Notifikasi" />
-        <activity android:name=".Setting" />
+        <activity android:name=".fragments.Home" />
+        <activity android:name=".fragments.Notifikasi" />
+        <activity android:name=".fragments.Koleksi" />
         <activity android:name=".MainActivity" />
         <activity
             android:name=".Splash"
@@ -52,6 +69,5 @@
             </intent-filter>
         </activity>
     </application>
-    <uses-permission android:name="android.permission.INTERNET"/>
 
 </manifest>
