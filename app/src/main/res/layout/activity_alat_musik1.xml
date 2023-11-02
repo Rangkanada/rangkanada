@@ -153,7 +153,8 @@
                 android:text="3D Alat Musik"
                 android:textColor="@color/white"
                 android:textSize="10sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                tools:ignore="InvalidId" />
         </com.google.android.material.card.MaterialCardView>
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/buttonGame"

@@ -268,7 +268,7 @@
                                 android:layout_marginStart="10dp"
                                 android:layout_marginTop="58dp"
                                 android:fontFamily="@font/poppinsextra"
-                                android:text="Hadra"
+                                android:text="Hadrah Gendang Empat"
                                 android:textColor="@color/white"
                                 android:textSize="12dp"
                                 app:layout_constraintStart_toStartOf="parent"

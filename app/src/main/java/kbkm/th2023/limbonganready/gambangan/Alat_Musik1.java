@@ -39,6 +39,13 @@ public class Alat_Musik1 extends AppCompatActivity {
             openDialog();
         });
 
+        button3D.setOnClickListener(v -> {
+            // Mengarahkan pengguna ke aktivitas Sketchfab
+            Intent intent = new Intent(Alat_Musik1.this, Sketchfab.class);
+            startActivity(intent);
+        });
+
+
         buttonGame.setOnClickListener(view -> {
             Intent intent = new Intent(Alat_Musik1.this, GameGambangan.class);
             startActivity(intent);
