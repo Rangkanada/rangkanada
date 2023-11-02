@@ -30,6 +30,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.LimbonganReady" >
         <activity
+            android:name="kbkm.th2023.limbonganready.activities.Setting"
+            android:exported="false" />
+        <activity
             android:name="kbkm.th2023.limbonganready.activities.DetailEvent"
             android:exported="false" />
         <activity

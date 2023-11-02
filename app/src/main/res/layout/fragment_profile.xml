@@ -187,6 +187,7 @@
 
 
                     <ImageButton
+                        android:id="@+id/bt_setting"
                         android:layout_width="35dp"
                         android:layout_height="35dp"
                         android:background="@drawable/bt_next"/>

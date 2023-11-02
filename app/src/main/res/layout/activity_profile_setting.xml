@@ -407,3 +407,4 @@
             android:src="@drawable/ic_panah_nextspace"
             android:layout_gravity="end" />
     </LinearLayout>
+</LinearLayout>
