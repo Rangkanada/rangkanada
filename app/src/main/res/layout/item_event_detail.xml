@@ -24,7 +24,7 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/musik"
+                android:id="@+id/ImageEvent"
                 android:layout_width="match_parent"
                 android:layout_height="171dp"
                 android:layout_gravity="center"

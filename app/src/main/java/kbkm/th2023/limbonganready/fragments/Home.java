@@ -52,9 +52,8 @@ public class Home extends Fragment {
 
         ArrayList<Events> eventsArrayList = new ArrayList<>();
 
-        eventsArrayList.add(new Events(R.drawable.sampel_event, "Maras taun"));
-        eventsArrayList.add(new Events(R.drawable.sampel2, "Festival Budaya"));
-
+        eventsArrayList.add(new Events(R.drawable.sampel_event, "Maras taun","18 Desember 2023","Parung Alam"));
+        eventsArrayList.add(new Events(R.drawable.sampel2, "Festival Budaya","9 November 2023","Auditorium Belitung Timur"));
         rvEvent.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, false));
         rvEvent.setAdapter(new RvEventMainAdapter(eventsArrayList, getContext(), "fragment_home"));
 

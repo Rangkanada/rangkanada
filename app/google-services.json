@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1062191407038",
+    "project_id": "limbonganready",
+    "storage_bucket": "limbonganready.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062191407038:android:69bcac3a7450dd033f23ef",
+        "android_client_info": {
+          "package_name": "kbkm.th2023.limbonganready"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFsHLNyWWKgGsE6h_9fiAh6cEa9F1PPWA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

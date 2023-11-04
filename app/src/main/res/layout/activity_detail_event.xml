@@ -48,100 +48,109 @@
 
         </LinearLayout>
     </com.google.android.material.appbar.AppBarLayout>
-    <ImageView
-        android:id="@+id/eventImage"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/sampel1"
-        android:contentDescription="Gambar Event"/>
-
-    <TextView
-        android:id="@+id/eventTitle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/black"
-        android:text="Maras Taunan"
-        android:layout_marginTop="8dp"
-        android:layout_marginLeft="10dp"
-        android:textSize="24sp"
-        android:textStyle="bold"/>
-    <TextView
-        android:id="@+id/eventDescription"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/poppinsmedium"
-        android:textColor="@color/black"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:justificationMode="inter_word"
-        android:text="Lorem ipsum dolor sit amet consectetur. Ut auctor massa auctor etiam massa cursus porta pharetra auctor. Tellus diam amet nunc tincidunt pharetra nunc sit enim. Nulla ut ipsum quis arcu risus. Laoreet bibendum cras tempus molestie auctor quis condimentum mattis sit. Mauris sed feugiat ut amet aliquet sed ac. Eu nisi id phasellus amet tincidunt. Quam malesuada odio sagittis nullam et blandit fringilla vel. Condimentum egestas nullam convallis dolor nibh gravida faucibus. Nec morbi consequat pellentesque ultricies. Praesent purus ut congue purus aliquam aliquet ut lobortis tristique. Etiam quam morbi aenean interdum vitae nec nunc placerat. Felis nunc pretium tempus urna morbi. Ornare odio id pulvinar orci eleifend. Blandit vel nibh volutpat tristique scelerisque."
-        android:textSize="14sp"/>
-
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center_vertical">
-
-        <!-- LinearLayout untuk eventTime -->
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/eventImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
             android:layout_marginLeft="10dp"
-            android:orientation="horizontal"
+            android:layout_marginRight="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sampel_event"
+            android:contentDescription="Gambar Event"/>
+
+        <TextView
+            android:id="@+id/eventTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Maras Taunan"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/eventDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:justificationMode="inter_word"
+            android:text="Maras Taun adalah upacara yang dilakukan petani sebagai rasa syukur kepada Allah Swt. atas panen padi ladang. Upacara Maras Taun ini terkait erat dengan ladang berpindah yang dalam bahasa Belitongnya disebut ume. Untuk berladang atau berume, seseorang selalu berhubungan dengan dukun kampong. Peran dukun kampong dalam berume sangat besar. Mulai dari menentukan tempat sampai berakhirnya panen padi dan selalu melibatkan dukun kampong."
+            android:textSize="14sp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
             android:gravity="center_vertical">
 
-            <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:src="@drawable/ic_date"
-                android:tintMode="src_atop"
-                android:contentDescription="Ikon Clock"
-                />
-
-            <TextView
-                android:id="@+id/eventTime"
+            <!-- LinearLayout untuk eventTime -->
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/poppinsmedium"
-                android:text="15 Oktober 2023"
-                android:textSize="16sp"
-                android:gravity="center_vertical"
-                android:paddingStart="8dp" />
-        </LinearLayout>
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
 
-        <!-- LinearLayout untuk eventLocation -->
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="5dp"
-            android:orientation="horizontal"
-            android:gravity="center_vertical">
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_calendar"
+                    android:tintMode="src_atop"
+                    android:contentDescription="Ikon Location"
+                    app:tint="#7B3F23" />
 
-            <ImageView
-                android:layout_width="20dp"
-                android:layout_height="24dp"
-                android:src="@drawable/ic_maps"
-                android:tintMode="src_atop"
-                android:contentDescription="Ikon Location"
-                />
+                <TextView
+                    android:id="@+id/eventTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="18 Desember 2023"
+                    android:textSize="16sp"
+                    android:gravity="center_vertical"
+                    android:paddingStart="8dp" />
+            </LinearLayout>
 
-            <TextView
-                android:id="@+id/eventLocation"
+            <!-- LinearLayout untuk eventLocation -->
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/poppinsmedium"
-                android:text="Gedung Serba Guna"
-                android:textSize="16sp"
-                android:gravity="center_vertical"
-                android:paddingStart="8dp" />
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_location"
+                    android:tintMode="src_atop"
+                    android:contentDescription="Ikon Location"
+                    app:tint="#7B3F23"
+                    />
+
+                <TextView
+                    android:id="@+id/eventLocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="Gedung Serba Guna"
+                    android:textSize="16sp"
+                    android:gravity="center_vertical"
+                    android:paddingStart="8dp" />
+            </LinearLayout>
         </LinearLayout>
+
     </LinearLayout>
 
 

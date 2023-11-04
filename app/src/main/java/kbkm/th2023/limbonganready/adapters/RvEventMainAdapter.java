@@ -1,6 +1,7 @@
 package kbkm.th2023.limbonganready.adapters;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,6 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
 import kbkm.th2023.limbonganready.R;
+import kbkm.th2023.limbonganready.activities.DetailEvent;
 import kbkm.th2023.limbonganready.objects.Events;
 
 public class RvEventMainAdapter extends RecyclerView.Adapter<RvEventMainAdapter.ViewHolder> {
@@ -47,7 +49,20 @@ public class RvEventMainAdapter extends RecyclerView.Adapter<RvEventMainAdapter.
         final Events events = eventsArrayList.get(position);
 
         holder.eventImage.setImageResource(events.getGambar());
-        holder.judulEvent.setText(events.getJudul()); //mengambil data dari objek event
+        holder.judulEvent.setText(events.getJudul());
+        holder.tanggalEvent.setText(events.getTanggal());//mengambil data dari objek event
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Handle klik item di sini
+
+                // Memulai aktivitas baru atau berpindah ke layout baru
+                Intent intent = new Intent(view.getContext(), DetailEvent.class);
+                view.getContext().startActivity(intent);
+            }
+        });
+
     }
 
     @Override
@@ -58,10 +73,12 @@ public class RvEventMainAdapter extends RecyclerView.Adapter<RvEventMainAdapter.
     public static class ViewHolder extends RecyclerView.ViewHolder {
         public ImageView eventImage;
         public TextView judulEvent;
+        public TextView tanggalEvent;
         public ViewHolder(View itemView) {
             super(itemView);
             eventImage = itemView.findViewById(R.id.musik);
             judulEvent = itemView.findViewById(R.id.textMusik);
+            tanggalEvent = itemView.findViewById(R.id.txtdetailMusik);
         }
     }
 }
