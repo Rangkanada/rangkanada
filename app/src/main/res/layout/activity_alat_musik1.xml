@@ -7,47 +7,41 @@
     android:orientation="vertical"
     tools:context=".gambangan.Alat_Musik1">
 
-    <com.google.android.material.appbar.AppBarLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/Theme.LimbonganReady.AppBarOverlay">
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="horizontal">
 
-        <LinearLayout
-            android:layout_width="wrap_content"
+        <TextView
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:fontFamily="@font/poppinsbold"
+            android:gravity="center"
+            android:text="Gambangan"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-            <com.google.android.material.floatingactionbutton.FloatingActionButton
-                android:id="@+id/backButton"
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:onClick="Finish"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="0dp"
+            app:contentPadding="8dp">
+
+            <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="15dp"
-                android:layout_weight="1"
-                android:clickable="true"
-                android:onClick="Finish"
-                android:src="@drawable/panah_backspace"
-                app:backgroundTint="@android:color/transparent"
-                app:elevation="0dp"
-                app:tint="#7B3F23" />
-
-            <TextView
-                android:layout_width="231dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="15dp"
-                android:layout_marginTop="14dp"
-                android:layout_marginBottom="14dp"
-                android:fontFamily="@font/poppinsbold"
-                android:gravity="center"
-                android:text="Gambangan"
-                android:textColor="@color/black"
-                android:textSize="18sp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-        </LinearLayout>
-    </com.google.android.material.appbar.AppBarLayout>
+                android:src="@drawable/panah_backspace" />
+        </com.google.android.material.card.MaterialCardView>
+    </RelativeLayout>
 
     <HorizontalScrollView
         android:layout_width="match_parent"
@@ -56,8 +50,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="5dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:padding="5dp">
 
             <androidx.cardview.widget.CardView
                 android:layout_width="325dp"
@@ -104,11 +98,8 @@
                     android:layout_height="200dp"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/gambangan3" />
-
             </androidx.cardview.widget.CardView>
-
         </LinearLayout>
-
     </HorizontalScrollView>
 
     <LinearLayout
@@ -136,6 +127,7 @@
                 android:textSize="10sp"
                 android:textStyle="bold" />
         </com.google.android.material.card.MaterialCardView>
+
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/button3D"
             android:layout_width="100dp"
@@ -156,6 +148,7 @@
                 android:textStyle="bold"
                 tools:ignore="InvalidId" />
         </com.google.android.material.card.MaterialCardView>
+
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/buttonGame"
             android:layout_width="100dp"
@@ -178,7 +171,7 @@
     </LinearLayout>
 
     <ScrollView
-        android:layout_width="390dp"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
@@ -201,23 +194,22 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppinsbold"
                     android:padding="10dp"
-                    android:text="Sejarah"
+                    android:text="Tentang Gambangan"
                     android:textColor="@color/black"
                     android:textSize="20dp"
                     android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/historyContentTextView"
-                    android:layout_width="378dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppinsregular"
                     android:justificationMode="inter_word"
                     android:paddingStart="16dp"
                     android:paddingEnd="16dp"
-                    android:text=" Gambang merupakan alat musik tradisional yang juga terdapat di daerah Bangka Belitung. Memainkannya sama seperti alat musik marimba atau juga gamelan di Jawa dan Bali. Alat Musik Tradisional ini bahannya terbuat dari kayu lempung atau kayu yang ringan seperti meranti, medang, libut, dan sengkrubong. Penggunaan jenis kayu tersebut sangat mempengaruhi kualitas suara yang dihasilkan oleh Gambangan. Alat musik Gambangan terdiri dari tujuh atau delapan potong kayu. Terkadang dalam kondisi tertentu bisa hanya menggunakan lima potong kayu. Setiap potong kayu punya suara sendiri-sendiri, potongannya bisa panjang bisa pendek, yang beda nanti tinggal besar kecilnya suara yang dihasilkan, tapi bunyinya tetap sama.Fungsi Alat Musik Gambangan pada awalnya Gambangan berkembang sebagai bagian dari budaya agraris Belitong yang dikenal dengan nama ume. Gambangan dimainkan di atas pondok yang menjulang tinggi hingga lebih dari lima meter. Selain untuk menghibur diri sembari menunggui padi. Alunan musik Gambangan juga digunakan untuk menjaga padi dari gangguan hama kera dan binatang liar lainnya. Biasanya juga permainan ini digunakan untuk muda mudi yang sedang kasmaran, mereka akan memainkan gambangan untuk berkomunikasi dengan pasangannya yang tinggal di ume yang lain. Cara memainkan gambangan dengan cara dipukul keras-keras menggunakan dua potong kayu, sehingga terdengar suara yang nyaring. Dalam memainkannya ada cara-cara pukulan tertentu, sehingga menimbulkan nada suara yang unik dan nyaman didengar."
+                    android:text=" Gambang merupakan alat musik tradisional yang juga terdapat di daerah Bangka Belitung. Memainkannya sama seperti alat musik marimba atau juga gamelan di Jawa dan Bali. Alat Musik Tradisional ini bahannya terbuat dari kayu lempung atau kayu yang ringan seperti meranti, medang, libut, dan sengkrubong. Penggunaan jenis kayu tersebut sangat mempengaruhi kualitas suara yang dihasilkan oleh Gambangan. \n    Alat musik Gambangan terdiri dari tujuh atau delapan potong kayu. Terkadang dalam kondisi tertentu bisa hanya menggunakan lima potong kayu. Setiap potong kayu punya suara sendiri-sendiri, potongannya bisa panjang bisa pendek, yang beda nanti tinggal besar kecilnya suara yang dihasilkan, tapi bunyinya tetap sama.Fungsi Alat Musik Gambangan pada awalnya Gambangan berkembang sebagai bagian dari budaya agraris Belitong yang dikenal dengan nama ume. \n       Gambangan dimainkan di atas pondok yang menjulang tinggi hingga lebih dari lima meter. Selain untuk menghibur diri sembari menunggui padi. Alunan musik Gambangan juga digunakan untuk menjaga padi dari gangguan hama kera dan binatang liar lainnya. Biasanya juga permainan ini digunakan untuk muda mudi yang sedang kasmaran, mereka akan memainkan gambangan untuk berkomunikasi dengan pasangannya yang tinggal di ume yang lain. \n       Cara memainkan gambangan dengan cara dipukul keras-keras menggunakan dua potong kayu, sehingga terdengar suara yang nyaring. Dalam memainkannya ada cara-cara pukulan tertentu, sehingga menimbulkan nada suara yang unik dan nyaman didengar."
                     android:textColor="@color/black" />
             </LinearLayout>
         </LinearLayout>
-
     </ScrollView>
 </LinearLayout>

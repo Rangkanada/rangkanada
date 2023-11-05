@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.app.Dialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
@@ -15,11 +16,14 @@ import android.widget.ImageButton;
 import com.google.android.material.card.MaterialCardView;
 
 import kbkm.th2023.limbonganready.R;
+import kbkm.th2023.limbonganready.hadra.GameHadrah;
+import kbkm.th2023.limbonganready.hadra.Hadra;
+import kbkm.th2023.limbonganready.hadra.TriDHadrah;
 
 public class GambusInangInang extends AppCompatActivity {
 
 
-    private MaterialCardView buttonVG;
+    private MaterialCardView buttonVG,button3DI,buttonGameI;
     private WebView webView;
     private ImageButton btnClose;
 
@@ -29,6 +33,16 @@ public class GambusInangInang extends AppCompatActivity {
         setContentView(R.layout.activity_gambus_inang_inang);
 
         buttonVG = findViewById(R.id.buttonVGambus);
+        button3DI = findViewById(R.id.button3DI);
+        buttonGameI = findViewById(R.id.buttonGameI);
+        button3DI.setOnClickListener(view -> {
+            Intent intent = new Intent(GambusInangInang.this, TriDGambus.class);
+            startActivity(intent);
+        });
+        buttonGameI.setOnClickListener(view -> {
+            Intent intent = new Intent(GambusInangInang.this, GameGambus.class);
+            startActivity(intent);
+        });
 
         buttonVG.setOnClickListener(v -> {
             //create a method to open the custom dialog on button click
@@ -84,5 +98,8 @@ public class GambusInangInang extends AppCompatActivity {
         webSettings.setJavaScriptEnabled(true);
 
         webView.setWebChromeClient(new WebChromeClient());
+    }
+    public void Finish(View view) {
+        onBackPressed();
     }
 }

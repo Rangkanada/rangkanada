@@ -3,6 +3,7 @@ package kbkm.th2023.limbonganready.hadra;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Dialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
@@ -14,10 +15,12 @@ import android.widget.ImageButton;
 import com.google.android.material.card.MaterialCardView;
 
 import kbkm.th2023.limbonganready.R;
+import kbkm.th2023.limbonganready.gambangan.Alat_Musik1;
+import kbkm.th2023.limbonganready.gambangan.GameGambangan;
 
 public class Hadra extends AppCompatActivity {
 
-    private MaterialCardView buttonVH;
+    private MaterialCardView buttonVH,button3DL,buttonGameL;
     private WebView webView;
     private ImageButton btnClose;
     @Override
@@ -26,13 +29,27 @@ public class Hadra extends AppCompatActivity {
         setContentView(R.layout.activity_hadra);
 
         buttonVH = findViewById(R.id.buttonVHadrah);
+        button3DL = findViewById(R.id.button3DL);
+        buttonGameL = findViewById(R.id.buttonGameL);
+        button3DL.setOnClickListener(view -> {
+            Intent intent = new Intent(Hadra.this, TriDHadrah.class);
+            startActivity(intent);
+        });
+        buttonGameL.setOnClickListener(view -> {
+            Intent intent = new Intent(Hadra.this, GameHadrah.class);
+            startActivity(intent);
+        });
         buttonVH.setOnClickListener(v -> {
             //create a method to open the custom dialog on button click
             openDialog();
         });
 
+
     }
 
+    public void Finish(View view) {
+        onBackPressed();
+    }
     private void openDialog() {
         // Inisialisasi dialog
         Dialog dialog = new Dialog(this);

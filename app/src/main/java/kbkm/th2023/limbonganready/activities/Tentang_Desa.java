@@ -18,6 +18,6 @@ public class Tentang_Desa extends AppCompatActivity {
     }
 
     public void AllMusik(View view) {
-        startActivity(new Intent(this, Menu_Musik.class));
+        onBackPressed();
     }
 }

@@ -66,9 +66,8 @@ public class Login extends AppCompatActivity {
                     database.addListenerForSingleValueEvent(new ValueEventListener() {
                         @Override
                         public void onDataChange(@NonNull DataSnapshot snapshot) {
-                            String lowercaseUsername = username.toLowerCase(); // Mengubah username yang dimasukkan ke huruf kecil
-                            if (snapshot.child(lowercaseUsername).exists()){
-                                if (snapshot.child(lowercaseUsername).child("password").getValue(String.class).equals(password)){
+                            if (snapshot.child(username).exists()){
+                                if (snapshot.child(username).child("password").getValue(String.class).equals(password)){
                                     Toast.makeText(getApplicationContext(), "Login Berhasil",Toast.LENGTH_SHORT).show();
                                     Intent masuk = new Intent(getApplicationContext(), MainActivity.class);
                                     startActivity(masuk);

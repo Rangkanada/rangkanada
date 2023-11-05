@@ -2,6 +2,8 @@ package kbkm.th2023.limbonganready.gambangan;
 
 import android.app.Dialog;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
@@ -9,12 +11,15 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import com.google.android.material.card.MaterialCardView;
 
 import kbkm.th2023.limbonganready.R;
+import kbkm.th2023.limbonganready.activities.Menu_Musik;
 
 public class Alat_Musik1 extends AppCompatActivity {
 
@@ -55,7 +60,7 @@ public class Alat_Musik1 extends AppCompatActivity {
 //        Intent intent = new Intent(Alat_Musik1.this, VideoGambangan.class);
 //        startActivity(intent);
 //    });
-}
+    }
 
     private void openDialog() {
         // Inisialisasi dialog
@@ -65,33 +70,29 @@ public class Alat_Musik1 extends AppCompatActivity {
 
         dialog.setCancelable(false);
 
-
-        if (getWindow() == null) {
-
+        if (getWindow() != null) {
             dialog.show();
         }
+
         // Mengatur ukuran dialog
         if (getWindow() != null) {
             WindowManager.LayoutParams layoutParams = new WindowManager.LayoutParams();
             layoutParams.width = WindowManager.LayoutParams.MATCH_PARENT; // Sesuaikan dengan lebar yang Anda inginkan
             layoutParams.height = WindowManager.LayoutParams.WRAP_CONTENT; // Sesuaikan dengan tinggi yang Anda inginkan
             dialog.getWindow().setAttributes(layoutParams);
+            dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         }
 
         webView = dialog.findViewById(R.id.webView);
         configureWebView();
         String video = "<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/NbeiKyMskuM?si=-mvJtnUSk7Kr5Swl\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>";
 
-
         webView.loadUrl("https://www.youtube.com/embed/NbeiKyMskuM?si=-mvJtnUSk7Kr5Swl");
-        ImageButton btnClose = dialog.findViewById(R.id.btnClose);
+        MaterialCardView btnClose = dialog.findViewById(R.id.btnClose);
 
-        btnClose.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Tindakan yang ingin Anda lakukan saat tombol Close ditekan
-                dialog.dismiss(); // Untuk menutup pop-up dialog
-            }
+        btnClose.setOnClickListener(v -> {
+            // Tindakan yang ingin Anda lakukan saat tombol Close ditekan
+            dialog.dismiss(); // Untuk menutup pop-up dialog
         });
 
 
@@ -115,5 +116,9 @@ public class Alat_Musik1 extends AppCompatActivity {
         webSettings.setJavaScriptEnabled(true);
 
         webView.setWebChromeClient(new WebChromeClient());
+    }
+
+    public void Finish(View view) {
+        onBackPressed();
     }
 }

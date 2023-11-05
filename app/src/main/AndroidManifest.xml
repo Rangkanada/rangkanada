@@ -14,6 +14,27 @@
         android:theme="@style/Theme.LimbonganReady"
         tools:targetApi="31">
         <activity
+            android:name=".gambus.TriDGambus"
+            android:exported="false" />
+        <activity
+            android:name=".lesungketintong.TriDLesong"
+            android:exported="false" />
+        <activity
+            android:name=".hadra.TriDHadrah"
+            android:exported="false" />
+        <activity
+            android:name=".lesungketintong.GameLesong"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".hadra.GameHadrah"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".gambus.GameGambus"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
             android:name=".gambangan.Sketchfab"
             android:exported="false" />
         <activity
@@ -30,7 +51,8 @@
             android:exported="false" />
         <activity
             android:name=".gambangan.GameGambangan"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="landscape" />
         <activity
             android:name=".hadra.Hadra"
             android:exported="false" />

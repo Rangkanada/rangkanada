@@ -26,8 +26,18 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
         <LinearLayout
             android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="24dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="12dp"
             android:orientation="vertical">
 
             <TextView
@@ -36,9 +46,10 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Pilih Alat Musik"
-                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:textSize="16sp"
-                android:textColor="@color/black"/>
+                android:textStyle="bold" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -49,15 +60,15 @@
                     android:id="@+id/textSub2"
                     android:layout_width="45dp"
                     android:layout_height="match_parent"
-                    android:gravity="center"
                     android:clickable="true"
                     android:focusable="true"
                     android:fontFamily="@font/poppinsmedium"
                     android:foreground="?android:attr/selectableItemBackground"
+                    android:gravity="center"
                     android:onClick="AllMusik"
                     android:text="All"
-                    android:textSize="12dp"
                     android:textColor="#A83D17"
+                    android:textSize="12dp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -75,32 +86,38 @@
                     android:textSize="12dp"
                     android:textStyle="bold" />
             </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_marginTop="10dp">
-                    <ScrollView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="parent">
-                    <TextView
-                        android:id="@+id/historyContentTextView"
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/poppinsregular"
-                        android:justificationMode="inter_word"
-                        android:paddingStart="16dp"
-                        android:paddingEnd="16dp"
-                        android:text="  Desa Limbongan  merupakan salah satu desa di
-kecamatan Gantung, Kabupaten Belitung Timur,
-Provinsi Kepulauan Bangka belitung.
-\n  Desa wisata Limbongan Merupakan Salah satu desa yang terletak di kecamatan Gantung Kabupaten Belitung Timur Provinsi Kepulauan Bangka Belitung. Desa Limbongan berjarak sekitar 47 km dari bandara Udara Internasional H.A.S. Hanandjoeddin. Perjalanan ke Desa Limbongan dapat dilalui dengan menggunakan sepeda motor maupun mobil. Desa wisata ini memiliki Daya tarik wisata utama yaitu Gunong Lumut. \n   Desa Wisata Limbongan dikelola oleh Pokdarwis dan Karang Taruna melalui Keputusan Kepala Dinas Kebudayaan dan Pariwisata Kabupaten Belitung Timur Nomor 012.a Tahun 2021 Tentang Perubahan Kedua Keputusan Kepala Dinas Kebudayaan dan Pariwisata Nomor 004 Tahun 2020 Tentang Pengukuhan Perubahan Kepengurusan Kelompok Sadar Wisata (POKDARWIS) Lindong Lumut Desa Limbongan Kecamatan Gantung Kabupaten Belitung Timur."
-                        android:textColor="@color/black" />
-                    </ScrollView>
-                </LinearLayout>
-        </LinearLayout>
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/historyContentTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppinsregular"
+                            android:justificationMode="inter_word"
+                            android:paddingStart="16dp"
+                            android:paddingEnd="16dp"
+                            android:text="  Desa Limbongan Merupakan salah satu desa yang terletak di kecamatan Gantung, Kabupaten
+Belitung Timur, Provinsi Kepulauan Bangka Belitung. Desa Limbongan berjarak sekitar 47 km dari
+Bandara Internasional H.A.S. Hanandjoeddin. Perjalanan ke Desa Limbongan dapat dilalui
+dengan menggunakan sepeda motor maupun mobil.\n
+  Desa ini termasuk salah satu desa terluas di Kecamatan Gantung, tetapi juga termasuk desa dengan jumlah penduduk yang relatif sedikit. Desa Limbongan terbagi atas dua dusun, yaitu Dusun 1 dan Dusun 2.\n
+   Meskipun penduduknya sedikit, Desa Limbongan terkenal akan kekayaan budayanya. Kekayaan budaya tersebut dapat dilihat dari adanya alat musik tradisional yang ada. Beberapa alat musik tradisional yang masih dimainkan adalah Gambangan, Lesong Ketintong, Gambus Inang-Inang, dan Hadrah Gendang Empat. Keempat alat musik ini mempunyai keunikan masing-masing. \n
+Maestro setiap alat musik ini jumlahnya variatif, ada yang masih banyak, ada juga yang tinggal sedikit. Bahkan, maestro Gambangan di Desa Limbongan hanya tersisa satu orang. Oleh karena itu, pelindungan alat musik tradisional perlu dilakukan, salah satunya melalui Rangkanada, sebuah aplikasi pelindungan alat musik tradisional yang diusung oleh Tim KBKM Desa Limbongan."
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
     </LinearLayout>
 </RelativeLayout>

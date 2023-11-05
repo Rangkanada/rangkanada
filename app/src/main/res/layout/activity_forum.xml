@@ -153,7 +153,7 @@
                     android:id="@+id/username"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="KBKMLIMBONGAN"
+                    android:text="LIMBONGAN"
                     android:gravity="center"
                     android:textSize="14sp"
                     android:textColor="#000000"
@@ -164,7 +164,7 @@
                     android:id="@+id/postingTime"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="11 Sep 2023"
+                    android:text="11 Nov 2023"
                     android:gravity="center"
                     android:textSize="9sp"
                     android:textColor="@color/black"/>
@@ -177,7 +177,7 @@
             android:id="@+id/postContent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Lorem ipsum dolor sit amet consectetur. Consequat sagittis auctor nisi scelerisque risus suspendisse mauris mattis ac.\n\nLorem ipsum dolor sit amet consectetur. Consequat sagittis auctor nisi scelerisque risus suspendisse mauris mattis ac."
+            android:text="  Desa wisata Limbongan Merupakan Salah satu desa yang terletak di kecamatan Gantung Kabupaten Belitung Timur Provinsi Kepulauan Bangka Belitung. Desa Limbongan berjarak sekitar 47 km dari bandara Udara Internasional H.A.S. Hanandjoeddin. Perjalanan ke Desa Limbongan dapat dilalui dengan menggunakan sepeda motor maupun mobil. Desa wisata ini memiliki Daya tarik wisata utama yaitu Gunong Lumut."
             android:textSize="12sp"
             android:textColor="#000000"
             android:layout_marginTop="10dp"
@@ -274,6 +274,194 @@
             <!-- Tombol "Bagikan" -->
             <LinearLayout
                 android:id="@+id/shareButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_bagikan" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Berbagi"
+                    android:paddingStart="4dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <!-- Auto layout, variables, and unit scale are not yet supported -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/line_forum"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+
+
+        <!-- Foto Profil dan Informasi Pengguna -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <!-- Foto Profil -->
+            <ImageView
+
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/lgo_profile" />
+
+            <!-- Informasi Pengguna -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="8dp">
+
+                <!-- Nama Pengguna -->
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KBKM LIMBONGAN"
+                    android:gravity="center"
+                    android:textSize="14sp"
+                    android:textColor="#000000"
+                    />
+
+                <!-- Waktu Posting (Ditempatkan di bawah nama pengguna) -->
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="11 Nov 2023"
+                    android:gravity="center"
+                    android:textSize="9sp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!-- Konten Posting (Teks) -->
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Peserta KBKM Desa Limbongan membuat aplikasi pelestarian alat musik tradisional di desa limbongan yang
+di namakan Rangkanada,kalian bisa download aplikasi ini di PlayStore sekarang JUGAAAA...\n#LindungiBudayamuUntukNegeri"
+            android:textSize="12sp"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Jumlah Suka -->
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50 Suka"
+                android:textColor="@android:color/darker_gray"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"/>
+
+            <!-- Jumlah Komentar -->
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20 Komentar"
+                android:textColor="@android:color/darker_gray"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <!-- Auto layout, variables, and unit scale are not yet supported -->
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/line_forum"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <!-- Tombol "Like" -->
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_like" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Like"
+                    android:paddingStart="4dp" />
+            </LinearLayout>
+
+            <!-- Tombol "Komentar" -->
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_komen" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Komen"
+                    android:paddingStart="4dp" />
+            </LinearLayout>
+
+            <!-- Tombol "Bagikan" -->
+            <LinearLayout
+
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

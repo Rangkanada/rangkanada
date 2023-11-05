@@ -3,6 +3,7 @@ package kbkm.th2023.limbonganready.lesungketintong;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Dialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
@@ -14,10 +15,13 @@ import android.widget.ImageButton;
 import com.google.android.material.card.MaterialCardView;
 
 import kbkm.th2023.limbonganready.R;
+import kbkm.th2023.limbonganready.gambus.GambusInangInang;
+import kbkm.th2023.limbonganready.gambus.GameGambus;
+import kbkm.th2023.limbonganready.gambus.TriDGambus;
 
 public class LesungKetintong extends AppCompatActivity {
 
-    private MaterialCardView buttonVL;
+    private MaterialCardView buttonVL,button3DL,buttonGameL;
     private WebView webView;
     private ImageButton btnClose;
     @Override
@@ -26,11 +30,25 @@ public class LesungKetintong extends AppCompatActivity {
         setContentView(R.layout.activity_lesung_ketintong);
 
         buttonVL = findViewById(R.id.buttonVLesong);
+        button3DL = findViewById(R.id.button3DL);
+        buttonGameL = findViewById(R.id.buttonGameL);
+        button3DL.setOnClickListener(view -> {
+            Intent intent = new Intent(LesungKetintong.this, TriDLesong.class);
+            startActivity(intent);
+        });
+        buttonGameL.setOnClickListener(view -> {
+            Intent intent = new Intent(LesungKetintong.this, GameLesong.class);
+            startActivity(intent);
+        });
 
         buttonVL.setOnClickListener(v -> {
             //create a method to open the custom dialog on button click
             openDialog();
         });
+    }
+
+    public void Finish(View view) {
+        onBackPressed();
     }
 
     private void openDialog() {

@@ -161,7 +161,7 @@
                 android:textStyle="bold" />
         </com.google.android.material.card.MaterialCardView>
         <com.google.android.material.card.MaterialCardView
-            android:id="@+id/button3DL"
+            android:id="@+id/button3DI"
             android:layout_width="100dp"
             android:layout_height="35dp"
             android:layout_marginStart="20dp"
@@ -180,7 +180,7 @@
                 android:textStyle="bold" />
         </com.google.android.material.card.MaterialCardView>
         <com.google.android.material.card.MaterialCardView
-            android:id="@+id/buttonGameL"
+            android:id="@+id/buttonGameI"
             android:layout_width="100dp"
             android:layout_height="35dp"
             android:layout_marginStart="20dp"
@@ -224,7 +224,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppinsbold"
                     android:padding="10dp"
-                    android:text="Sejarah"
+                    android:text="Tentang Gambus "
                     android:textColor="@color/black"
                     android:textSize="20dp"
                     android:textStyle="bold" />
@@ -237,9 +237,11 @@
                     android:justificationMode="inter_word"
                     android:paddingStart="16dp"
                     android:paddingEnd="16dp"
-                    android:text="Membahas Pulau Belitung nan eksotis, tak adil nian hanya mengetahui pariwisatanya yang bikin laris. Nyatanya, masih banyak keindahan seni yang tak boleh luput dari mata para turis. BILA berbicara Pulau Belitung kepada teman maupun famili, terbesit di benak kita suatu tempat yang terkenal sekaligus fenomenal karena menjadi lokasi film Laskar Pelangi, ataupun beberapa keelokan pantai nan aduhai dibalut alunan sunyi. Namun, tak adil nian jika hanya mengetahui pariwisatanya yang bikin laris. Nyatanya, masih banyak keindahan yang tak boleh luput dari mata para turis. Pulau yang menyimpan eksotisme ini rupanya memiliki kesenian nan indah rupawan, tak kalah dengan pesona alamnya yang selalu menjadi andalan. Adalah kesenian gambus yang merupakan salah satu kesenian khas masyarakat di Kabupaten Belitung Timur, tepatnya di Desa Batu Penyu. 
-Ada empat macam kesenian gambus di Desa Batu Penyu, yakni Gambus Sayang De Sayang, Gambus Kijang Lage, Gambus Inang-Inang, dan Gambus Kreasi. Meski begitu, Gambus Inang-Inang rupanya memiliki keunikan tersendiri ketimbang kesenian gambus lainnya karena berbentuk vokal dengan iringan alat musik gambus dan dimainkan dua orang secara bersamaan pada satu alat musik gambus. Selain itu, permainannya dilakukan dengan cara dipetik dan dipukul secara berbarengan. Pemain yang berperan sebagai pemetik gambus juga sebagai penyanyi, sedangkan yang satu lagi berperan sebagai pemukul gambus menggunakan penyaca. Penyaca ialah alat pukul yang terbuat dari rotan dan dibentuk ujungnya menggunakan api sehingga berbentuk setengah oval. Penyaca terbuat dari rotan karena memiliki tekstur yang lentur dan ringan sehingga ketika dipukul menghasilkan suara yang bagus. Senar yang dipukul dengan penyaca juga bertujuan menggandakan suara senar dan memberikan pola ritmis pada permainan Gambus Inang-Inang."
-
+                    android:text="  Gambus Inang – Inang merupakan salah satu kesenian gambus yang berasal dari desa Limbongan. Alat musik ini memeliki ciri khas dan keunikan tersendiri dari kesenian gambus lainya. Gambus Inang – Inang dimainkan dalam bentuk vocal dengan dua orang pemain pada pada satu alat music Gambus.\n
+    Gambus Inang – Inang dimainkan dengan cara dipetik dan dipukul secara bersamaan. Pemain yang berperan sebagai pemetik gambus juga sebagai penyanyi, sedangkan yang satu lagi berperan sebagai pemukul gambus. Penyaca adalah alat pukul yang terbuat dari rotan dan dibentuk ujungnya menggunakan api sehingga berbentuk setengah oval. Senar yang dipukul dengan penyaca juga bertujuan menggandakan suara senar dan memberikan pola ritmis pada permainan gambus Inang – Inang .\n
+Ada satu cerita yang mengawali proses terciptanya Gambus Inang – Inang. Singkat cerita pada dahulu kala, ada sebuah keluarga kecil yang terdiri atas sepasang suami -istri yang setiap harinya berkegiatan di ladang. Namun, pada suatu hari, sang istri sering berdiam diri di tepi ladang dan suami nya sering merasa kehilangan karena tidak tau istrinya pergi entah ke mana.\n
+ Singkat cerita Pada suatu hari sang suami sudah memperhatikan sejak lama kemana perginya sang istri dan ternyata sang istri sering mendengar alunan syahdu dan mendayu Ketika sedang berdiam diri. akhirnya setelah mengetahui bahwa sang istri sang suami pun berniat ingin membuatkan suatu alat (gambus) untuk mengimbangi dan mempelajari alunan mistis tersebut dan pada akhirnya dapat memainkanya sehingga sang istri tidak berdiam diri lagi.
+"
                     android:textColor="@color/black" />
             </LinearLayout>
         </LinearLayout>

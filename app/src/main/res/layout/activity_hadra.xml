@@ -40,7 +40,7 @@
                 android:layout_marginBottom="14dp"
                 android:fontFamily="@font/poppinsbold"
                 android:gravity="center"
-                android:text="Hadra Gendang Empat"
+                android:text="Hadrah Gendang Empat"
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="parent"
@@ -78,7 +78,7 @@
                         android:layout_width="325dp"
                         android:layout_height="200dp"
                         android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/musik" />
+                        app:srcCompat="@drawable/hadrah1" />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -102,7 +102,7 @@
                         android:layout_width="325dp"
                         android:layout_height="200dp"
                         android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/event" />
+                        app:srcCompat="@drawable/hadrah2" />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -126,7 +126,7 @@
                         android:layout_width="325dp"
                         android:layout_height="200dp"
                         android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/musik" />
+                        app:srcCompat="@drawable/hadrah3" />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -218,13 +218,14 @@
                 android:orientation="vertical">
 
                 <!-- Sejarah Alat Musik -->
+
                 <TextView
                     android:id="@+id/historyTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppinsbold"
                     android:padding="10dp"
-                    android:text="Sejarah"
+                    android:text="Tentang Hadrah"
                     android:textColor="@color/black"
                     android:textSize="20dp"
                     android:textStyle="bold" />
@@ -237,7 +238,10 @@
                     android:justificationMode="inter_word"
                     android:paddingStart="16dp"
                     android:paddingEnd="16dp"
-                    android:text="Cooming Soon"
+                    android:text="  Gendang Empat disebut juga sebagai hadrah Gedungguk atau Gedunggut. Kata gedunggut diambil dari suara yang berasal dari tabuhan gendang hadrah itu sendiri. Jika kita dengar secara seksama dan diaksarakan seolah tersirat kata dunggut, dunggut, dunggut, yang muncuk secara berbalasan.\n
+   Dalam kesenian ini terdapat 4 jenis lagu sesuai dengan irama pukulan yaitu Bujor Satu, Bujor Dua, Kincat dan Maradek. Dalam Kitab Diwan Hadrah yang merupakan kumpulan syair hadrah memiliki berbagai macam lagu, namun yang paling banyak dipakai adalah Lagu Bismillah untuk irama tabuhan Bujor Satu, Khairruman untuk irama tabuhan Bujor Duak, Lagu Ya Habib untuk irama tabuhan irama Kincat dan Ya Baraq untuk irama tabuhan Marade.\n
+ Alat musik kesenian ini menggunakan 4 buah Gendang Hadrah yang terdiri dari 4 buah, dengan masing-masing gendang memiliki ukuran yang berbeda, namun memiliki ciri dan bentuk yang sama, yaitu memiliki Giring atau Kerincing yang berjumlah 6 buah yang terdiri dari dua buah pada masing-masing lubang.\n Mengenai fungsi kesenian ini bermacam-macam, dan yang paling kental adalah fungsi religi. Hal ini didasari pada penggunaan berbagai syair Hadrah yang memuat berbagai unsur-unsur keagamaan yaitu Tauhid dan memuji Nabi Muhammad SAW. selain itu adalah sebagai fungsi upacara yang dilangsungkan ketika menjadi bagian iring-iringan pengantin dalam upacara adat pernikahan Melayu Belitung.
+"
                     android:textColor="@color/black" />
             </LinearLayout>
         </LinearLayout>

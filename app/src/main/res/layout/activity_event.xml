@@ -82,7 +82,7 @@
                         android:layout_height="171dp"
                         android:layout_gravity="center"
                         android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/sampel_event" />
+                        app:srcCompat="@drawable/im_event" />
 
                     <TextView
                         android:id="@+id/JudulEvent"
@@ -116,7 +116,7 @@
                         android:layout_marginTop="2dp"
                         android:layout_marginBottom="5dp"
                         android:fontFamily="@font/poppinsmedium"
-                        android:text="Parung Alam"
+                        android:text="Pantai Burung Mandi"
                         android:textSize="10dp" />
 
                 </LinearLayout>

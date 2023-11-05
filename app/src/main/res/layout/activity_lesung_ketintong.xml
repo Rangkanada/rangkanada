@@ -78,7 +78,7 @@
                         android:layout_width="325dp"
                         android:layout_height="200dp"
                         android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/musik" />
+                        app:srcCompat="@drawable/lesong1" />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -102,7 +102,7 @@
                         android:layout_width="325dp"
                         android:layout_height="200dp"
                         android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/event" />
+                        app:srcCompat="@drawable/lesong2" />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -126,7 +126,7 @@
                         android:layout_width="325dp"
                         android:layout_height="200dp"
                         android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/musik" />
+                        app:srcCompat="@drawable/lesong3" />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -224,7 +224,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppinsbold"
                     android:padding="10dp"
-                    android:text="Sejarah"
+                    android:text="Tentang Lesong Ketintong"
                     android:textColor="@color/black"
                     android:textSize="20dp"
                     android:textStyle="bold" />
@@ -237,9 +237,10 @@
                     android:justificationMode="inter_word"
                     android:paddingStart="16dp"
                     android:paddingEnd="16dp"
-                    android:text="Lesong ketintong adalah salah satu permainan tradisional yang ada di Belitung Timur. Permainan ini adalah jenis permainan yang juga mengutamakan ketangkasan dengan teknik permainan terdiri dari memukul lesong, melempar dan menangkap alu. Konon permainan dipengaruhi oleh kebiasaan masyarkat saat numbok (menumbuk) Padi Baru, pada masa panen Ume Taun. Namun ada juga yang mengatakan permainan ini terinspirasi dari kebiasaan masyatakat membuat Emping Beras menjelang dilaksanakannya Maras Taun. Kedua hal itu memang berkaitan karena keduanya memiliki pola yang sama dalam memanfaatkan Alu dan Lesung hanya bahan yang diolah saja yang berbeda.
-Sebagai alat yang utama ialah sebuah lesung batang yang dibuat dari kayu yang panjangnya lebih kurang satu meter dengan diameter 25 cm. Pada bagian tengah atas diberi lubang dengan diameter sekitar 10 cm. Lesung ini diletakkan pada empat buah kayu penyangga yang tingginya sekitar 80 cm, atau biasanya pemain mengukur ketinggiannya menggunakan pinggang.
-"
+                    android:text=" Lesong ketintong adalah salah satu permainan musik tradisional yang ada di Belitung Timur. Permainan ini adalah jenis permainan yang juga mengutamakan ketangkasan dengan teknik permainan yang terdiri atas memukul lesong, serta melempar dan menangkap alu.\n
+ Konon permainan ini dipengaruhi oleh kebiasaan masyarkat saat numbok (menumbuk) padi baru pada masa panen Ume Taun. Namun, ada juga yang mengatakan permainan ini terinspirasi dari kebiasaan masyatakat membuat emping beras menjelang dilaksanakannya Maras Taun.\n
+Kedua hal itu memang berkaitan karena keduanya memiliki pola yang sama dalam memanfaatkan Alu dan Lesung, hanya bahan yang diolah saja yang berbeda.\n
+ Pada masa lalu, permainan ini terbilang sakral. Sebelum permainan ini dimulai, terlebih dahulu dukun kampung memasukkan beberapa butir beras baru pada lubang di bagian tengah Lesong. Kemudian,  beliau menumbuknya dengan Alu. Setelah itu, barulah para pemain dapat melangsungkan permainan ini."
                     android:textColor="@color/black" />
             </LinearLayout>
         </LinearLayout>

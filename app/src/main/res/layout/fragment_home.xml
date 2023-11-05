@@ -15,31 +15,31 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical">
 
-<!--            <androidx.constraintlayout.widget.ConstraintLayout-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="40dp">-->
+            <!--            <androidx.constraintlayout.widget.ConstraintLayout-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="40dp">-->
 
-<!--                <View-->
-<!--                    android:id="@+id/viewHeaderBackground"-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:background="#FFFFFF"-->
-<!--                    android:foregroundGravity="center_horizontal"-->
-<!--                    app:layout_constraintTop_toTopOf="parent" />-->
+            <!--                <View-->
+            <!--                    android:id="@+id/viewHeaderBackground"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:background="#FFFFFF"-->
+            <!--                    android:foregroundGravity="center_horizontal"-->
+            <!--                    app:layout_constraintTop_toTopOf="parent" />-->
 
-<!--                <ImageView-->
-<!--                    android:id="@+id/logo"-->
-<!--                    android:layout_width="200dp"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:layout_margin="5dp"-->
-<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
-<!--                    app:layout_constraintStart_toStartOf="parent"-->
-<!--                    app:layout_constraintTop_toTopOf="parent"-->
-<!--                    app:srcCompat="@drawable/logo_parastone1" />-->
-<!--            </androidx.constraintlayout.widget.ConstraintLayout>-->
+            <!--                <ImageView-->
+            <!--                    android:id="@+id/logo"-->
+            <!--                    android:layout_width="200dp"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_margin="5dp"-->
+            <!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--                    app:layout_constraintStart_toStartOf="parent"-->
+            <!--                    app:layout_constraintTop_toTopOf="parent"-->
+            <!--                    app:srcCompat="@drawable/logo_parastone1" />-->
+            <!--            </androidx.constraintlayout.widget.ConstraintLayout>-->
 
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
@@ -161,8 +161,8 @@
                     android:id="@+id/textJudul2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
                     android:text="Fitur Paras Tone"
                     android:textColor="@color/black"
                     android:textSize="16sp"
@@ -197,15 +197,15 @@
                         android:layout_height="50dp"
                         android:layout_gravity="center"
                         android:layout_margin="8dp"
-                        android:scaleType="centerInside"
-                        android:background="@drawable/lgo_musik" />
+                        android:background="@drawable/lgo_musik"
+                        android:scaleType="centerInside" />
 
                     <TextView
                         android:id="@+id/textKandang"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Musik"
                         android:fontFamily="@font/poppinsmedium"
+                        android:text="Musik"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -223,15 +223,15 @@
                         android:layout_height="50dp"
                         android:layout_gravity="center"
                         android:layout_margin="8dp"
-                        android:scaleType="centerInside"
-                        android:background="@drawable/lgo_event"/>
+                        android:background="@drawable/lgo_event"
+                        android:scaleType="centerInside" />
 
                     <TextView
                         android:id="@+id/textTelur"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Event"
                         android:fontFamily="@font/poppinsmedium"
+                        android:text="Event"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -249,15 +249,15 @@
                         android:layout_height="50dp"
                         android:layout_gravity="center"
                         android:layout_margin="8dp"
-                        android:scaleType="centerInside"
-                        android:background="@drawable/lgo_forum"/>
+                        android:background="@drawable/lgo_forum"
+                        android:scaleType="centerInside" />
 
                     <TextView
                         android:id="@+id/textPakan"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Forum"
                         android:fontFamily="@font/poppinsmedium"
+                        android:text="Forum"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -291,17 +291,94 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginLeft="20dp"
                 android:orientation="vertical">
 
-                <androidx.recyclerview.widget.RecyclerView
-                    android:id="@+id/RviewForum"
-                    android:layout_width="wrap_content"
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical" />
+                    android:layout_gravity="center"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        app:cardCornerRadius="16dp">
+
+                        <Button
+                            android:id="@+id/btKol1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/bg_button_transparan" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/Dkoleksi"
+                                    android:layout_width="67dp"
+                                    android:layout_height="20dp"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:scaleType="centerCrop"
+                                    app:srcCompat="@drawable/tag_forum" />
+
+                                <TextView
+                                    android:layout_width="223dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/poppinsmedium"
+                                    android:text="Peserta KBKM Limbongan membuat aplikasi pelestarian\n alat musik tradisional di desa limbongan"
+                                    android:textColor="#000000"
+                                    android:textSize="14dp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                            <ImageView
+                                android:layout_width="131dp"
+                                android:layout_height="118dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/im_re"
+                                android:scaleType="centerCrop" />
+
+
+                            <!--                    <TextView-->
+                            <!--                        android:id="@+id/textlistsatu"-->
+                            <!--                        android:layout_width="wrap_content"-->
+                            <!--                        android:layout_height="wrap_content"-->
+                            <!--                        android:layout_marginEnd="10dp"-->
+                            <!--                        android:layout_weight="1"-->
+                            <!--                        android:fontFamily="@font/poppinsregular"-->
+                            <!--                        android:text="Change"-->
+                            <!--                        android:textAlignment="viewEnd"-->
+                            <!--                        android:textColor="#5b5b5b"-->
+                            <!--                        android:textSize="18sp" />-->
+                        </LinearLayout>
+                    </FrameLayout>
+
+                </androidx.cardview.widget.CardView>
+
+<!--                <androidx.recyclerview.widget.RecyclerView-->
+<!--                    android:id="@+id/RviewForum"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:orientation="vertical" />-->
             </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 
