@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Dialog;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
@@ -70,12 +72,13 @@ public class LesungKetintong extends AppCompatActivity {
             layoutParams.width = WindowManager.LayoutParams.MATCH_PARENT; // Sesuaikan dengan lebar yang Anda inginkan
             layoutParams.height = WindowManager.LayoutParams.WRAP_CONTENT; // Sesuaikan dengan tinggi yang Anda inginkan
             dialog.getWindow().setAttributes(layoutParams);
+            dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         }
 
         webView = dialog.findViewById(R.id.webView);
         configureWebView();
         webView.loadUrl("https://www.youtube.com/embed/2mPfvUSNlSk");
-        ImageButton btnClose = dialog.findViewById(R.id.btnClose);
+        MaterialCardView btnClose = dialog.findViewById(R.id.btnClose);
 
         btnClose.setOnClickListener(new View.OnClickListener() {
             @Override

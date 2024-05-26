@@ -3,6 +3,7 @@ package kbkm.th2023.limbonganready.lesungketintong;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 
@@ -27,5 +28,9 @@ public class GameLesong extends AppCompatActivity {
 
         // Muat halaman web ke dalam WebView
         webView.loadUrl("https://prototype.leolitgames.com/mustra/?layout=lesong");
+    }
+
+    public void Finish(View view) {
+        onBackPressed();
     }
 }

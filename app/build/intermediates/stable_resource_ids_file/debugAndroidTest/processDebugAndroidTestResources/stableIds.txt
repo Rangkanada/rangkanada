@@ -1,0 +1,2 @@
+kbkm.th2023.limbonganready.test:style/WhiteBackgroundTheme = 0x7f010001
+kbkm.th2023.limbonganready.test:style/WhiteBackgroundDialogTheme = 0x7f010000

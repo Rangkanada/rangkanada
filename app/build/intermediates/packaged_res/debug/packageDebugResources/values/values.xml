@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_items">
+        <item>Jenis Kelamin</item>
+        <item>Laki - laki</item>
+        <item>Perempuan</item>
+
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Rangkanada</string>
+    <string name="default_web_client_id" translatable="false">855387671180-3srv5umcblpt8hgva5g3293no9efl8ih.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1062191407038</string>
+    <string name="google_api_key" translatable="false">AIzaSyBFsHLNyWWKgGsE6h_9fiAh6cEa9F1PPWA</string>
+    <string name="google_app_id" translatable="false">1:1062191407038:android:69bcac3a7450dd033f23ef</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBFsHLNyWWKgGsE6h_9fiAh6cEa9F1PPWA</string>
+    <string name="google_storage_bucket" translatable="false">limbonganready.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="project_id" translatable="false">limbonganready</string>
+    <style name="CustomDialogTheme" parent="Theme.AppCompat.Dialog">
+        <item name="windowNoTitle">false</item>
+        <item name="background">@android:color/holo_red_light</item>
+    </style>
+    <style name="Theme.LimbonganReady" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">#AA5832</item>
+        <item name="colorSecondaryVariant">#7B3F23</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">#7B3F23</item>
+        
+    </style>
+    <style name="Theme.LimbonganReady.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.LimbonganReady.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.LimbonganReady.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>

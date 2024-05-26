@@ -32,11 +32,17 @@ public class Home extends Fragment {
         ImageButton buttonMusik = view.findViewById(R.id.buttonMusik);
         ImageButton btEvent = view.findViewById(R.id.buttonEvent);
         ImageButton btForum = view.findViewById(R.id.buttonForum);
+        Button btFor = view.findViewById(R.id.btFor);
         RecyclerView rvEvent = view.findViewById(R.id.RviewEvent);
 
         buttonMusik.setOnClickListener(view1 -> {
             // Kode untuk menangani klik button di sini
             Intent intent = new Intent(getActivity(), Menu_Musik.class);
+            startActivity(intent);
+        });
+
+        btFor.setOnClickListener(v -> {
+            Intent intent = new Intent(getActivity(),Forum.class);
             startActivity(intent);
         });
 

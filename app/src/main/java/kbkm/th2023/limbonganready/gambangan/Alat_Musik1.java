@@ -87,7 +87,7 @@ public class Alat_Musik1 extends AppCompatActivity {
         configureWebView();
         String video = "<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/NbeiKyMskuM?si=-mvJtnUSk7Kr5Swl\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>";
 
-        webView.loadUrl("https://www.youtube.com/embed/NbeiKyMskuM?si=-mvJtnUSk7Kr5Swl");
+        webView.loadUrl("https://www.youtube.com/embed/SEv5ju2VByE?si=2RFR4AVvjukdiuDE");
         MaterialCardView btnClose = dialog.findViewById(R.id.btnClose);
 
         btnClose.setOnClickListener(v -> {

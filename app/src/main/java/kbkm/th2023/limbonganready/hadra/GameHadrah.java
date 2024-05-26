@@ -3,6 +3,7 @@ package kbkm.th2023.limbonganready.hadra;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 
@@ -26,5 +27,9 @@ public class GameHadrah extends AppCompatActivity {
 
         // Muat halaman web ke dalam WebView
         webView.loadUrl("https://prototype.leolitgames.com/mustra/?layout=hadrah");
+    }
+
+    public void Finish(View view) {
+        onBackPressed();
     }
 }

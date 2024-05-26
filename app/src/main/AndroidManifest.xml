@@ -12,7 +12,11 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.LimbonganReady"
+        android:usesCleartextTraffic="true"
         tools:targetApi="31">
+        <activity
+            android:name=".activities.LengkapiData"
+            android:exported="true" />
         <activity
             android:name=".gambus.TriDGambus"
             android:exported="false" />
@@ -45,10 +49,9 @@
             android:exported="false" />
         <activity
             android:name=".Register"
-            android:exported="false" />
-        <activity
-            android:name=".Login"
-            android:exported="false" />
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".Login" -->
+        <!-- android:exported="false" /> -->
         <activity
             android:name=".gambangan.GameGambangan"
             android:exported="false"
@@ -61,10 +64,9 @@
             android:exported="false" />
         <activity
             android:name=".lesungketintong.LesungKetintong"
-            android:exported="false" />
-        <activity
-            android:name=".gambangan.VideoGambangan"
-            android:exported="false" />
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".gambangan.VideoGambangan" -->
+        <!-- android:exported="false" /> -->
         <activity
             android:name=".activities.Forum"
             android:exported="false" />
@@ -88,8 +90,9 @@
         <activity android:name=".fragments.Koleksi" />
         <activity android:name=".MainActivity" />
         <activity
-            android:name=".Splash"
-            android:exported="true">
+            android:name=".Login"
+            android:exported="true"
+            tools:ignore="DuplicateActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

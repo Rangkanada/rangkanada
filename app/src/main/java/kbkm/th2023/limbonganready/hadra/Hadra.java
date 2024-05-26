@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Dialog;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
@@ -15,8 +17,9 @@ import android.widget.ImageButton;
 import com.google.android.material.card.MaterialCardView;
 
 import kbkm.th2023.limbonganready.R;
-import kbkm.th2023.limbonganready.gambangan.Alat_Musik1;
-import kbkm.th2023.limbonganready.gambangan.GameGambangan;
+import kbkm.th2023.limbonganready.hadra.GameHadrah;
+import kbkm.th2023.limbonganready.hadra.Hadra;
+import kbkm.th2023.limbonganready.hadra.TriDHadrah;
 
 public class Hadra extends AppCompatActivity {
 
@@ -59,7 +62,7 @@ public class Hadra extends AppCompatActivity {
         dialog.setCancelable(false);
 
 
-        if (getWindow() == null) {
+        if (getWindow() != null) {
 
             dialog.show();
         }
@@ -69,12 +72,13 @@ public class Hadra extends AppCompatActivity {
             layoutParams.width = WindowManager.LayoutParams.MATCH_PARENT; // Sesuaikan dengan lebar yang Anda inginkan
             layoutParams.height = WindowManager.LayoutParams.WRAP_CONTENT; // Sesuaikan dengan tinggi yang Anda inginkan
             dialog.getWindow().setAttributes(layoutParams);
+            dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         }
 
         webView = dialog.findViewById(R.id.webView);
         configureWebView();
         webView.loadUrl("https://www.youtube.com/embed/vOmlfMwqucg");
-        ImageButton btnClose = dialog.findViewById(R.id.btnClose);
+        MaterialCardView btnClose = dialog.findViewById(R.id.btnClose);
 
         btnClose.setOnClickListener(new View.OnClickListener() {
             @Override

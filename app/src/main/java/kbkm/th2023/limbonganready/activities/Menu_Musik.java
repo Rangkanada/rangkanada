@@ -60,7 +60,9 @@ public class Menu_Musik extends AppCompatActivity {
             }
         });
     }
-
+    public void Finish(View view) {
+        onBackPressed();
+    }
     public void TtgDesa(View view) {
         startActivity(new Intent(this, Tentang_Desa.class));
     }

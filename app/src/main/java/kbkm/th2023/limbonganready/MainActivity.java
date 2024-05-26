@@ -6,23 +6,37 @@ import androidx.fragment.app.Fragment;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.widget.Toast;
 
 import com.etebarian.meowbottomnavigation.MeowBottomNavigation;
-import com.google.firebase.auth.FirebaseAuth;
 
+
+import kbkm.th2023.limbonganready.activities.LengkapiData;
+import kbkm.th2023.limbonganready.apiService.ApiService;
+import kbkm.th2023.limbonganready.apiService.RetrofitClient;
 import kbkm.th2023.limbonganready.fragments.Home;
 import kbkm.th2023.limbonganready.fragments.Notifikasi;
 import kbkm.th2023.limbonganready.fragments.Profile;
 import kbkm.th2023.limbonganready.fragments.Koleksi;
 import kbkm.th2023.limbonganready.gambangan.Alat_Musik1;
+import kbkm.th2023.limbonganready.model.UserInfo;
+import kbkm.th2023.limbonganready.preferences.PreferenceManager;
+import kbkm.th2023.limbonganready.preferences.UserInfoManager;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity {
+    private PreferenceManager preferenceManager;
 
     private MeowBottomNavigation meowBottomNavigation;
     private boolean doubleBackToExitPressedOnce = false;
+    private ApiService apiService;
+
+
 
 
     @Override
@@ -48,8 +62,50 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-//        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
-////        getSupportActionBar().hide(); //menghilangkan title bar
+        preferenceManager = new PreferenceManager(this);
+        UserInfoManager userInfoManager = new UserInfoManager(this); // Ganti getContext() dengan konteks yang sesuai
+        int userId = preferenceManager.getUserId();
+        String userToken = preferenceManager.getUserToken();
+
+
+        Log.d("MainActivity", "User ID: " + userId);
+        Log.d("MainActivity", "User Token: " + userToken);
+
+//        get user info
+        apiService = RetrofitClient.getClient().create(ApiService.class);
+        int iduser = userId; // Contoh ID
+        String token = "Bearer " + userToken;
+
+        // Panggil metode API untuk mendapatkan informasi pengguna
+        Call<UserInfo> call = apiService.getUserInfo(iduser, token);
+        call.enqueue(new Callback<UserInfo>() {
+            @Override
+            public void onResponse(Call<UserInfo> call, Response<UserInfo> response) {
+                if (response.isSuccessful() && response.body() != null) {
+                    UserInfo userInfo = response.body();
+
+                    userInfoManager.setNama(userInfo.getNama());
+                    userInfoManager.setAlamat(userInfo.getAlamat());
+                    userInfoManager.setJenisKelamin(userInfo.getJenisKelamin());
+                    userInfoManager.setNomorTelepon(userInfo.getNomorTelepon());
+
+                }else{
+                    Toast.makeText(MainActivity.this, "Tidak ada Data", Toast.LENGTH_SHORT).show();
+                    userInfoManager.setNama(preferenceManager.getUserName());
+                    Intent intent = new Intent(MainActivity.this, LengkapiData.class);
+                    startActivity(intent);
+                    finish();
+                }
+            }
+
+            @Override
+            public void onFailure(Call<UserInfo> call, Throwable t) {
+                // Handle error
+                Toast.makeText(MainActivity.this, "Gagal memuat data: " + t.getMessage(), Toast.LENGTH_SHORT).show();
+            }
+        });
+
+
         setContentView(R.layout.activity_main);
 
 
@@ -87,7 +143,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //set nofication count
-        meowBottomNavigation.setCount(2, "10");
+        meowBottomNavigation.setCount(2, "2");
 
         //set default
         meowBottomNavigation.show(1, true);
