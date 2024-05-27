@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.osmdroid.views.MapView;
 
 import java.util.List;
 
@@ -62,7 +63,7 @@ public class Event extends AppCompatActivity {
                     if (eventList != null) {
                         int length = eventList.size();
                         String toastMessage = "Panjang list: " + length;
-                        Toast.makeText(Event.this, toastMessage, Toast.LENGTH_SHORT).show();
+
                     } else {
                         Toast.makeText(Event.this, "List event kosong atau null.", Toast.LENGTH_SHORT).show();
                     }

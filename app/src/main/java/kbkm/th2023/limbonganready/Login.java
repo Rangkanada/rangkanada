@@ -89,7 +89,7 @@ public class Login extends AppCompatActivity {
                                 // Proses tanggapan dari server jika login berhasil
                                 String message = response.body().getMessageAsJson();
                                 String token = response.body().getToken();
-                                Toast.makeText(Login.this,  "Token Kamu : " + token, Toast.LENGTH_SHORT).show();
+
                                 User user = response.body().getUser();
 
                                 if (user != null) {
@@ -98,7 +98,7 @@ public class Login extends AppCompatActivity {
                                     String userName = user.getName();
                                     String userEmail = user.getEmail();
 
-                                    Toast.makeText(Login.this,  "nama: " + userName, Toast.LENGTH_SHORT).show();
+
                                 }
                                 preferenceManager.saveUserId(user.getId());
                                 preferenceManager.saveUserToken(token);

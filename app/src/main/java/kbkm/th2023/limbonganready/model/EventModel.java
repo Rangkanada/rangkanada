@@ -6,6 +6,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class EventModel {
+    private int id;
     private String nama_event;
     private String deskripsi;
     private String tanggal;
@@ -15,7 +16,8 @@ public class EventModel {
     private String created_at;
     private String updated_at;
 
-    public EventModel(String nama_event, String deskripsi, String tanggal, String lokasi, String image, String coordinate, String created_at, String updated_at) {
+    public EventModel(int id, String nama_event, String deskripsi, String tanggal, String lokasi, String image, String coordinate, String created_at, String updated_at) {
+        this.id = id;
         this.nama_event = nama_event;
         this.deskripsi = deskripsi;
         this.tanggal = tanggal;
@@ -28,6 +30,14 @@ public class EventModel {
 
     public String getNama_event() {
         return nama_event;
+    }
+
+    public int getId(){
+        return id;
+    }
+
+    public void setId(int id){
+        this.id = id;
     }
 
     public void setNama_event(String nama_event) {

@@ -1,14 +1,20 @@
 package kbkm.th2023.limbonganready.recyclerview;
 
+import static androidx.constraintlayout.helper.widget.MotionEffect.TAG;
+
 import android.content.Intent;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+
+import org.json.JSONObject;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -41,6 +47,11 @@ public class EventAdapter extends RecyclerView.Adapter<EventViewHolder> {
         holder.textNamaEvent.setText(event.getNama_event());
         holder.textViewLokasi.setText(event.getLokasi());
         String dateString = event.getTanggal();
+        JSONObject coordinates = event.getCoordinateJSONObject();
+        String coordinateString = coordinates.toString();
+        int id = event.getId();
+        String idpake = String.valueOf(id);
+        Log.d(TAG, "Event Coordinates: " + coordinates);
         SimpleDateFormat inputFormat = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());
         SimpleDateFormat outputFormat = new SimpleDateFormat("dd MMMM yyyy", Locale.getDefault());
 
@@ -71,6 +82,8 @@ public class EventAdapter extends RecyclerView.Adapter<EventViewHolder> {
                 intent.putExtra("gambar", event.getImage());
                 intent.putExtra("lokasi", event.getLokasi());
                 intent.putExtra("tanggal", event.getTanggal() );
+                intent.putExtra("coordinate", coordinateString);
+                intent.putExtra("idpake", idpake );
                 // Kirim data event lainnya sesuai kebutuhan
 
                 v.getContext().startActivity(intent); // Mulai aktivitas baru dengan Intent yang telah dibuat
