@@ -10,7 +10,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:listitem="@layout/item_event_detail"
+        tools:listitem="@layout/item_forum_list"
         tools:itemCount="3"
         />
 

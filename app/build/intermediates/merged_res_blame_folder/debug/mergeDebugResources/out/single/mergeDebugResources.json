@@ -24,12 +24,12 @@
         "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\activity_gambus_inang_inang.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\drawable_gambangan0.png.flat",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\drawable\\gambangan0.png"
-    },
-    {
         "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\drawable-v24_rectangle_menu_musik.png.flat",
         "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\drawable-v24\\rectangle_menu_musik.png"
+    },
+    {
+        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\drawable_gambangan0.png.flat",
+        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\drawable\\gambangan0.png"
     },
     {
         "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\raw_gambangan7.MP3.flat",
