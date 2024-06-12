@@ -17,6 +17,9 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".chatBotGemini.ChatBot"
+            android:exported="false" />
+        <activity
             android:name=".activities.ForumList"
             android:exported="true"
             android:theme="@style/Theme.LimbonganReady" />
@@ -93,7 +96,7 @@
             android:exported="false" />
         <activity android:name=".fragments.Home" />
         <activity android:name=".fragments.Notifikasi" />
-        <activity android:name=".fragments.Koleksi" />
+        <activity android:name=".fragments.Koleksi_Forum" />
         <activity android:name=".MainActivity" />
         <activity
             android:name=".Login"

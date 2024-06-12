@@ -20,7 +20,7 @@ import kbkm.th2023.limbonganready.apiService.RetrofitClient;
 import kbkm.th2023.limbonganready.fragments.Home;
 import kbkm.th2023.limbonganready.fragments.Notifikasi;
 import kbkm.th2023.limbonganready.fragments.Profile;
-import kbkm.th2023.limbonganready.fragments.Koleksi;
+import kbkm.th2023.limbonganready.fragments.Koleksi_Forum;
 import kbkm.th2023.limbonganready.gambangan.Alat_Musik1;
 import kbkm.th2023.limbonganready.model.UserInfo;
 import kbkm.th2023.limbonganready.preferences.PreferenceManager;
@@ -131,7 +131,7 @@ public class MainActivity extends AppCompatActivity {
                         fragment = new Notifikasi();
                         break;
                     case 3 :
-                        fragment = new Koleksi();
+                        fragment = new Koleksi_Forum();
                         break;
                     case 4 :
                         fragment = new Profile();

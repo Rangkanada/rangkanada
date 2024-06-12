@@ -25,7 +25,7 @@ public class GameGambus extends AppCompatActivity {
         webSettings.setJavaScriptEnabled(true);
 
         // Muat halaman web ke dalam WebView
-        webView.loadUrl("https://prototype.leolitgames.com/mustra/?layout=gambus");
+        webView.loadUrl("https://game.rangkanada.com/?token=musik123&layout=gambus");
     }
 
     public void Finish(View view) {

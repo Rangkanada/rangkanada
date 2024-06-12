@@ -1,162 +1,170 @@
 [
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\activity_game_lesong.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\activity_game_lesong.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/activity_register.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\activity_lengkapi_data.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\activity_lengkapi_data.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/activity_tri_dlesong.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/activity_tri_dlesong.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\activity_detail_event.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\activity_detail_event.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/video_lesong.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/video_lesong.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\fragment_second.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\fragment_second.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/activity_splash.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/activity_splash.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\activity_splash.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\activity_splash.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/item_event_detail.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/item_event_detail.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\activity_forum_list.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\activity_forum_list.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/fragment_koleksi.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/fragment_koleksi.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\video_lesong.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\video_lesong.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/fragment_second.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/fragment_second.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\activity_opening1.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\activity_opening1.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/fragment_koleksi__event.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/fragment_koleksi__event.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\activity_hadra.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\activity_hadra.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/activity_gambus_inang_inang.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/activity_gambus_inang_inang.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\activity_game_gambus.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\activity_game_gambus.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/activity_event.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/activity_event.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\activity_alat_musik1.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\activity_alat_musik1.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/activity_sketchfab.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/activity_sketchfab.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\activity_tri_dlesong.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\activity_tri_dlesong.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/activity_chat_bot.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/activity_chat_bot.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\activity_sketchfab.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\activity_sketchfab.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/activity_game_gambus.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/activity_game_gambus.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\activity_gambus_inang_inang.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\activity_gambus_inang_inang.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/activity_game_lesong.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/activity_game_lesong.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\item_event_main.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\item_event_main.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/activity_menu_musik.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/activity_menu_musik.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\activity_register.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\activity_register.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/activity_hadra.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/activity_hadra.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\activity_lesung_ketintong.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\activity_lesung_ketintong.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/item_event_main.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/item_event_main.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\activity_tri_dhadrah.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\activity_tri_dhadrah.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/activity_tri_dhadrah.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/activity_tri_dhadrah.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\activity_video_gambangan.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\activity_video_gambangan.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/fragment_first.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/fragment_first.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\fragment_profile.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\fragment_profile.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/activity_lesung_ketintong.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/activity_lesung_ketintong.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\activity_profile_setting.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\activity_profile_setting.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/fragment_home.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\video_gambus_inang.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\video_gambus_inang.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/activity_game_gambangan.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/activity_game_gambangan.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\fragment_koleksi.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\fragment_koleksi.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/activity_alat_musik1.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/activity_alat_musik1.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\item_forum_list.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\item_forum_list.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/activity_opening1.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/activity_opening1.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\fragment_home.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\fragment_home.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/activity_detail_event.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/activity_detail_event.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\activity_game_gambangan.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\activity_game_gambangan.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/activity_login.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\activity_forum.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\activity_forum.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/activity_tridigambus.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/activity_tridigambus.xml"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/activity_video_gambangan.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/activity_video_gambangan.xml"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/activity_game_hadrah.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/activity_game_hadrah.xml"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/activity_profile_setting.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/activity_profile_setting.xml"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/fragment_profile.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/activity_forum.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/activity_forum.xml"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/item_forum_list.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/item_forum_list.xml"
+    },
+    {
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/activity_lengkapi_data.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/activity_lengkapi_data.xml"
     },
     {
         "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/fragment_forum_list.xml",
         "source": "kbkm.th2023.limbonganready.app-main-53:/layout/fragment_forum_list.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\fragment_first.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\fragment_first.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/video_gambus_inang.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/video_gambus_inang.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\fragment_notifikasi.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\fragment_notifikasi.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/activity_forum_list.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/activity_forum_list.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\activity_tentang_desa.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\activity_tentang_desa.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/item_koleksi.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/item_koleksi.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\activity_tridigambus.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\activity_tridigambus.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/fragment_notifikasi.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/fragment_notifikasi.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\item_koleksi.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\item_koleksi.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/fragment_koleksi__utama.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/fragment_koleksi__utama.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\item_event_detail.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\item_event_detail.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/activity_main.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\activity_menu_musik.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\activity_menu_musik.xml"
-    },
-    {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\activity_login.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\activity_login.xml"
-    },
-    {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\fragment_forum_list.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\fragment_forum_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\activity_game_hadrah.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\activity_game_hadrah.xml"
-    },
-    {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-mergeDebugResources-50:\\layout\\activity_event.xml",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\activity_event.xml"
+        "merged": "kbkm.th2023.limbonganready.app-mergeDebugResources-50:/layout/activity_tentang_desa.xml",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/activity_tentang_desa.xml"
     }
 ]

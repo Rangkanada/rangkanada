@@ -26,7 +26,7 @@ public class GameHadrah extends AppCompatActivity {
         webSettings.setJavaScriptEnabled(true);
 
         // Muat halaman web ke dalam WebView
-        webView.loadUrl("https://prototype.leolitgames.com/mustra/?layout=hadrah");
+        webView.loadUrl("https://game.rangkanada.com/?token=musik123&layout=hadrah");
     }
 
     public void Finish(View view) {

@@ -19,6 +19,7 @@ import kbkm.th2023.limbonganready.activities.Forum;
 import kbkm.th2023.limbonganready.activities.Menu_Musik;
 import kbkm.th2023.limbonganready.R;
 import kbkm.th2023.limbonganready.adapters.RvEventMainAdapter;
+import kbkm.th2023.limbonganready.chatBotGemini.ChatBot;
 import kbkm.th2023.limbonganready.objects.Events;
 
 public class Home extends Fragment {
@@ -32,7 +33,8 @@ public class Home extends Fragment {
         ImageButton buttonMusik = view.findViewById(R.id.buttonMusik);
         ImageButton btEvent = view.findViewById(R.id.buttonEvent);
         ImageButton btForum = view.findViewById(R.id.buttonForum);
-        Button btFor = view.findViewById(R.id.btFor);
+        ImageButton btRada = view.findViewById(R.id.btRada);
+//        Button btFor = view.findViewById(R.id.btFor);
         RecyclerView rvEvent = view.findViewById(R.id.RviewEvent);
 
         buttonMusik.setOnClickListener(view1 -> {
@@ -41,10 +43,10 @@ public class Home extends Fragment {
             startActivity(intent);
         });
 
-        btFor.setOnClickListener(v -> {
-            Intent intent = new Intent(getActivity(),Forum.class);
-            startActivity(intent);
-        });
+//        btFor.setOnClickListener(v -> {
+//            Intent intent = new Intent(getActivity(),Forum.class);
+//            startActivity(intent);
+//        });
 
         btEvent.setOnClickListener(view2 -> {
             Intent intent = new Intent(getActivity(), Event.class);
@@ -53,6 +55,11 @@ public class Home extends Fragment {
 
         btForum.setOnClickListener(view3 -> {
             Intent intent = new Intent(getActivity(), Forum.class);
+            startActivity(intent);
+        });
+
+        btRada.setOnClickListener(view3 -> {
+            Intent intent = new Intent(getActivity(), ChatBot.class);
             startActivity(intent);
         });
 

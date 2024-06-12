@@ -1,6 +1,0 @@
-kbkm.th2023.limbonganready.test.app-jetified-core-1.5.0-0 C:\Users\AYPIP\.gradle\caches\transforms-4\04182b348a3d6309c8e4b9e19b03a039\transformed\jetified-core-1.5.0\res
-kbkm.th2023.limbonganready.test.app-jetified-annotation-experimental-1.3.0-1 C:\Users\AYPIP\.gradle\caches\transforms-4\9956238fa9d031d7ff879493ee753bae\transformed\jetified-annotation-experimental-1.3.0\res
-kbkm.th2023.limbonganready.test.app-androidTest-2 E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\build\generated\res\resValues\androidTest\debug
-kbkm.th2023.limbonganready.test.app-mergeDebugAndroidTestResources-3 E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-kbkm.th2023.limbonganready.test.app-mergeDebugAndroidTestResources-4 E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-kbkm.th2023.limbonganready.test.app-debugAndroidTest-5 E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

@@ -37,7 +37,7 @@ public class TriDHadrah extends AppCompatActivity {
                 "xr-spatial-tracking execution-while-out-of-viewport " +
                 "execution-while-not-rendered web-share " +
                 "width='410' height='810' " +
-                "src='https://sketchfab.com/models/8ddd85358ded4cf7a5aa893e7074d903/embed?autostart=1'></iframe>";
+                "src='https://sketchfab.com/models/4f9429391b2a4c06b22ae568bb1fa725/embed?autostart=1'></iframe>";
 
 // Load the Sketchfab embed code into the WebView
         webView.loadData(sketchfabEmbedCode, "text/html", "utf-8");

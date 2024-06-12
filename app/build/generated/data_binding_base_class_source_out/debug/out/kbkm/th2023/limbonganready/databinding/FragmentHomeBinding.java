@@ -4,7 +4,6 @@ package kbkm.th2023.limbonganready.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
@@ -24,13 +23,13 @@ public final class FragmentHomeBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
-  public final ImageView Dkoleksi;
-
-  @NonNull
   public final RecyclerView RviewEvent;
 
   @NonNull
-  public final Button btFor;
+  public final RecyclerView RviewForum;
+
+  @NonNull
+  public final ImageButton btRada;
 
   @NonNull
   public final ImageButton buttonEvent;
@@ -63,6 +62,9 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final TextView textPakan;
 
   @NonNull
+  public final TextView textRada;
+
+  @NonNull
   public final TextView textSub3;
 
   @NonNull
@@ -71,17 +73,18 @@ public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
   public final TextView textTelur;
 
-  private FragmentHomeBinding(@NonNull RelativeLayout rootView, @NonNull ImageView Dkoleksi,
-      @NonNull RecyclerView RviewEvent, @NonNull Button btFor, @NonNull ImageButton buttonEvent,
-      @NonNull ImageButton buttonForum, @NonNull ImageButton buttonMusik,
-      @NonNull ImageView imageView6, @NonNull TextView namapengguna, @NonNull TextView textJForum,
-      @NonNull TextView textJudul2, @NonNull TextView textJudul3, @NonNull TextView textKandang,
-      @NonNull TextView textPakan, @NonNull TextView textSub3, @NonNull TextView textSubForum,
+  private FragmentHomeBinding(@NonNull RelativeLayout rootView, @NonNull RecyclerView RviewEvent,
+      @NonNull RecyclerView RviewForum, @NonNull ImageButton btRada,
+      @NonNull ImageButton buttonEvent, @NonNull ImageButton buttonForum,
+      @NonNull ImageButton buttonMusik, @NonNull ImageView imageView6,
+      @NonNull TextView namapengguna, @NonNull TextView textJForum, @NonNull TextView textJudul2,
+      @NonNull TextView textJudul3, @NonNull TextView textKandang, @NonNull TextView textPakan,
+      @NonNull TextView textRada, @NonNull TextView textSub3, @NonNull TextView textSubForum,
       @NonNull TextView textTelur) {
     this.rootView = rootView;
-    this.Dkoleksi = Dkoleksi;
     this.RviewEvent = RviewEvent;
-    this.btFor = btFor;
+    this.RviewForum = RviewForum;
+    this.btRada = btRada;
     this.buttonEvent = buttonEvent;
     this.buttonForum = buttonForum;
     this.buttonMusik = buttonMusik;
@@ -92,6 +95,7 @@ public final class FragmentHomeBinding implements ViewBinding {
     this.textJudul3 = textJudul3;
     this.textKandang = textKandang;
     this.textPakan = textPakan;
+    this.textRada = textRada;
     this.textSub3 = textSub3;
     this.textSubForum = textSubForum;
     this.textTelur = textTelur;
@@ -124,21 +128,21 @@ public final class FragmentHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.Dkoleksi;
-      ImageView Dkoleksi = ViewBindings.findChildViewById(rootView, id);
-      if (Dkoleksi == null) {
-        break missingId;
-      }
-
       id = R.id.RviewEvent;
       RecyclerView RviewEvent = ViewBindings.findChildViewById(rootView, id);
       if (RviewEvent == null) {
         break missingId;
       }
 
-      id = R.id.btFor;
-      Button btFor = ViewBindings.findChildViewById(rootView, id);
-      if (btFor == null) {
+      id = R.id.RviewForum;
+      RecyclerView RviewForum = ViewBindings.findChildViewById(rootView, id);
+      if (RviewForum == null) {
+        break missingId;
+      }
+
+      id = R.id.btRada;
+      ImageButton btRada = ViewBindings.findChildViewById(rootView, id);
+      if (btRada == null) {
         break missingId;
       }
 
@@ -202,6 +206,12 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textRada;
+      TextView textRada = ViewBindings.findChildViewById(rootView, id);
+      if (textRada == null) {
+        break missingId;
+      }
+
       id = R.id.textSub3;
       TextView textSub3 = ViewBindings.findChildViewById(rootView, id);
       if (textSub3 == null) {
@@ -220,9 +230,9 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomeBinding((RelativeLayout) rootView, Dkoleksi, RviewEvent, btFor,
+      return new FragmentHomeBinding((RelativeLayout) rootView, RviewEvent, RviewForum, btRada,
           buttonEvent, buttonForum, buttonMusik, imageView6, namapengguna, textJForum, textJudul2,
-          textJudul3, textKandang, textPakan, textSub3, textSubForum, textTelur);
+          textJudul3, textKandang, textPakan, textRada, textSub3, textSubForum, textTelur);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

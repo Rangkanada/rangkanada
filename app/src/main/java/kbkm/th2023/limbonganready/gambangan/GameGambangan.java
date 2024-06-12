@@ -31,7 +31,7 @@ public class GameGambangan extends AppCompatActivity {
         webSettings.setJavaScriptEnabled(true);
 
         // Muat halaman web ke dalam WebView
-        webView.loadUrl("https://prototype.leolitgames.com/mustra/?layout=gambangan");
+        webView.loadUrl("https://game.rangkanada.com/?token=musik123&layout=gambangan");
 
 
 //        public void Finish(View view) {

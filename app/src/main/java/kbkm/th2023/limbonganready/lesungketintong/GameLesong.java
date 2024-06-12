@@ -27,7 +27,7 @@ public class GameLesong extends AppCompatActivity {
         webSettings.setJavaScriptEnabled(true);
 
         // Muat halaman web ke dalam WebView
-        webView.loadUrl("https://prototype.leolitgames.com/mustra/?layout=lesong");
+        webView.loadUrl("https://game.rangkanada.com/?token=musik123&layout=lesong");
     }
 
     public void Finish(View view) {

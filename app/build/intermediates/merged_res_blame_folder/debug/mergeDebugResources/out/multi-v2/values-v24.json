@@ -4,7 +4,7 @@
             "outputFile": "kbkm.th2023.limbonganready.app-mergeDebugResources-49:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\AYPIP\\.gradle\\caches\\transforms-4\\7620d53f5484db07ab4aa0a0eb32dd61\\transformed\\appcompat-1.6.1\\res\\values-v24\\values-v24.xml",
+                    "source": "D:\\caches\\transforms-4\\7e9f50e32970fa6caa1865c6330e972e\\transformed\\appcompat-1.6.1\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\AYPIP\\.gradle\\caches\\transforms-4\\eb3fca716abd7d4dc0926c7b5fef5526\\transformed\\material-1.10.0\\res\\values-v24\\values-v24.xml",
+                    "source": "D:\\caches\\transforms-4\\65f26bd2b9f962f6126d93ebd16383a4\\transformed\\material-1.10.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
                         "startColumns": "4,4,4,4,4,4,4,4",

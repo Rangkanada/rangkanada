@@ -4,13 +4,13 @@
             "outputFile": "kbkm.th2023.limbonganready.app-mergeDebugResources-49:/values-w1240dp-v13/values-w1240dp-v13.xml",
             "map": [
                 {
-                    "source": "E:\\Android Projek\\LimbonganBackupV1.2\\LimbonganBackupV1.2\\LimbonganBackupV1.2\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
+                    "source": "D:\\rangkanada\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",
-                        "startOffsets": "16",
+                        "startOffsets": "17",
                         "endColumns": "42",
-                        "endOffsets": "54"
+                        "endOffsets": "55"
                     },
                     "to": {
                         "startLines": "2",
