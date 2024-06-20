@@ -21,20 +21,20 @@ public final class ItemEventMainBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final ImageView musik;
+  public final ImageView gmbrEvent;
 
   @NonNull
-  public final TextView textMusik;
+  public final TextView namaEvent;
 
   @NonNull
-  public final TextView txtdetailMusik;
+  public final TextView tglEvent;
 
-  private ItemEventMainBinding(@NonNull LinearLayout rootView, @NonNull ImageView musik,
-      @NonNull TextView textMusik, @NonNull TextView txtdetailMusik) {
+  private ItemEventMainBinding(@NonNull LinearLayout rootView, @NonNull ImageView gmbrEvent,
+      @NonNull TextView namaEvent, @NonNull TextView tglEvent) {
     this.rootView = rootView;
-    this.musik = musik;
-    this.textMusik = textMusik;
-    this.txtdetailMusik = txtdetailMusik;
+    this.gmbrEvent = gmbrEvent;
+    this.namaEvent = namaEvent;
+    this.tglEvent = tglEvent;
   }
 
   @Override
@@ -64,25 +64,25 @@ public final class ItemEventMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.musik;
-      ImageView musik = ViewBindings.findChildViewById(rootView, id);
-      if (musik == null) {
+      id = R.id.gmbrEvent;
+      ImageView gmbrEvent = ViewBindings.findChildViewById(rootView, id);
+      if (gmbrEvent == null) {
         break missingId;
       }
 
-      id = R.id.textMusik;
-      TextView textMusik = ViewBindings.findChildViewById(rootView, id);
-      if (textMusik == null) {
+      id = R.id.namaEvent;
+      TextView namaEvent = ViewBindings.findChildViewById(rootView, id);
+      if (namaEvent == null) {
         break missingId;
       }
 
-      id = R.id.txtdetailMusik;
-      TextView txtdetailMusik = ViewBindings.findChildViewById(rootView, id);
-      if (txtdetailMusik == null) {
+      id = R.id.tglEvent;
+      TextView tglEvent = ViewBindings.findChildViewById(rootView, id);
+      if (tglEvent == null) {
         break missingId;
       }
 
-      return new ItemEventMainBinding((LinearLayout) rootView, musik, textMusik, txtdetailMusik);
+      return new ItemEventMainBinding((LinearLayout) rootView, gmbrEvent, namaEvent, tglEvent);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

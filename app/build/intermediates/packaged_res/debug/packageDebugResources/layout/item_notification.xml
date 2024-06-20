@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="5dp"
+    android:padding="20dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="10dp">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        app:cardCornerRadius="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <!--                    <ImageView-->
+
+            <!--                        android:layout_width="70dp"-->
+            <!--                        android:layout_height="70dp"-->
+            <!--                        android:layout_gravity="center"-->
+            <!--                        android:scaleType="centerCrop"-->
+            <!--                        android:layout_marginStart="10dp"-->
+            <!--                        app:srcCompat="@drawable/rectangle_4" />-->
+
+            <LinearLayout
+                android:layout_width="311dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/teksNotif"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppinsregular"
+                    android:text="Desa wisata Limbongan Merupakan Salah satu desa yang terletak di kecamatan Gantung Kabupaten Belitung Timur Provinsi Kepulauan Bangka Belitung.  "
+                    android:textColor="#504E4E"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <!--                    <TextView-->
+            <!--                        android:id="@+id/textlistsatu"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:layout_marginEnd="10dp"-->
+            <!--                        android:layout_weight="1"-->
+            <!--                        android:fontFamily="@font/poppinsregular"-->
+            <!--                        android:text="Change"-->
+            <!--                        android:textAlignment="viewEnd"-->
+            <!--                        android:textColor="#5b5b5b"-->
+            <!--                        android:textSize="18sp" />-->
+        </LinearLayout>
+    </FrameLayout>
+
+
+</androidx.cardview.widget.CardView>

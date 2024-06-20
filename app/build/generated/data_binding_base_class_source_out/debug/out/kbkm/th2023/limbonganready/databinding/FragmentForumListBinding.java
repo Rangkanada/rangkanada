@@ -7,17 +7,25 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 import kbkm.th2023.limbonganready.R;
 
 public final class FragmentForumListBinding implements ViewBinding {
   @NonNull
   private final FrameLayout rootView;
 
-  private FragmentForumListBinding(@NonNull FrameLayout rootView) {
+  @NonNull
+  public final RecyclerView recyclerForum;
+
+  private FragmentForumListBinding(@NonNull FrameLayout rootView,
+      @NonNull RecyclerView recyclerForum) {
     this.rootView = rootView;
+    this.recyclerForum = recyclerForum;
   }
 
   @Override
@@ -43,10 +51,19 @@ public final class FragmentForumListBinding implements ViewBinding {
 
   @NonNull
   public static FragmentForumListBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.recyclerForum;
+      RecyclerView recyclerForum = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerForum == null) {
+        break missingId;
+      }
 
-    return new FragmentForumListBinding((FrameLayout) rootView);
+      return new FragmentForumListBinding((FrameLayout) rootView, recyclerForum);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

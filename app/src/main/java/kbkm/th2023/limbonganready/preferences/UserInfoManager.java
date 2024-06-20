@@ -24,7 +24,10 @@ public class UserInfoManager {
         editor.putString(KEY_NAMA, nama);
         editor.apply();
     }
-
+    public void clear() {
+        editor.clear();
+        editor.apply();
+    }
     // Metode untuk menyimpan alamat ke SharedPreferences
     public void setAlamat(String alamat) {
         editor.putString(KEY_ALAMAT, alamat);

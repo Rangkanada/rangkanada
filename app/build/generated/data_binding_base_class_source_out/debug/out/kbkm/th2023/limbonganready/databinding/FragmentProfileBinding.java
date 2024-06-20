@@ -48,6 +48,9 @@ public final class FragmentProfileBinding implements ViewBinding {
   public final TextView listsatu;
 
   @NonNull
+  public final LinearLayout logoutPencet;
+
+  @NonNull
   public final TextView namapengguna;
 
   @NonNull
@@ -58,7 +61,8 @@ public final class FragmentProfileBinding implements ViewBinding {
       @NonNull AppCompatImageView appCompatImageView2, @NonNull FloatingActionButton backButton,
       @NonNull ImageButton btSetting, @NonNull ImageView imageView2,
       @NonNull LinearLayout linearLayout, @NonNull TextView listsatu,
-      @NonNull TextView namapengguna, @NonNull TextView textemail) {
+      @NonNull LinearLayout logoutPencet, @NonNull TextView namapengguna,
+      @NonNull TextView textemail) {
     this.rootView = rootView;
     this.Dkoleksi = Dkoleksi;
     this.appCompatImageView = appCompatImageView;
@@ -68,6 +72,7 @@ public final class FragmentProfileBinding implements ViewBinding {
     this.imageView2 = imageView2;
     this.linearLayout = linearLayout;
     this.listsatu = listsatu;
+    this.logoutPencet = logoutPencet;
     this.namapengguna = namapengguna;
     this.textemail = textemail;
   }
@@ -147,6 +152,12 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.logoutPencet;
+      LinearLayout logoutPencet = ViewBindings.findChildViewById(rootView, id);
+      if (logoutPencet == null) {
+        break missingId;
+      }
+
       id = R.id.namapengguna;
       TextView namapengguna = ViewBindings.findChildViewById(rootView, id);
       if (namapengguna == null) {
@@ -161,7 +172,7 @@ public final class FragmentProfileBinding implements ViewBinding {
 
       return new FragmentProfileBinding((LinearLayout) rootView, Dkoleksi, appCompatImageView,
           appCompatImageView2, backButton, btSetting, imageView2, linearLayout, listsatu,
-          namapengguna, textemail);
+          logoutPencet, namapengguna, textemail);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

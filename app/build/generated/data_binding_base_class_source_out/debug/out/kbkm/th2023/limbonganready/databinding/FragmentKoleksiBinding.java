@@ -5,9 +5,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageView;
+import android.widget.FrameLayout;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -23,42 +22,34 @@ public final class FragmentKoleksiBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final ImageView Dkoleksi;
-
-  @NonNull
   public final FloatingActionButton backButton;
 
   @NonNull
-  public final Button btKol1;
+  public final LinearLayout fragment;
 
   @NonNull
-  public final Button btKol2;
+  public final FrameLayout fragmentKoleksiEvent;
 
   @NonNull
-  public final Button btnLogout;
+  public final Button hapusKoleksi;
 
   @NonNull
-  public final LinearLayout linearLayout2;
+  public final Button tombolKoleksiEvent;
 
   @NonNull
-  public final TextView listsatu;
+  public final Button tombolKoleksiForum;
 
-  @NonNull
-  public final TextView tgl;
-
-  private FragmentKoleksiBinding(@NonNull LinearLayout rootView, @NonNull ImageView Dkoleksi,
-      @NonNull FloatingActionButton backButton, @NonNull Button btKol1, @NonNull Button btKol2,
-      @NonNull Button btnLogout, @NonNull LinearLayout linearLayout2, @NonNull TextView listsatu,
-      @NonNull TextView tgl) {
+  private FragmentKoleksiBinding(@NonNull LinearLayout rootView,
+      @NonNull FloatingActionButton backButton, @NonNull LinearLayout fragment,
+      @NonNull FrameLayout fragmentKoleksiEvent, @NonNull Button hapusKoleksi,
+      @NonNull Button tombolKoleksiEvent, @NonNull Button tombolKoleksiForum) {
     this.rootView = rootView;
-    this.Dkoleksi = Dkoleksi;
     this.backButton = backButton;
-    this.btKol1 = btKol1;
-    this.btKol2 = btKol2;
-    this.btnLogout = btnLogout;
-    this.linearLayout2 = linearLayout2;
-    this.listsatu = listsatu;
-    this.tgl = tgl;
+    this.fragment = fragment;
+    this.fragmentKoleksiEvent = fragmentKoleksiEvent;
+    this.hapusKoleksi = hapusKoleksi;
+    this.tombolKoleksiEvent = tombolKoleksiEvent;
+    this.tombolKoleksiForum = tombolKoleksiForum;
   }
 
   @Override
@@ -88,56 +79,40 @@ public final class FragmentKoleksiBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.Dkoleksi;
-      ImageView Dkoleksi = ViewBindings.findChildViewById(rootView, id);
-      if (Dkoleksi == null) {
-        break missingId;
-      }
-
       id = R.id.backButton;
       FloatingActionButton backButton = ViewBindings.findChildViewById(rootView, id);
       if (backButton == null) {
         break missingId;
       }
 
-      id = R.id.btKol1;
-      Button btKol1 = ViewBindings.findChildViewById(rootView, id);
-      if (btKol1 == null) {
+      LinearLayout fragment = (LinearLayout) rootView;
+
+      id = R.id.fragmentKoleksiEvent;
+      FrameLayout fragmentKoleksiEvent = ViewBindings.findChildViewById(rootView, id);
+      if (fragmentKoleksiEvent == null) {
         break missingId;
       }
 
-      id = R.id.btKol2;
-      Button btKol2 = ViewBindings.findChildViewById(rootView, id);
-      if (btKol2 == null) {
+      id = R.id.hapusKoleksi;
+      Button hapusKoleksi = ViewBindings.findChildViewById(rootView, id);
+      if (hapusKoleksi == null) {
         break missingId;
       }
 
-      id = R.id.btn_Logout;
-      Button btnLogout = ViewBindings.findChildViewById(rootView, id);
-      if (btnLogout == null) {
+      id = R.id.tombolKoleksiEvent;
+      Button tombolKoleksiEvent = ViewBindings.findChildViewById(rootView, id);
+      if (tombolKoleksiEvent == null) {
         break missingId;
       }
 
-      id = R.id.linearLayout2;
-      LinearLayout linearLayout2 = ViewBindings.findChildViewById(rootView, id);
-      if (linearLayout2 == null) {
+      id = R.id.tombolKoleksiForum;
+      Button tombolKoleksiForum = ViewBindings.findChildViewById(rootView, id);
+      if (tombolKoleksiForum == null) {
         break missingId;
       }
 
-      id = R.id.listsatu;
-      TextView listsatu = ViewBindings.findChildViewById(rootView, id);
-      if (listsatu == null) {
-        break missingId;
-      }
-
-      id = R.id.tgl;
-      TextView tgl = ViewBindings.findChildViewById(rootView, id);
-      if (tgl == null) {
-        break missingId;
-      }
-
-      return new FragmentKoleksiBinding((LinearLayout) rootView, Dkoleksi, backButton, btKol1,
-          btKol2, btnLogout, linearLayout2, listsatu, tgl);
+      return new FragmentKoleksiBinding((LinearLayout) rootView, backButton, fragment,
+          fragmentKoleksiEvent, hapusKoleksi, tombolKoleksiEvent, tombolKoleksiForum);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

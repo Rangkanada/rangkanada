@@ -4,10 +4,10 @@ package kbkm.th2023.limbonganready.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -24,17 +24,13 @@ public final class FragmentNotifikasiBinding implements ViewBinding {
   public final FloatingActionButton backButton;
 
   @NonNull
-  public final Button btNot1;
-
-  @NonNull
-  public final Button btNot2;
+  public final RecyclerView recyclerNotif;
 
   private FragmentNotifikasiBinding(@NonNull LinearLayout rootView,
-      @NonNull FloatingActionButton backButton, @NonNull Button btNot1, @NonNull Button btNot2) {
+      @NonNull FloatingActionButton backButton, @NonNull RecyclerView recyclerNotif) {
     this.rootView = rootView;
     this.backButton = backButton;
-    this.btNot1 = btNot1;
-    this.btNot2 = btNot2;
+    this.recyclerNotif = recyclerNotif;
   }
 
   @Override
@@ -70,19 +66,13 @@ public final class FragmentNotifikasiBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.btNot1;
-      Button btNot1 = ViewBindings.findChildViewById(rootView, id);
-      if (btNot1 == null) {
+      id = R.id.recyclerNotif;
+      RecyclerView recyclerNotif = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerNotif == null) {
         break missingId;
       }
 
-      id = R.id.btNot2;
-      Button btNot2 = ViewBindings.findChildViewById(rootView, id);
-      if (btNot2 == null) {
-        break missingId;
-      }
-
-      return new FragmentNotifikasiBinding((LinearLayout) rootView, backButton, btNot1, btNot2);
+      return new FragmentNotifikasiBinding((LinearLayout) rootView, backButton, recyclerNotif);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

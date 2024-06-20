@@ -77,8 +77,8 @@ public class RvEventMainAdapter extends RecyclerView.Adapter<RvEventMainAdapter.
         public ViewHolder(View itemView) {
             super(itemView);
             eventImage = itemView.findViewById(R.id.musik);
-            judulEvent = itemView.findViewById(R.id.textMusik);
-            tanggalEvent = itemView.findViewById(R.id.txtdetailMusik);
+            judulEvent = itemView.findViewById(R.id.namaForum);
+            tanggalEvent = itemView.findViewById(R.id.totalUser);
         }
     }
 }

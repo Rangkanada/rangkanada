@@ -49,17 +49,18 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/tombolForumList"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
             android:backgroundTint="#7B3F23"
-            android:text="List Forum" />
+            android:text="List Forum"
+            android:textColor="@color/white" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/tombolForumSaya"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
@@ -72,8 +73,11 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentView"
-        android:name="kbkm.th2023.limbonganready.fragments.ForumListFragment"
+
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp" />
 
 </LinearLayout>

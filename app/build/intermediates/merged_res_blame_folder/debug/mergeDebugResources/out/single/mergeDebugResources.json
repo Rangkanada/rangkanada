@@ -4,10 +4,6 @@
         "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\drawable-v24\\lgo_forum.png"
     },
     {
-        "merged": "kbkm.th2023.limbonganready.app-debug-51:/layout_fragment_forum_list.xml.flat",
-        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/fragment_forum_list.xml"
-    },
-    {
         "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\drawable_bg_menu_musik.xml.flat",
         "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\drawable\\bg_menu_musik.xml"
     },
@@ -20,16 +16,24 @@
         "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\activity_sketchfab.xml"
     },
     {
+        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\layout_fragment_forum_saya.xml.flat",
+        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\fragment_forum_saya.xml"
+    },
+    {
         "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\layout_activity_gambus_inang_inang.xml.flat",
         "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\activity_gambus_inang_inang.xml"
+    },
+    {
+        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\drawable_gambangan0.png.flat",
+        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\drawable\\gambangan0.png"
     },
     {
         "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\drawable-v24_rectangle_menu_musik.png.flat",
         "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\drawable-v24\\rectangle_menu_musik.png"
     },
     {
-        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\drawable_gambangan0.png.flat",
-        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\drawable\\gambangan0.png"
+        "merged": "kbkm.th2023.limbonganready.app-debug-51:/layout_item_notification.xml.flat",
+        "source": "kbkm.th2023.limbonganready.app-main-53:/layout/item_notification.xml"
     },
     {
         "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\raw_gambangan7.MP3.flat",
@@ -60,6 +64,10 @@
         "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\drawable-v24\\spalsh_screen.png"
     },
     {
+        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\layout_item_diskusi.xml.flat",
+        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\item_diskusi.xml"
+    },
+    {
         "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\drawable_hadrah1.jpg.flat",
         "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\drawable\\hadrah1.jpg"
     },
@@ -68,12 +76,20 @@
         "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\drawable\\log0.png"
     },
     {
+        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\layout_item_koleksi_event.xml.flat",
+        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\item_koleksi_event.xml"
+    },
+    {
         "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\layout_video_gambus_inang.xml.flat",
         "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\video_gambus_inang.xml"
     },
     {
         "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\drawable_ic_kirim.png.flat",
         "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\drawable\\ic_kirim.png"
+    },
+    {
+        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\layout_item_forum_saya.xml.flat",
+        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\item_forum_saya.xml"
     },
     {
         "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\drawable-v24_bg_gradient.xml.flat",
@@ -118,6 +134,10 @@
     {
         "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\layout_fragment_first.xml.flat",
         "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\layout_fragment_koleksi_event.xml.flat",
+        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\fragment_koleksi_event.xml"
     },
     {
         "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\drawable_ic_infocircle.png.flat",
@@ -240,6 +260,10 @@
         "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\menu\\bottom_nav_menu.xml"
     },
     {
+        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\layout_fragment_koleksi_forum.xml.flat",
+        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\fragment_koleksi_forum.xml"
+    },
+    {
         "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\layout_item_event_main.xml.flat",
         "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\item_event_main.xml"
     },
@@ -250,6 +274,10 @@
     {
         "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\drawable-v24_musik.png.flat",
         "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\drawable-v24\\musik.png"
+    },
+    {
+        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\layout_item_chat.xml.flat",
+        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\item_chat.xml"
     },
     {
         "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\drawable-v24_bg_event.xml.flat",
@@ -270,6 +298,10 @@
     {
         "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\raw_gambangan6.MP3.flat",
         "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\raw\\gambangan6.MP3"
+    },
+    {
+        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\layout_activity_detail_berita.xml.flat",
+        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\activity_detail_berita.xml"
     },
     {
         "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\drawable_ic_calendar.xml.flat",
@@ -402,6 +434,14 @@
     {
         "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\layout_activity_login.xml.flat",
         "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\layout_item_berita.xml.flat",
+        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\item_berita.xml"
+    },
+    {
+        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\layout_item_koleksi_forum.xml.flat",
+        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\item_koleksi_forum.xml"
     },
     {
         "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\drawable_sampel4.png.flat",
@@ -590,6 +630,10 @@
     {
         "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\layout_fragment_forum_list.xml.flat",
         "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\fragment_forum_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\layout_item_notification.xml.flat",
+        "source": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-main-53:\\layout\\item_notification.xml"
     },
     {
         "merged": "C:\\Users\\AYPIP\\.gradle\\daemon\\8.6\\kbkm.th2023.limbonganready.app-debug-51:\\drawable-v24_white_background.xml.flat",

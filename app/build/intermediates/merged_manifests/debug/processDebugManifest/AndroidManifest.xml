@@ -100,6 +100,9 @@
             android:name="kbkm.th2023.limbonganready.activities.DetailEvent"
             android:exported="false" />
         <activity
+            android:name="kbkm.th2023.limbonganready.activities.DetailBerita"
+            android:exported="false" />
+        <activity
             android:name="kbkm.th2023.limbonganready.Register"
             android:exported="false" /> <!-- <activity -->
         <!-- android:name=".Login" -->

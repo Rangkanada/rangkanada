@@ -10,6 +10,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -26,71 +27,27 @@ public final class ActivityForumBinding implements ViewBinding {
   public final FloatingActionButton backButton;
 
   @NonNull
-  public final LinearLayout commentButton;
-
-  @NonNull
-  public final TextView commentCount;
-
-  @NonNull
   public final EditText discussionForm;
 
   @NonNull
-  public final TextView headerForum;
+  public final TextView namaForum;
 
   @NonNull
-  public final LinearLayout likeButton;
-
-  @NonNull
-  public final TextView likeCount;
-
-  @NonNull
-  public final View line54;
-
-  @NonNull
-  public final ImageView logoP;
-
-  @NonNull
-  public final TextView postContent;
-
-  @NonNull
-  public final TextView postingTime;
-
-  @NonNull
-  public final ImageView profileImage2;
+  public final RecyclerView recyclerChat;
 
   @NonNull
   public final ImageView sendButton;
 
-  @NonNull
-  public final LinearLayout shareButton;
-
-  @NonNull
-  public final TextView username;
-
   private ActivityForumBinding(@NonNull LinearLayout rootView,
-      @NonNull FloatingActionButton backButton, @NonNull LinearLayout commentButton,
-      @NonNull TextView commentCount, @NonNull EditText discussionForm,
-      @NonNull TextView headerForum, @NonNull LinearLayout likeButton, @NonNull TextView likeCount,
-      @NonNull View line54, @NonNull ImageView logoP, @NonNull TextView postContent,
-      @NonNull TextView postingTime, @NonNull ImageView profileImage2,
-      @NonNull ImageView sendButton, @NonNull LinearLayout shareButton,
-      @NonNull TextView username) {
+      @NonNull FloatingActionButton backButton, @NonNull EditText discussionForm,
+      @NonNull TextView namaForum, @NonNull RecyclerView recyclerChat,
+      @NonNull ImageView sendButton) {
     this.rootView = rootView;
     this.backButton = backButton;
-    this.commentButton = commentButton;
-    this.commentCount = commentCount;
     this.discussionForm = discussionForm;
-    this.headerForum = headerForum;
-    this.likeButton = likeButton;
-    this.likeCount = likeCount;
-    this.line54 = line54;
-    this.logoP = logoP;
-    this.postContent = postContent;
-    this.postingTime = postingTime;
-    this.profileImage2 = profileImage2;
+    this.namaForum = namaForum;
+    this.recyclerChat = recyclerChat;
     this.sendButton = sendButton;
-    this.shareButton = shareButton;
-    this.username = username;
   }
 
   @Override
@@ -126,69 +83,21 @@ public final class ActivityForumBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.commentButton;
-      LinearLayout commentButton = ViewBindings.findChildViewById(rootView, id);
-      if (commentButton == null) {
-        break missingId;
-      }
-
-      id = R.id.commentCount;
-      TextView commentCount = ViewBindings.findChildViewById(rootView, id);
-      if (commentCount == null) {
-        break missingId;
-      }
-
       id = R.id.discussionForm;
       EditText discussionForm = ViewBindings.findChildViewById(rootView, id);
       if (discussionForm == null) {
         break missingId;
       }
 
-      id = R.id.headerForum;
-      TextView headerForum = ViewBindings.findChildViewById(rootView, id);
-      if (headerForum == null) {
+      id = R.id.namaForum;
+      TextView namaForum = ViewBindings.findChildViewById(rootView, id);
+      if (namaForum == null) {
         break missingId;
       }
 
-      id = R.id.likeButton;
-      LinearLayout likeButton = ViewBindings.findChildViewById(rootView, id);
-      if (likeButton == null) {
-        break missingId;
-      }
-
-      id = R.id.likeCount;
-      TextView likeCount = ViewBindings.findChildViewById(rootView, id);
-      if (likeCount == null) {
-        break missingId;
-      }
-
-      id = R.id.line_54;
-      View line54 = ViewBindings.findChildViewById(rootView, id);
-      if (line54 == null) {
-        break missingId;
-      }
-
-      id = R.id.logoP;
-      ImageView logoP = ViewBindings.findChildViewById(rootView, id);
-      if (logoP == null) {
-        break missingId;
-      }
-
-      id = R.id.postContent;
-      TextView postContent = ViewBindings.findChildViewById(rootView, id);
-      if (postContent == null) {
-        break missingId;
-      }
-
-      id = R.id.postingTime;
-      TextView postingTime = ViewBindings.findChildViewById(rootView, id);
-      if (postingTime == null) {
-        break missingId;
-      }
-
-      id = R.id.profileImage2;
-      ImageView profileImage2 = ViewBindings.findChildViewById(rootView, id);
-      if (profileImage2 == null) {
+      id = R.id.recyclerChat;
+      RecyclerView recyclerChat = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerChat == null) {
         break missingId;
       }
 
@@ -198,21 +107,8 @@ public final class ActivityForumBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.shareButton;
-      LinearLayout shareButton = ViewBindings.findChildViewById(rootView, id);
-      if (shareButton == null) {
-        break missingId;
-      }
-
-      id = R.id.username;
-      TextView username = ViewBindings.findChildViewById(rootView, id);
-      if (username == null) {
-        break missingId;
-      }
-
-      return new ActivityForumBinding((LinearLayout) rootView, backButton, commentButton,
-          commentCount, discussionForm, headerForum, likeButton, likeCount, line54, logoP,
-          postContent, postingTime, profileImage2, sendButton, shareButton, username);
+      return new ActivityForumBinding((LinearLayout) rootView, backButton, discussionForm,
+          namaForum, recyclerChat, sendButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

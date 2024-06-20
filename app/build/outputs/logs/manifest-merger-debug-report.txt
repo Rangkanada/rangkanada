@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:2:1-110:12
-INJECTED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:2:1-110:12
-INJECTED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:2:1-110:12
-INJECTED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:2:1-110:12
+ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:2:1-113:12
 MERGED from [androidx.databinding:viewbinding:8.4.0] C:\Users\AYPIP\.gradle\caches\transforms-4\3acc6d9bafddf63ee7064e73d6218142\transformed\jetified-viewbinding-8.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.6.0] C:\Users\AYPIP\.gradle\caches\transforms-4\74fb3f20ce400b2a66b8eb3a0ba1be54\transformed\navigation-common-2.6.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime:2.6.0] C:\Users\AYPIP\.gradle\caches\transforms-4\f0d58ba4af356c99e9a7ac8b8064cbb3\transformed\navigation-runtime-2.6.0\AndroidManifest.xml:17:1-22:12
@@ -95,8 +95,8 @@ ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBa
 	android:name
 		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:7:22-78
 application
-ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:9:5-108:19
-INJECTED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:9:5-108:19
+ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:9:5-111:19
+INJECTED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:9:5-111:19
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\AYPIP\.gradle\caches\transforms-4\eb3fca716abd7d4dc0926c7b5fef5526\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\AYPIP\.gradle\caches\transforms-4\eb3fca716abd7d4dc0926c7b5fef5526\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\AYPIP\.gradle\caches\transforms-4\f96dbd3737cb1019b8493c96f0881efe\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -223,108 +223,114 @@ ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBa
 		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:55:13-37
 	android:name
 		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:54:13-51
-activity#kbkm.th2023.limbonganready.Register
+activity#kbkm.th2023.limbonganready.activities.DetailBerita
 ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:56:9-58:40
 	android:exported
 		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:58:13-37
 	android:name
-		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:57:13-37
+		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:57:13-52
+activity#kbkm.th2023.limbonganready.Register
+ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:59:9-61:40
+	android:exported
+		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:61:13-37
+	android:name
+		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:60:13-37
 activity#kbkm.th2023.limbonganready.gambangan.GameGambangan
-ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:61:9-64:53
+ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:64:9-67:53
 	android:screenOrientation
-		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:64:13-50
+		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:67:13-50
 	android:exported
-		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:63:13-37
+		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:66:13-37
 	android:name
-		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:62:13-52
+		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:65:13-52
 activity#kbkm.th2023.limbonganready.hadra.Hadra
-ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:65:9-67:40
-	android:exported
-		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:67:13-37
-	android:name
-		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:66:13-40
-activity#kbkm.th2023.limbonganready.gambus.GambusInangInang
 ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:68:9-70:40
 	android:exported
 		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:70:13-37
 	android:name
-		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:69:13-52
-activity#kbkm.th2023.limbonganready.lesungketintong.LesungKetintong
+		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:69:13-40
+activity#kbkm.th2023.limbonganready.gambus.GambusInangInang
 ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:71:9-73:40
 	android:exported
 		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:73:13-37
 	android:name
-		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:72:13-60
-activity#kbkm.th2023.limbonganready.activities.Forum
-ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:76:9-78:40
+		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:72:13-52
+activity#kbkm.th2023.limbonganready.lesungketintong.LesungKetintong
+ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:74:9-76:40
 	android:exported
-		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:78:13-37
+		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:76:13-37
 	android:name
-		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:77:13-45
-activity#kbkm.th2023.limbonganready.activities.Event
+		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:75:13-60
+activity#kbkm.th2023.limbonganready.activities.Forum
 ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:79:9-81:40
 	android:exported
 		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:81:13-37
 	android:name
 		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:80:13-45
-activity#kbkm.th2023.limbonganready.activities.Menu_Musik
+activity#kbkm.th2023.limbonganready.activities.Event
 ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:82:9-84:40
 	android:exported
 		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:84:13-37
 	android:name
-		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:83:13-50
-activity#kbkm.th2023.limbonganready.activities.Tentang_Desa
+		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:83:13-45
+activity#kbkm.th2023.limbonganready.activities.Menu_Musik
 ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:85:9-87:40
 	android:exported
 		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:87:13-37
 	android:name
-		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:86:13-52
-activity#kbkm.th2023.limbonganready.gambangan.Alat_Musik1
+		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:86:13-50
+activity#kbkm.th2023.limbonganready.activities.Tentang_Desa
 ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:88:9-90:40
 	android:exported
 		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:90:13-37
 	android:name
-		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:89:13-50
-activity#kbkm.th2023.limbonganready.Opening1
+		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:89:13-52
+activity#kbkm.th2023.limbonganready.gambangan.Alat_Musik1
 ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:91:9-93:40
 	android:exported
 		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:93:13-37
 	android:name
-		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:92:13-37
-activity#kbkm.th2023.limbonganready.fragments.Home
-ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:94:9-52
-	android:name
-		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:94:19-49
-activity#kbkm.th2023.limbonganready.fragments.Notifikasi
-ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:95:9-58
-	android:name
-		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:95:19-55
-activity#kbkm.th2023.limbonganready.fragments.Koleksi
-ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:96:9-55
-	android:name
-		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:96:19-52
-activity#kbkm.th2023.limbonganready.MainActivity
-ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:97:9-50
-	android:name
-		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:97:19-47
-activity#kbkm.th2023.limbonganready.Login
-ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:98:9-107:20
+		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:92:13-50
+activity#kbkm.th2023.limbonganready.Opening1
+ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:94:9-96:40
 	android:exported
-		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:100:13-36
+		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:96:13-37
+	android:name
+		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:95:13-37
+activity#kbkm.th2023.limbonganready.fragments.Home
+ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:97:9-52
+	android:name
+		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:97:19-49
+activity#kbkm.th2023.limbonganready.fragments.Notifikasi
+ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:98:9-58
+	android:name
+		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:98:19-55
+activity#kbkm.th2023.limbonganready.fragments.Koleksi
+ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:99:9-55
+	android:name
+		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:99:19-52
+activity#kbkm.th2023.limbonganready.MainActivity
+ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:100:9-50
+	android:name
+		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:100:19-47
+activity#kbkm.th2023.limbonganready.Login
+ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:101:9-110:20
+	android:exported
+		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:103:13-36
 	tools:ignore
-		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:101:13-45
+		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:104:13-45
 	android:name
-		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:99:13-34
+		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:102:13-34
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:102:13-106:29
+ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:105:13-109:29
 action#android.intent.action.MAIN
-ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:103:17-69
+ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:106:17-69
 	android:name
-		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:103:25-66
+		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:106:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:105:17-77
+ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:108:17-77
 	android:name
-		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:105:27-74
+		ADDED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml:108:27-74
 uses-sdk
 INJECTED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\Android Projek\LimbonganBackupV1.2\LimbonganBackupV1.2\LimbonganBackupV1.2\app\src\main\AndroidManifest.xml

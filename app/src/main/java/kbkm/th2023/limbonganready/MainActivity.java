@@ -143,7 +143,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //set nofication count
-        meowBottomNavigation.setCount(2, "2");
+//        meowBottomNavigation.setCount(2, "");
+
 
         //set default
         meowBottomNavigation.show(1, true);
