@@ -64,7 +64,7 @@ public class EventKoleksiAdapter extends RecyclerView.Adapter<EventKoleksiAdapte
         holder.titleTextView.setText(event.getTitle());
         holder.dateTextView.setText(event.getEvent().getTanggal());
         Glide.with(holder.itemView.getContext())
-                .load("http://192.168.193.244/rangkanada/public/storage/" + event.getEvent().getImage())
+                .load("https://admin.rangkanada.com/storage/" + event.getEvent().getImage())
                 .placeholder(R.drawable.sampel_event)
                 .error(R.drawable.sampel1)
                 .into(holder.gambarEvent);

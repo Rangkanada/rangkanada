@@ -70,7 +70,7 @@ public class EventbaruAdapter extends RecyclerView.Adapter<EventViewHolder> {
 
         holder.gmbrEvent.setImageResource(R.drawable.sampel_event);
         Glide.with(holder.gmbrEvent.getContext())
-                .load("http://192.168.193.244/rangkanada/public/storage/" + event.getImage()) // Ganti dengan method untuk mendapatkan URL gambar dari objek EventModel
+                .load("https://admin.rangkanada.com/storage/" + event.getImage()) // Ganti dengan method untuk mendapatkan URL gambar dari objek EventModel
                 .placeholder(R.drawable.sampel_event) // Placeholder saat gambar sedang dimuat
                 .error(R.drawable.sampel1) // Gambar yang akan ditampilkan jika terjadi kesalahan saat memuat gambar
                 .into(holder.gmbrEvent);

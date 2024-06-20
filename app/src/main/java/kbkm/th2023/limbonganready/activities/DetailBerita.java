@@ -93,7 +93,7 @@ public class DetailBerita extends AppCompatActivity {
 
 
             Glide.with(this)
-                    .load("http://192.168.193.244/rangkanada/public/storage/" + gambar) // Ganti dengan method untuk mendapatkan URL gambar dari objek EventModel
+                    .load("https://admin.rangkanada.com/storage/" + gambar) // Ganti dengan method untuk mendapatkan URL gambar dari objek EventModel
                     .placeholder(R.drawable.sampel_event) // Placeholder saat gambar sedang dimuat
                     .error(R.drawable.sampel1) // Gambar yang akan ditampilkan jika terjadi kesalahan saat memuat gambar
                     .into(gambarBerita);
