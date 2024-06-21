@@ -1,6 +1,0 @@
-kbkm.th2023.limbonganready.test.app-jetified-annotation-experimental-1.4.0-0 D:\caches\transforms-4\571ad3bc948d57a218c4c7b1a0fb43b3\transformed\jetified-annotation-experimental-1.4.0\res
-kbkm.th2023.limbonganready.test.app-jetified-core-1.5.0-1 D:\caches\transforms-4\d6e2d484fb9b87f181141788fe4a416c\transformed\jetified-core-1.5.0\res
-kbkm.th2023.limbonganready.test.app-androidTest-2 D:\rangkanada\app\build\generated\res\resValues\androidTest\debug
-kbkm.th2023.limbonganready.test.app-mergeDebugAndroidTestResources-3 D:\rangkanada\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-kbkm.th2023.limbonganready.test.app-mergeDebugAndroidTestResources-4 D:\rangkanada\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-kbkm.th2023.limbonganready.test.app-debugAndroidTest-5 D:\rangkanada\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

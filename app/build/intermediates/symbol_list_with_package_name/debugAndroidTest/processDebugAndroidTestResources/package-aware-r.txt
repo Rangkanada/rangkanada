@@ -1,3 +1,0 @@
-kbkm.th2023.limbonganready.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme
