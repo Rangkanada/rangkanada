@@ -25,22 +25,22 @@ public final class ActivityForumListBinding implements ViewBinding {
   public final FloatingActionButton backButton;
 
   @NonNull
-  public final Button button;
-
-  @NonNull
-  public final Button button3;
-
-  @NonNull
   public final FragmentContainerView fragmentView;
 
+  @NonNull
+  public final Button tombolForumList;
+
+  @NonNull
+  public final Button tombolForumSaya;
+
   private ActivityForumListBinding(@NonNull LinearLayout rootView,
-      @NonNull FloatingActionButton backButton, @NonNull Button button, @NonNull Button button3,
-      @NonNull FragmentContainerView fragmentView) {
+      @NonNull FloatingActionButton backButton, @NonNull FragmentContainerView fragmentView,
+      @NonNull Button tombolForumList, @NonNull Button tombolForumSaya) {
     this.rootView = rootView;
     this.backButton = backButton;
-    this.button = button;
-    this.button3 = button3;
     this.fragmentView = fragmentView;
+    this.tombolForumList = tombolForumList;
+    this.tombolForumSaya = tombolForumSaya;
   }
 
   @Override
@@ -76,26 +76,26 @@ public final class ActivityForumListBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.button;
-      Button button = ViewBindings.findChildViewById(rootView, id);
-      if (button == null) {
-        break missingId;
-      }
-
-      id = R.id.button3;
-      Button button3 = ViewBindings.findChildViewById(rootView, id);
-      if (button3 == null) {
-        break missingId;
-      }
-
       id = R.id.fragmentView;
       FragmentContainerView fragmentView = ViewBindings.findChildViewById(rootView, id);
       if (fragmentView == null) {
         break missingId;
       }
 
-      return new ActivityForumListBinding((LinearLayout) rootView, backButton, button, button3,
-          fragmentView);
+      id = R.id.tombolForumList;
+      Button tombolForumList = ViewBindings.findChildViewById(rootView, id);
+      if (tombolForumList == null) {
+        break missingId;
+      }
+
+      id = R.id.tombolForumSaya;
+      Button tombolForumSaya = ViewBindings.findChildViewById(rootView, id);
+      if (tombolForumSaya == null) {
+        break missingId;
+      }
+
+      return new ActivityForumListBinding((LinearLayout) rootView, backButton, fragmentView,
+          tombolForumList, tombolForumSaya);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,40 +1,47 @@
 package kbkm.th2023.limbonganready.fragments;
 
-import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.lifecycle.ViewModelProvider;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
+
+import java.util.ArrayList;
 
 import kbkm.th2023.limbonganready.R;
-import kbkm.th2023.limbonganready.activities.DetailEvent;
-import kbkm.th2023.limbonganready.activities.Forum;
-
+import kbkm.th2023.limbonganready.ViewModel.NotifikasiViewModel;
+import kbkm.th2023.limbonganready.preferences.PreferenceManager;
+import kbkm.th2023.limbonganready.recyclerview.NotificationAdapter;
 
 public class Notifikasi extends Fragment {
+    NotificationAdapter notificationAdapter;
+    NotifikasiViewModel notifikasiViewModel;
+    private PreferenceManager preferenceManager;
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_notifikasi, container, false);
+        preferenceManager = new PreferenceManager(requireContext());
 
-        Button btNot = view.findViewById(R.id.btNot1);
-        Button btNot2 = view.findViewById(R.id.btNot2);
+        RecyclerView recyclerView = view.findViewById(R.id.recyclerNotif);
+        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
 
-        btNot.setOnClickListener(view1 -> {
-            // Kode untuk menangani klik button di sini
-            Intent intent = new Intent(getActivity(), DetailEvent.class);
-            startActivity(intent);
-        });
+        // Initialize adapter with an empty list
+        notificationAdapter = new NotificationAdapter(new ArrayList<>(), preferenceManager);
+        recyclerView.setAdapter(notificationAdapter);
 
-        btNot2.setOnClickListener(view1 -> {
-            Intent intent = new Intent(getActivity(), Forum.class);
-            startActivity(intent);
+        notifikasiViewModel = new ViewModelProvider(this).get(NotifikasiViewModel.class);
+
+        // Observe the LiveData from the ViewModel and update UI
+        notifikasiViewModel.getNotifikasi(preferenceManager).observe(getViewLifecycleOwner(), eventDetails -> {
+            // Update your RecyclerView or other UI elements here
+            notificationAdapter.setNotificationList(eventDetails);
         });
 
         return view;

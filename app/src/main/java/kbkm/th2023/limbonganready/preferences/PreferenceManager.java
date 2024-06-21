@@ -43,6 +43,10 @@ public class PreferenceManager {
         editor.putString(KEY_NAME, userName);
         editor.apply();
     }
+    public void clear() {
+        editor.clear();
+        editor.apply();
+    }
 
     // Metode untuk mendapatkan ID dari SharedPreferences
     public int getUserId() {

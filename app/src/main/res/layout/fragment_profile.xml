@@ -204,6 +204,7 @@
                     android:background="#585858" />
 
                 <LinearLayout
+                    android:id="@+id/logoutPencet"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="10dp"
@@ -213,28 +214,28 @@
 
                         android:layout_width="30dp"
                         android:layout_height="30dp"
-                        android:layout_marginStart="10dp"
                         android:layout_gravity="center"
+                        android:layout_marginStart="10dp"
                         app:srcCompat="@drawable/dw_logout" />
 
                     <TextView
 
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:layout_marginStart="10dp"
                         android:layout_weight="1"
-                        android:layout_gravity="center"
                         android:fontFamily="@font/poppinsregular"
                         android:text="Log Out"
                         android:textColor="#000000"
-                        android:textStyle="bold"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
 
 
                     <ImageButton
                         android:layout_width="35dp"
                         android:layout_height="35dp"
-                        android:background="@drawable/bt_next"/>
+                        android:background="@drawable/bt_next" />
 
                 </LinearLayout>
 

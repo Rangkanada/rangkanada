@@ -4,11 +4,12 @@ package kbkm.th2023.limbonganready.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import java.lang.NullPointerException;
@@ -18,28 +19,37 @@ import kbkm.th2023.limbonganready.R;
 
 public final class ItemForumListBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final CardView rootView;
 
   @NonNull
-  public final ImageView musik;
+  public final TextView deskripsiForum;
 
   @NonNull
-  public final TextView textMusik;
+  public final TextView namaForum;
 
   @NonNull
-  public final TextView txtdetailMusik;
+  public final ImageView tombolBintangForum;
 
-  private ItemForumListBinding(@NonNull LinearLayout rootView, @NonNull ImageView musik,
-      @NonNull TextView textMusik, @NonNull TextView txtdetailMusik) {
+  @NonNull
+  public final Button tombolGabung;
+
+  @NonNull
+  public final TextView totalUser;
+
+  private ItemForumListBinding(@NonNull CardView rootView, @NonNull TextView deskripsiForum,
+      @NonNull TextView namaForum, @NonNull ImageView tombolBintangForum,
+      @NonNull Button tombolGabung, @NonNull TextView totalUser) {
     this.rootView = rootView;
-    this.musik = musik;
-    this.textMusik = textMusik;
-    this.txtdetailMusik = txtdetailMusik;
+    this.deskripsiForum = deskripsiForum;
+    this.namaForum = namaForum;
+    this.tombolBintangForum = tombolBintangForum;
+    this.tombolGabung = tombolGabung;
+    this.totalUser = totalUser;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public CardView getRoot() {
     return rootView;
   }
 
@@ -64,25 +74,38 @@ public final class ItemForumListBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.musik;
-      ImageView musik = ViewBindings.findChildViewById(rootView, id);
-      if (musik == null) {
+      id = R.id.deskripsiForum;
+      TextView deskripsiForum = ViewBindings.findChildViewById(rootView, id);
+      if (deskripsiForum == null) {
         break missingId;
       }
 
-      id = R.id.textMusik;
-      TextView textMusik = ViewBindings.findChildViewById(rootView, id);
-      if (textMusik == null) {
+      id = R.id.namaForum;
+      TextView namaForum = ViewBindings.findChildViewById(rootView, id);
+      if (namaForum == null) {
         break missingId;
       }
 
-      id = R.id.txtdetailMusik;
-      TextView txtdetailMusik = ViewBindings.findChildViewById(rootView, id);
-      if (txtdetailMusik == null) {
+      id = R.id.tombolBintangForum;
+      ImageView tombolBintangForum = ViewBindings.findChildViewById(rootView, id);
+      if (tombolBintangForum == null) {
         break missingId;
       }
 
-      return new ItemForumListBinding((LinearLayout) rootView, musik, textMusik, txtdetailMusik);
+      id = R.id.tombolGabung;
+      Button tombolGabung = ViewBindings.findChildViewById(rootView, id);
+      if (tombolGabung == null) {
+        break missingId;
+      }
+
+      id = R.id.totalUser;
+      TextView totalUser = ViewBindings.findChildViewById(rootView, id);
+      if (totalUser == null) {
+        break missingId;
+      }
+
+      return new ItemForumListBinding((CardView) rootView, deskripsiForum, namaForum,
+          tombolBintangForum, tombolGabung, totalUser);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -57,6 +57,9 @@
             android:name=".activities.DetailEvent"
             android:exported="false" />
         <activity
+            android:name=".activities.DetailBerita"
+            android:exported="false" />
+        <activity
             android:name=".Register"
             android:exported="false" /> <!-- <activity -->
         <!-- android:name=".Login" -->
